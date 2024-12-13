@@ -43,7 +43,7 @@ analytics:
 # Site Author
 author:
   name             : "Shunxing Fan (樊顺星)"
-  avatar           : "profile.png" # Add your profile picture to /images/ folder
+  avatar           : "profile.jpeg" # Add your profile picture to /images/ folder
   bio              : "Machine learning researcher, interested in causality and AI for healthcare."
   location         : "Abu Dhabi, UAE"
   employer         : "MBZUAI"
