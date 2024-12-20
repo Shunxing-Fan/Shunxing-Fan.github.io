@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a master student of Machine Learning at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/), supervised by [Prof. Kun Zhang](https://www.andrew.cmu.edu/user/kunz1/). Before that, I received my bachelor's degree in Statistics from [Huazhong University of Science and Technology (HUST)](https://english.hust.edu.cn/).
+My full name is Shunxing Fan, pronounced like "Soon-Sing Fan" in English, or you can just call me "Fan".I am a master student of Machine Learning at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/), supervised by [Prof. Kun Zhang](https://www.andrew.cmu.edu/user/kunz1/). Before that, I received my bachelor's degree in Statistics from [Huazhong University of Science and Technology (HUST)](https://english.hust.edu.cn/).
 
 Research Interests
 ======
