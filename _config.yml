@@ -5,7 +5,7 @@
 
 # Site Settings
 locale                   : "UAE"
-title                    : "Shunxing Fan"
+title                    : "Shunxing Fan's Homepage"
 title_separator          : "-"
 name                     : &name "Shunxing Fan"
 description              : &description "Research Assistant at MBZUAI, passionate about causality and AI for healthcare."
