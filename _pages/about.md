@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: "Shunxing Fan's Homepage"
+title: "About Me"
+seo_title: "Shunxing Fan's Homepage"
 excerpt: "Shunxing Fan's Homepage: A machine learning researcher focusing on causal discovery and AI for healthcare."
 author_profile: true
 redirect_from: 
