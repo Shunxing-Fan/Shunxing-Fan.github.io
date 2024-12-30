@@ -4,7 +4,7 @@
 # which you are expected to set up once and rarely need to edit after that.
 
 # Site Settings
-locale                   : "UAE"
+locale                   : "en_US"
 title                    : "Shunxing Fan's Homepage"
 title_separator          : "-"
 name                     : &name "Shunxing Fan"
