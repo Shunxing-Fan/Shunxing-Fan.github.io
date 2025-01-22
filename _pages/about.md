@@ -15,6 +15,9 @@ My full name is Shunxing Fan, pronounced like "Soon-Sing Fan" in English, or you
 I have broad interests in machine learning and AI for healthcare. My current research direction is causal discovery and causal representation learning. 
 
 ## Publications
+(†: Equal contribution)
+
+* Zijian Li†, **Shunxing Fan†**, Yujia Zheng, Ignavier Ng, Shaoan Xie, Guangyi Chen, Xinshuai Dong, Ruichu Cai, Kun Zhang. [Synergy Between Sufficient Changes and Sparse Mixing Procedure for Disentangled Representation Learning](https://openreview.net/forum?id=G1r2rBkUdu){:target="_blank" rel="noopener noreferrer"}. In *ICLR 2025*.
 * **Shunxing Fan**, Mingming Gong, Kun Zhang. [On the Recoverability of Causal Relations from Temporally Aggregated IID Data](https://arxiv.org/pdf/2406.02191){:target="_blank" rel="noopener noreferrer"}. In *ICML 2024*.
-* Guangyi Chen, Zhenhao Chen, **Shunxing Fan**, Kun Zhang. [Unsupervised sampling promoting for stochastic human trajectory prediction](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Unsupervised_Sampling_Promoting_for_Stochastic_Human_Trajectory_Prediction_CVPR_2023_paper.pdf){:target="_blank" rel="noopener noreferrer"}. In *CVPR 2023*.
+* Guangyi Chen†, Zhenhao Chen†, **Shunxing Fan**, Kun Zhang. [Unsupervised sampling promoting for stochastic human trajectory prediction](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Unsupervised_Sampling_Promoting_for_Stochastic_Human_Trajectory_Prediction_CVPR_2023_paper.pdf){:target="_blank" rel="noopener noreferrer"}. In *CVPR 2023*.
 
