@@ -5,9 +5,9 @@
 
 # Site Settings
 locale                   : "en_US"
-title                    : "Shunxing Fan's Homepage"
+title                    : "Shunxing Fan (樊顺星)'s Homepage"
 title_separator          : "-"
-name                     : &name "Shunxing Fan"
+name                     : &name "Shunxing Fan (樊顺星)"
 description              : &description "Research Assistant at MBZUAI, passionate about causality and AI for healthcare."
 url                      : https://Shunxing-Fan.github.io  # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, leave empty for root
