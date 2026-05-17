@@ -1,0 +1,2501 @@
+{
+  "generatedAt": "2026-05-17T19:08:29.613597+00:00",
+  "language": "ru-RU",
+  "voice": "ru-RU-Chirp3-HD-Charon",
+  "variants": [
+    {
+      "id": "normal",
+      "speakingRate": 1.0
+    },
+    {
+      "id": "slow",
+      "speakingRate": 0.76
+    }
+  ],
+  "items": [
+    {
+      "id": "hero-01",
+      "text": "Привет, я Анна, а ты?",
+      "kind": "hero",
+      "files": {
+        "normal": "assets/audio/hero-01-normal.mp3",
+        "slow": "assets/audio/hero-01-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-01-name",
+      "text": "а",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-01-name-normal.mp3",
+        "slow": "assets/audio/letter-01-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-01-example",
+      "text": "Анкара",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-01-example-normal.mp3",
+        "slow": "assets/audio/letter-01-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-02-name",
+      "text": "бэ",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-02-name-normal.mp3",
+        "slow": "assets/audio/letter-02-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-02-example",
+      "text": "Берн",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-02-example-normal.mp3",
+        "slow": "assets/audio/letter-02-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-03-name",
+      "text": "вэ",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-03-name-normal.mp3",
+        "slow": "assets/audio/letter-03-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-03-example",
+      "text": "Вена",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-03-example-normal.mp3",
+        "slow": "assets/audio/letter-03-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-04-name",
+      "text": "гэ",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-04-name-normal.mp3",
+        "slow": "assets/audio/letter-04-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-04-example",
+      "text": "Гаага",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-04-example-normal.mp3",
+        "slow": "assets/audio/letter-04-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-05-name",
+      "text": "дэ",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-05-name-normal.mp3",
+        "slow": "assets/audio/letter-05-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-05-example",
+      "text": "Дрезден",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-05-example-normal.mp3",
+        "slow": "assets/audio/letter-05-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-06-name",
+      "text": "е",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-06-name-normal.mp3",
+        "slow": "assets/audio/letter-06-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-06-example",
+      "text": "Ереван",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-06-example-normal.mp3",
+        "slow": "assets/audio/letter-06-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-07-name",
+      "text": "ё",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-07-name-normal.mp3",
+        "slow": "assets/audio/letter-07-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-07-example",
+      "text": "Кёльн",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-07-example-normal.mp3",
+        "slow": "assets/audio/letter-07-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-08-name",
+      "text": "жэ",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-08-name-normal.mp3",
+        "slow": "assets/audio/letter-08-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-08-example",
+      "text": "Женева",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-08-example-normal.mp3",
+        "slow": "assets/audio/letter-08-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-09-name",
+      "text": "зэ",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-09-name-normal.mp3",
+        "slow": "assets/audio/letter-09-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-09-example",
+      "text": "Загреб",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-09-example-normal.mp3",
+        "slow": "assets/audio/letter-09-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-10-name",
+      "text": "и",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-10-name-normal.mp3",
+        "slow": "assets/audio/letter-10-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-10-example",
+      "text": "Иркутск",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-10-example-normal.mp3",
+        "slow": "assets/audio/letter-10-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-11-name",
+      "text": "и краткое",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-11-name-normal.mp3",
+        "slow": "assets/audio/letter-11-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-11-example",
+      "text": "Йемен",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-11-example-normal.mp3",
+        "slow": "assets/audio/letter-11-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-12-name",
+      "text": "ка",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-12-name-normal.mp3",
+        "slow": "assets/audio/letter-12-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-12-example",
+      "text": "Каир",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-12-example-normal.mp3",
+        "slow": "assets/audio/letter-12-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-13-name",
+      "text": "эль",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-13-name-normal.mp3",
+        "slow": "assets/audio/letter-13-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-13-example",
+      "text": "Лондон",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-13-example-normal.mp3",
+        "slow": "assets/audio/letter-13-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-14-name",
+      "text": "эм",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-14-name-normal.mp3",
+        "slow": "assets/audio/letter-14-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-14-example",
+      "text": "Москва",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-14-example-normal.mp3",
+        "slow": "assets/audio/letter-14-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-15-name",
+      "text": "эн",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-15-name-normal.mp3",
+        "slow": "assets/audio/letter-15-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-15-example",
+      "text": "Ницца",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-15-example-normal.mp3",
+        "slow": "assets/audio/letter-15-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-16-name",
+      "text": "о",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-16-name-normal.mp3",
+        "slow": "assets/audio/letter-16-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-16-example",
+      "text": "Осло",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-16-example-normal.mp3",
+        "slow": "assets/audio/letter-16-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-17-name",
+      "text": "пэ",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-17-name-normal.mp3",
+        "slow": "assets/audio/letter-17-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-17-example",
+      "text": "Прага",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-17-example-normal.mp3",
+        "slow": "assets/audio/letter-17-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-18-name",
+      "text": "эр",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-18-name-normal.mp3",
+        "slow": "assets/audio/letter-18-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-18-example",
+      "text": "Рим",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-18-example-normal.mp3",
+        "slow": "assets/audio/letter-18-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-19-name",
+      "text": "эс",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-19-name-normal.mp3",
+        "slow": "assets/audio/letter-19-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-19-example",
+      "text": "Сидней",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-19-example-normal.mp3",
+        "slow": "assets/audio/letter-19-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-20-name",
+      "text": "тэ",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-20-name-normal.mp3",
+        "slow": "assets/audio/letter-20-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-20-example",
+      "text": "Токио",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-20-example-normal.mp3",
+        "slow": "assets/audio/letter-20-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-21-name",
+      "text": "у",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-21-name-normal.mp3",
+        "slow": "assets/audio/letter-21-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-21-example",
+      "text": "Улан-Батор",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-21-example-normal.mp3",
+        "slow": "assets/audio/letter-21-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-22-name",
+      "text": "эф",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-22-name-normal.mp3",
+        "slow": "assets/audio/letter-22-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-22-example",
+      "text": "Франкфурт",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-22-example-normal.mp3",
+        "slow": "assets/audio/letter-22-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-23-name",
+      "text": "ха",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-23-name-normal.mp3",
+        "slow": "assets/audio/letter-23-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-23-example",
+      "text": "Хельсинки",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-23-example-normal.mp3",
+        "slow": "assets/audio/letter-23-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-24-name",
+      "text": "цэ",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-24-name-normal.mp3",
+        "slow": "assets/audio/letter-24-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-24-example",
+      "text": "Цейлон",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-24-example-normal.mp3",
+        "slow": "assets/audio/letter-24-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-25-name",
+      "text": "че",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-25-name-normal.mp3",
+        "slow": "assets/audio/letter-25-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-25-example",
+      "text": "Чикаго",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-25-example-normal.mp3",
+        "slow": "assets/audio/letter-25-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-26-name",
+      "text": "ша",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-26-name-normal.mp3",
+        "slow": "assets/audio/letter-26-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-26-example",
+      "text": "Шанхай",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-26-example-normal.mp3",
+        "slow": "assets/audio/letter-26-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-27-name",
+      "text": "ща",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-27-name-normal.mp3",
+        "slow": "assets/audio/letter-27-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-27-example",
+      "text": "Щецин",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-27-example-normal.mp3",
+        "slow": "assets/audio/letter-27-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-28-name",
+      "text": "твёрдый знак",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-28-name-normal.mp3",
+        "slow": "assets/audio/letter-28-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-28-example",
+      "text": "твёрдый знак",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-28-example-normal.mp3",
+        "slow": "assets/audio/letter-28-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-29-name",
+      "text": "ы",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-29-name-normal.mp3",
+        "slow": "assets/audio/letter-29-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-29-example",
+      "text": "Крым",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-29-example-normal.mp3",
+        "slow": "assets/audio/letter-29-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-30-name",
+      "text": "мягкий знак",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-30-name-normal.mp3",
+        "slow": "assets/audio/letter-30-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-30-example",
+      "text": "Брюссель, Льеж",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-30-example-normal.mp3",
+        "slow": "assets/audio/letter-30-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-31-name",
+      "text": "э",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-31-name-normal.mp3",
+        "slow": "assets/audio/letter-31-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-31-example",
+      "text": "Эдинбург",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-31-example-normal.mp3",
+        "slow": "assets/audio/letter-31-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-32-name",
+      "text": "ю",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-32-name-normal.mp3",
+        "slow": "assets/audio/letter-32-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-32-example",
+      "text": "Юрмала",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-32-example-normal.mp3",
+        "slow": "assets/audio/letter-32-example-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-33-name",
+      "text": "я",
+      "kind": "letter",
+      "files": {
+        "normal": "assets/audio/letter-33-name-normal.mp3",
+        "slow": "assets/audio/letter-33-name-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-33-example",
+      "text": "Ялта",
+      "kind": "alphabet-example",
+      "files": {
+        "normal": "assets/audio/letter-33-example-normal.mp3",
+        "slow": "assets/audio/letter-33-example-slow.mp3"
+      }
+    },
+    {
+      "id": "word-01-01",
+      "text": "акт",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-01-01-normal.mp3",
+        "slow": "assets/audio/word-01-01-slow.mp3"
+      }
+    },
+    {
+      "id": "word-01-02",
+      "text": "такт",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-01-02-normal.mp3",
+        "slow": "assets/audio/word-01-02-slow.mp3"
+      }
+    },
+    {
+      "id": "word-01-03",
+      "text": "атом",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-01-03-normal.mp3",
+        "slow": "assets/audio/word-01-03-slow.mp3"
+      }
+    },
+    {
+      "id": "word-01-04",
+      "text": "комета",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-01-04-normal.mp3",
+        "slow": "assets/audio/word-01-04-slow.mp3"
+      }
+    },
+    {
+      "id": "word-01-05",
+      "text": "атака",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-01-05-normal.mp3",
+        "slow": "assets/audio/word-01-05-slow.mp3"
+      }
+    },
+    {
+      "id": "word-01-06",
+      "text": "там",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-01-06-normal.mp3",
+        "slow": "assets/audio/word-01-06-slow.mp3"
+      }
+    },
+    {
+      "id": "word-01-07",
+      "text": "кто",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-01-07-normal.mp3",
+        "slow": "assets/audio/word-01-07-slow.mp3"
+      }
+    },
+    {
+      "id": "word-01-08",
+      "text": "мама",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-01-08-normal.mp3",
+        "slow": "assets/audio/word-01-08-slow.mp3"
+      }
+    },
+    {
+      "id": "word-01-09",
+      "text": "кот",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-01-09-normal.mp3",
+        "slow": "assets/audio/word-01-09-slow.mp3"
+      }
+    },
+    {
+      "id": "word-01-10",
+      "text": "Том",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-01-10-normal.mp3",
+        "slow": "assets/audio/word-01-10-slow.mp3"
+      }
+    },
+    {
+      "id": "word-dialog-01-01-01",
+      "text": "Тук-тук.",
+      "kind": "word-dialogue",
+      "files": {
+        "normal": "assets/audio/word-dialog-01-01-01-normal.mp3",
+        "slow": "assets/audio/word-dialog-01-01-01-slow.mp3"
+      }
+    },
+    {
+      "id": "word-dialog-01-01-02",
+      "text": "Кто там?",
+      "kind": "word-dialogue",
+      "files": {
+        "normal": "assets/audio/word-dialog-01-01-02-normal.mp3",
+        "slow": "assets/audio/word-dialog-01-01-02-slow.mp3"
+      }
+    },
+    {
+      "id": "word-dialog-01-01-03",
+      "text": "Том!",
+      "kind": "word-dialogue",
+      "files": {
+        "normal": "assets/audio/word-dialog-01-01-03-normal.mp3",
+        "slow": "assets/audio/word-dialog-01-01-03-slow.mp3"
+      }
+    },
+    {
+      "id": "word-dialog-01-01-04",
+      "text": "Здравствуйте, Том!",
+      "kind": "word-dialogue",
+      "files": {
+        "normal": "assets/audio/word-dialog-01-01-04-normal.mp3",
+        "slow": "assets/audio/word-dialog-01-01-04-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-01",
+      "text": "Вавилон",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-01-normal.mp3",
+        "slow": "assets/audio/word-02-01-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-02",
+      "text": "варвар",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-02-normal.mp3",
+        "slow": "assets/audio/word-02-02-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-03",
+      "text": "вино",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-03-normal.mp3",
+        "slow": "assets/audio/word-02-03-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-04",
+      "text": "водка",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-04-normal.mp3",
+        "slow": "assets/audio/word-02-04-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-05",
+      "text": "вариант",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-05-normal.mp3",
+        "slow": "assets/audio/word-02-05-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-06",
+      "text": "канал",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-06-normal.mp3",
+        "slow": "assets/audio/word-02-06-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-07",
+      "text": "нота",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-07-normal.mp3",
+        "slow": "assets/audio/word-02-07-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-08",
+      "text": "витамин",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-08-normal.mp3",
+        "slow": "assets/audio/word-02-08-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-09",
+      "text": "банан",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-09-normal.mp3",
+        "slow": "assets/audio/word-02-09-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-10",
+      "text": "трактор",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-10-normal.mp3",
+        "slow": "assets/audio/word-02-10-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-11",
+      "text": "карта",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-11-normal.mp3",
+        "slow": "assets/audio/word-02-11-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-12",
+      "text": "ром",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-12-normal.mp3",
+        "slow": "assets/audio/word-02-12-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-13",
+      "text": "бар",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-13-normal.mp3",
+        "slow": "assets/audio/word-02-13-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-14",
+      "text": "баррикада",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-14-normal.mp3",
+        "slow": "assets/audio/word-02-14-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-15",
+      "text": "Рим",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-15-normal.mp3",
+        "slow": "assets/audio/word-02-15-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-16",
+      "text": "символ",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-16-normal.mp3",
+        "slow": "assets/audio/word-02-16-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-17",
+      "text": "сигнал",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-17-normal.mp3",
+        "slow": "assets/audio/word-02-17-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-18",
+      "text": "старт",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-18-normal.mp3",
+        "slow": "assets/audio/word-02-18-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-19",
+      "text": "соус",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-19-normal.mp3",
+        "slow": "assets/audio/word-02-19-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-20",
+      "text": "сорт",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-20-normal.mp3",
+        "slow": "assets/audio/word-02-20-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-21",
+      "text": "хаос",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-21-normal.mp3",
+        "slow": "assets/audio/word-02-21-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-22",
+      "text": "хор",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-22-normal.mp3",
+        "slow": "assets/audio/word-02-22-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-23",
+      "text": "христианин",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-23-normal.mp3",
+        "slow": "assets/audio/word-02-23-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-24",
+      "text": "хаки",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-24-normal.mp3",
+        "slow": "assets/audio/word-02-24-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-25",
+      "text": "хулиган",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-25-normal.mp3",
+        "slow": "assets/audio/word-02-25-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-26",
+      "text": "инстинкт",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-26-normal.mp3",
+        "slow": "assets/audio/word-02-26-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-27",
+      "text": "сироп",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-27-normal.mp3",
+        "slow": "assets/audio/word-02-27-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-28",
+      "text": "ритм",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-28-normal.mp3",
+        "slow": "assets/audio/word-02-28-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-29",
+      "text": "индивид",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-29-normal.mp3",
+        "slow": "assets/audio/word-02-29-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-30",
+      "text": "аудитория",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-30-normal.mp3",
+        "slow": "assets/audio/word-02-30-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-31",
+      "text": "кактус",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-31-normal.mp3",
+        "slow": "assets/audio/word-02-31-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-32",
+      "text": "шоу",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-32-normal.mp3",
+        "slow": "assets/audio/word-02-32-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-33",
+      "text": "унисон",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-33-normal.mp3",
+        "slow": "assets/audio/word-02-33-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02-34",
+      "text": "структура",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-34-normal.mp3",
+        "slow": "assets/audio/word-02-34-slow.mp3"
+      }
+    },
+    {
+      "id": "word-dialog-02-01-01",
+      "text": "Это «Б»?",
+      "kind": "word-dialogue",
+      "files": {
+        "normal": "assets/audio/word-dialog-02-01-01-normal.mp3",
+        "slow": "assets/audio/word-dialog-02-01-01-slow.mp3"
+      }
+    },
+    {
+      "id": "word-dialog-02-01-02",
+      "text": "Да, это «Б».",
+      "kind": "word-dialogue",
+      "files": {
+        "normal": "assets/audio/word-dialog-02-01-02-normal.mp3",
+        "slow": "assets/audio/word-dialog-02-01-02-slow.mp3"
+      }
+    },
+    {
+      "id": "word-dialog-02-02-01",
+      "text": "Это «Б»?",
+      "kind": "word-dialogue",
+      "files": {
+        "normal": "assets/audio/word-dialog-02-02-01-normal.mp3",
+        "slow": "assets/audio/word-dialog-02-02-01-slow.mp3"
+      }
+    },
+    {
+      "id": "word-dialog-02-02-02",
+      "text": "Нет, это не «Б».",
+      "kind": "word-dialogue",
+      "files": {
+        "normal": "assets/audio/word-dialog-02-02-02-normal.mp3",
+        "slow": "assets/audio/word-dialog-02-02-02-slow.mp3"
+      }
+    },
+    {
+      "id": "word-dialog-02-02-03",
+      "text": "Что это?",
+      "kind": "word-dialogue",
+      "files": {
+        "normal": "assets/audio/word-dialog-02-02-03-normal.mp3",
+        "slow": "assets/audio/word-dialog-02-02-03-slow.mp3"
+      }
+    },
+    {
+      "id": "word-dialog-02-02-04",
+      "text": "Это «В».",
+      "kind": "word-dialogue",
+      "files": {
+        "normal": "assets/audio/word-dialog-02-02-04-normal.mp3",
+        "slow": "assets/audio/word-dialog-02-02-04-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-01",
+      "text": "бамбук",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-01-normal.mp3",
+        "slow": "assets/audio/word-03-01-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-02",
+      "text": "бомба",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-02-normal.mp3",
+        "slow": "assets/audio/word-03-02-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-03",
+      "text": "балкон",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-03-normal.mp3",
+        "slow": "assets/audio/word-03-03-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-04",
+      "text": "бандит",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-04-normal.mp3",
+        "slow": "assets/audio/word-03-04-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-05",
+      "text": "банк",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-05-normal.mp3",
+        "slow": "assets/audio/word-03-05-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-06",
+      "text": "гигиена",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-06-normal.mp3",
+        "slow": "assets/audio/word-03-06-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-07",
+      "text": "гигант",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-07-normal.mp3",
+        "slow": "assets/audio/word-03-07-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-08",
+      "text": "глобус",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-08-normal.mp3",
+        "slow": "assets/audio/word-03-08-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-09",
+      "text": "галоп",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-09-normal.mp3",
+        "slow": "assets/audio/word-03-09-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-10",
+      "text": "гимн",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-10-normal.mp3",
+        "slow": "assets/audio/word-03-10-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-11",
+      "text": "кандидат",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-11-normal.mp3",
+        "slow": "assets/audio/word-03-11-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-12",
+      "text": "мода",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-12-normal.mp3",
+        "slow": "assets/audio/word-03-12-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-13",
+      "text": "кадр",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-13-normal.mp3",
+        "slow": "assets/audio/word-03-13-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-14",
+      "text": "дантист",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-14-normal.mp3",
+        "slow": "assets/audio/word-03-14-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-15",
+      "text": "дата",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-15-normal.mp3",
+        "slow": "assets/audio/word-03-15-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-16",
+      "text": "пауза",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-16-normal.mp3",
+        "slow": "assets/audio/word-03-16-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-17",
+      "text": "блуза",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-17-normal.mp3",
+        "slow": "assets/audio/word-03-17-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-18",
+      "text": "бронза",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-18-normal.mp3",
+        "slow": "assets/audio/word-03-18-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-19",
+      "text": "база",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-19-normal.mp3",
+        "slow": "assets/audio/word-03-19-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-20",
+      "text": "роза",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-20-normal.mp3",
+        "slow": "assets/audio/word-03-20-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-21",
+      "text": "лампа",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-21-normal.mp3",
+        "slow": "assets/audio/word-03-21-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-22",
+      "text": "лагуна",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-22-normal.mp3",
+        "slow": "assets/audio/word-03-22-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-23",
+      "text": "лимон",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-23-normal.mp3",
+        "slow": "assets/audio/word-03-23-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-24",
+      "text": "блок",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-24-normal.mp3",
+        "slow": "assets/audio/word-03-24-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-25",
+      "text": "литр",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-25-normal.mp3",
+        "slow": "assets/audio/word-03-25-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-26",
+      "text": "паспорт",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-26-normal.mp3",
+        "slow": "assets/audio/word-03-26-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-27",
+      "text": "суп",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-27-normal.mp3",
+        "slow": "assets/audio/word-03-27-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-28",
+      "text": "паника",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-28-normal.mp3",
+        "slow": "assets/audio/word-03-28-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-29",
+      "text": "поза",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-29-normal.mp3",
+        "slow": "assets/audio/word-03-29-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-30",
+      "text": "факт",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-30-normal.mp3",
+        "slow": "assets/audio/word-03-30-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-31",
+      "text": "фигура",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-31-normal.mp3",
+        "slow": "assets/audio/word-03-31-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-32",
+      "text": "кофе",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-32-normal.mp3",
+        "slow": "assets/audio/word-03-32-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-33",
+      "text": "кафе",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-33-normal.mp3",
+        "slow": "assets/audio/word-03-33-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-34",
+      "text": "марафон",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-34-normal.mp3",
+        "slow": "assets/audio/word-03-34-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-35",
+      "text": "царица",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-35-normal.mp3",
+        "slow": "assets/audio/word-03-35-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-36",
+      "text": "цилиндр",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-36-normal.mp3",
+        "slow": "assets/audio/word-03-36-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-37",
+      "text": "цирк",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-37-normal.mp3",
+        "slow": "assets/audio/word-03-37-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-38",
+      "text": "танец",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-38-normal.mp3",
+        "slow": "assets/audio/word-03-38-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-39",
+      "text": "чай",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-39-normal.mp3",
+        "slow": "assets/audio/word-03-39-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-40",
+      "text": "мачо",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-40-normal.mp3",
+        "slow": "assets/audio/word-03-40-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-41",
+      "text": "чипсы",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-41-normal.mp3",
+        "slow": "assets/audio/word-03-41-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03-42",
+      "text": "ча-ча-ча",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-42-normal.mp3",
+        "slow": "assets/audio/word-03-42-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-01",
+      "text": "шок",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-01-normal.mp3",
+        "slow": "assets/audio/word-04-01-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-02",
+      "text": "шкала",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-02-normal.mp3",
+        "slow": "assets/audio/word-04-02-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-03",
+      "text": "штамп",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-03-normal.mp3",
+        "slow": "assets/audio/word-04-03-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-04",
+      "text": "школа",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-04-normal.mp3",
+        "slow": "assets/audio/word-04-04-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-05",
+      "text": "шторм",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-05-normal.mp3",
+        "slow": "assets/audio/word-04-05-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-06",
+      "text": "журнал",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-06-normal.mp3",
+        "slow": "assets/audio/word-04-06-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-07",
+      "text": "Жанна",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-07-normal.mp3",
+        "slow": "assets/audio/word-04-07-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-08",
+      "text": "джаз",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-08-normal.mp3",
+        "slow": "assets/audio/word-04-08-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-09",
+      "text": "джунгли",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-09-normal.mp3",
+        "slow": "assets/audio/word-04-09-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-10",
+      "text": "джинсы",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-10-normal.mp3",
+        "slow": "assets/audio/word-04-10-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-11",
+      "text": "щи",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-11-normal.mp3",
+        "slow": "assets/audio/word-04-11-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-12",
+      "text": "борщ",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-12-normal.mp3",
+        "slow": "assets/audio/word-04-12-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-13",
+      "text": "этика",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-13-normal.mp3",
+        "slow": "assets/audio/word-04-13-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-14",
+      "text": "эхо",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-14-normal.mp3",
+        "slow": "assets/audio/word-04-14-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-15",
+      "text": "эпос",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-15-normal.mp3",
+        "slow": "assets/audio/word-04-15-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-16",
+      "text": "этнос",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-16-normal.mp3",
+        "slow": "assets/audio/word-04-16-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-17",
+      "text": "дуэт",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-17-normal.mp3",
+        "slow": "assets/audio/word-04-17-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-18",
+      "text": "музыка",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-18-normal.mp3",
+        "slow": "assets/audio/word-04-18-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-19",
+      "text": "макароны",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-19-normal.mp3",
+        "slow": "assets/audio/word-04-19-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-20",
+      "text": "Нидерланды",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-20-normal.mp3",
+        "slow": "assets/audio/word-04-20-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-21",
+      "text": "Майами",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-21-normal.mp3",
+        "slow": "assets/audio/word-04-21-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-22",
+      "text": "балалайка",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-22-normal.mp3",
+        "slow": "assets/audio/word-04-22-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-23",
+      "text": "йод",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-23-normal.mp3",
+        "slow": "assets/audio/word-04-23-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-24",
+      "text": "йога",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-24-normal.mp3",
+        "slow": "assets/audio/word-04-24-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-25",
+      "text": "май",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-25-normal.mp3",
+        "slow": "assets/audio/word-04-25-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-26",
+      "text": "ёлка",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-26-normal.mp3",
+        "slow": "assets/audio/word-04-26-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-27",
+      "text": "юмор",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-27-normal.mp3",
+        "slow": "assets/audio/word-04-27-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-28",
+      "text": "Хьюстон",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-28-normal.mp3",
+        "slow": "assets/audio/word-04-28-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-29",
+      "text": "идея",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-29-normal.mp3",
+        "slow": "assets/audio/word-04-29-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-30",
+      "text": "симпатия",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-30-normal.mp3",
+        "slow": "assets/audio/word-04-30-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-31",
+      "text": "Ява",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-31-normal.mp3",
+        "slow": "assets/audio/word-04-31-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04-32",
+      "text": "яхта",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-32-normal.mp3",
+        "slow": "assets/audio/word-04-32-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-01",
+      "text": "Привет!",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-01-normal.mp3",
+        "slow": "assets/audio/vocab-01-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-02",
+      "text": "Здравствуй!",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-02-normal.mp3",
+        "slow": "assets/audio/vocab-02-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-03",
+      "text": "Здравствуйте!",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-03-normal.mp3",
+        "slow": "assets/audio/vocab-03-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-04",
+      "text": "Добрый день.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-04-normal.mp3",
+        "slow": "assets/audio/vocab-04-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-05",
+      "text": "Спасибо.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-05-normal.mp3",
+        "slow": "assets/audio/vocab-05-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-06",
+      "text": "Я Анна.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-06-normal.mp3",
+        "slow": "assets/audio/vocab-06-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-07",
+      "text": "Я Иван.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-07-normal.mp3",
+        "slow": "assets/audio/vocab-07-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-08",
+      "text": "А ты?",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-08-normal.mp3",
+        "slow": "assets/audio/vocab-08-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-09",
+      "text": "Очень приятно!",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-09-normal.mp3",
+        "slow": "assets/audio/vocab-09-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-10",
+      "text": "Спасибо, мне тоже!",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-10-normal.mp3",
+        "slow": "assets/audio/vocab-10-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-11",
+      "text": "Как дела?",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-11-normal.mp3",
+        "slow": "assets/audio/vocab-11-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-12",
+      "text": "Хорошо.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-12-normal.mp3",
+        "slow": "assets/audio/vocab-12-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-13",
+      "text": "Нормально.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-13-normal.mp3",
+        "slow": "assets/audio/vocab-13-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-14",
+      "text": "Так себе.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-14-normal.mp3",
+        "slow": "assets/audio/vocab-14-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-15",
+      "text": "Кто ты?",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-15-normal.mp3",
+        "slow": "assets/audio/vocab-15-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-16",
+      "text": "Я студент.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-16-normal.mp3",
+        "slow": "assets/audio/vocab-16-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-17",
+      "text": "Я студентка.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-17-normal.mp3",
+        "slow": "assets/audio/vocab-17-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-18",
+      "text": "Откуда ты?",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-18-normal.mp3",
+        "slow": "assets/audio/vocab-18-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-19",
+      "text": "Я из Гонконга.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-19-normal.mp3",
+        "slow": "assets/audio/vocab-19-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-20",
+      "text": "Я из Китая.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-20-normal.mp3",
+        "slow": "assets/audio/vocab-20-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-21",
+      "text": "Я из Польши.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-21-normal.mp3",
+        "slow": "assets/audio/vocab-21-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-22",
+      "text": "Я из США.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-22-normal.mp3",
+        "slow": "assets/audio/vocab-22-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-23",
+      "text": "Я из Вьетнама.",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-23-normal.mp3",
+        "slow": "assets/audio/vocab-23-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-24",
+      "text": "Как по-русски?",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-24-normal.mp3",
+        "slow": "assets/audio/vocab-24-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-25",
+      "text": "Как по-английски?",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-25-normal.mp3",
+        "slow": "assets/audio/vocab-25-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-26",
+      "text": "Как по-китайски?",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-26-normal.mp3",
+        "slow": "assets/audio/vocab-26-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-27",
+      "text": "Как по-кантонски?",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-27-normal.mp3",
+        "slow": "assets/audio/vocab-27-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-28",
+      "text": "Как по-вьетнамски?",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-28-normal.mp3",
+        "slow": "assets/audio/vocab-28-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-29",
+      "text": "Как по-польски?",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-29-normal.mp3",
+        "slow": "assets/audio/vocab-29-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-30",
+      "text": "По-русски это «привет».",
+      "kind": "vocabulary",
+      "files": {
+        "normal": "assets/audio/vocab-30-normal.mp3",
+        "slow": "assets/audio/vocab-30-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-01-01",
+      "text": "Привет!",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-01-01-normal.mp3",
+        "slow": "assets/audio/conv-01-01-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-01-02",
+      "text": "Здравствуй!",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-01-02-normal.mp3",
+        "slow": "assets/audio/conv-01-02-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-01-03",
+      "text": "Я Анна, а ты?",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-01-03-normal.mp3",
+        "slow": "assets/audio/conv-01-03-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-01-04",
+      "text": "Я Иван.",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-01-04-normal.mp3",
+        "slow": "assets/audio/conv-01-04-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-01-05",
+      "text": "Очень приятно!",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-01-05-normal.mp3",
+        "slow": "assets/audio/conv-01-05-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-01-06",
+      "text": "Спасибо, мне тоже!",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-01-06-normal.mp3",
+        "slow": "assets/audio/conv-01-06-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-02-01",
+      "text": "Как дела?",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-02-01-normal.mp3",
+        "slow": "assets/audio/conv-02-01-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-02-02",
+      "text": "Хорошо, спасибо, а как ты?",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-02-02-normal.mp3",
+        "slow": "assets/audio/conv-02-02-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-02-03",
+      "text": "Хорошо!",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-02-03-normal.mp3",
+        "slow": "assets/audio/conv-02-03-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-03-01",
+      "text": "Кто ты?",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-03-01-normal.mp3",
+        "slow": "assets/audio/conv-03-01-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-03-02",
+      "text": "Я студент.",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-03-02-normal.mp3",
+        "slow": "assets/audio/conv-03-02-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-03-03",
+      "text": "Откуда ты?",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-03-03-normal.mp3",
+        "slow": "assets/audio/conv-03-03-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-03-04",
+      "text": "Я из Гонконга.",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-03-04-normal.mp3",
+        "slow": "assets/audio/conv-03-04-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-03-05",
+      "text": "Я из Китая.",
+      "kind": "conversation",
+      "files": {
+        "normal": "assets/audio/conv-03-05-normal.mp3",
+        "slow": "assets/audio/conv-03-05-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-01-01",
+      "text": "Это Иван.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-01-01-normal.mp3",
+        "slow": "assets/audio/sentence-01-01-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-01-02",
+      "text": "Это не Инна.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-01-02-normal.mp3",
+        "slow": "assets/audio/sentence-01-02-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-01-03",
+      "text": "Кто это?",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-01-03-normal.mp3",
+        "slow": "assets/audio/sentence-01-03-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-01-04",
+      "text": "Что это?",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-01-04-normal.mp3",
+        "slow": "assets/audio/sentence-01-04-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-01-05",
+      "text": "Это компьютер.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-01-05-normal.mp3",
+        "slow": "assets/audio/sentence-01-05-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-01-06",
+      "text": "Это не телефон.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-01-06-normal.mp3",
+        "slow": "assets/audio/sentence-01-06-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-01-07",
+      "text": "Это кофе.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-01-07-normal.mp3",
+        "slow": "assets/audio/sentence-01-07-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02-01",
+      "text": "Дантист — это доктор.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-01-normal.mp3",
+        "slow": "assets/audio/sentence-02-01-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02-02",
+      "text": "Борщ — это суп.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-02-normal.mp3",
+        "slow": "assets/audio/sentence-02-02-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02-03",
+      "text": "Вальс — это танец.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-03-normal.mp3",
+        "slow": "assets/audio/sentence-02-03-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02-04",
+      "text": "Рок и джаз — это музыка.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-04-normal.mp3",
+        "slow": "assets/audio/sentence-02-04-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02-05",
+      "text": "Паста — это макароны и соус.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-05-normal.mp3",
+        "slow": "assets/audio/sentence-02-05-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02-06",
+      "text": "Музыка — это мелодия и ритм.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-06-normal.mp3",
+        "slow": "assets/audio/sentence-02-06-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02-07",
+      "text": "Гитара — это музыкальный инструмент.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-07-normal.mp3",
+        "slow": "assets/audio/sentence-02-07-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02-08",
+      "text": "Ньютон — это физик.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-08-normal.mp3",
+        "slow": "assets/audio/sentence-02-08-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02-09",
+      "text": "Пифагор — это математик.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-09-normal.mp3",
+        "slow": "assets/audio/sentence-02-09-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02-10",
+      "text": "Паспорт — это документ.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-10-normal.mp3",
+        "slow": "assets/audio/sentence-02-10-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02-11",
+      "text": "Контракт — это тоже документ.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-11-normal.mp3",
+        "slow": "assets/audio/sentence-02-11-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02-12",
+      "text": "Репортёр — это журналист.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-12-normal.mp3",
+        "slow": "assets/audio/sentence-02-12-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02-13",
+      "text": "Репортаж — это текст.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-13-normal.mp3",
+        "slow": "assets/audio/sentence-02-13-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-03-01",
+      "text": "Актриса — это профессия.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-03-01-normal.mp3",
+        "slow": "assets/audio/sentence-03-01-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-03-02",
+      "text": "Водка и вино — это алкоголь.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-03-02-normal.mp3",
+        "slow": "assets/audio/sentence-03-02-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-03-03",
+      "text": "Ром — это тоже алкоголь.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-03-03-normal.mp3",
+        "slow": "assets/audio/sentence-03-03-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-03-04",
+      "text": "Йод и таблетки — это медикаменты.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-03-04-normal.mp3",
+        "slow": "assets/audio/sentence-03-04-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-03-05",
+      "text": "Метро — это транспорт.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-03-05-normal.mp3",
+        "slow": "assets/audio/sentence-03-05-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-03-06",
+      "text": "Автобус и трамвай — это тоже транспорт.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-03-06-normal.mp3",
+        "slow": "assets/audio/sentence-03-06-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-03-07",
+      "text": "Лимон — это витамин C.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-03-07-normal.mp3",
+        "slow": "assets/audio/sentence-03-07-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-03-08",
+      "text": "Футбол и баскетбол — это спорт.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-03-08-normal.mp3",
+        "slow": "assets/audio/sentence-03-08-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-03-09",
+      "text": "Хоккей — это тоже спорт.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-03-09-normal.mp3",
+        "slow": "assets/audio/sentence-03-09-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-03-10",
+      "text": "Банан — это фрукт.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-03-10-normal.mp3",
+        "slow": "assets/audio/sentence-03-10-slow.mp3"
+      }
+    },
+    {
+      "id": "check-01",
+      "text": "Привет!",
+      "kind": "checklist",
+      "files": {
+        "normal": "assets/audio/check-01-normal.mp3",
+        "slow": "assets/audio/check-01-slow.mp3"
+      }
+    },
+    {
+      "id": "check-02",
+      "text": "Спасибо.",
+      "kind": "checklist",
+      "files": {
+        "normal": "assets/audio/check-02-normal.mp3",
+        "slow": "assets/audio/check-02-slow.mp3"
+      }
+    },
+    {
+      "id": "check-03",
+      "text": "Я Анна.",
+      "kind": "checklist",
+      "files": {
+        "normal": "assets/audio/check-03-normal.mp3",
+        "slow": "assets/audio/check-03-slow.mp3"
+      }
+    },
+    {
+      "id": "check-04",
+      "text": "Очень приятно.",
+      "kind": "checklist",
+      "files": {
+        "normal": "assets/audio/check-04-normal.mp3",
+        "slow": "assets/audio/check-04-slow.mp3"
+      }
+    },
+    {
+      "id": "check-05",
+      "text": "Это Иван.",
+      "kind": "checklist",
+      "files": {
+        "normal": "assets/audio/check-05-normal.mp3",
+        "slow": "assets/audio/check-05-slow.mp3"
+      }
+    },
+    {
+      "id": "check-06",
+      "text": "Это не Инна.",
+      "kind": "checklist",
+      "files": {
+        "normal": "assets/audio/check-06-normal.mp3",
+        "slow": "assets/audio/check-06-slow.mp3"
+      }
+    },
+    {
+      "id": "check-07",
+      "text": "Кто это?",
+      "kind": "checklist",
+      "files": {
+        "normal": "assets/audio/check-07-normal.mp3",
+        "slow": "assets/audio/check-07-slow.mp3"
+      }
+    }
+  ]
+}

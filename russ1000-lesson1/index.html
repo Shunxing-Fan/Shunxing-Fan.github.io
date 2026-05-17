@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="RUSS1000 Lesson 1 Russian alphabet, vocabulary, dialogues, sentences, and offline MP3 audio practice.">
+    <title>RUSS1000 Lesson 1 | Russian Beginners</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23b51d2a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='40' fill='white' font-family='Arial, sans-serif'%3E%D0%AF%3C/text%3E%3C/svg%3E">
+    <link rel="preload" href="assets/images/russian-alphabet-poster.jpg" as="image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="RUSS1000 Lesson 1">
+        <span class="brand-mark">Я</span>
+        <span>
+          <strong>RUSS1000</strong>
+          <small>Lesson 1 Russian Beginners</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#alphabet">字母</a>
+        <a href="#words">单词</a>
+        <a href="#conversation">对话</a>
+        <a href="#sentences">句子</a>
+        <a href="#practice">练习</a>
+        <a href="#tts">语音</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Урок первый · Привет</p>
+          <h1>Привет, я Анна</h1>
+          <p class="hero-subtitle">RUSS1000 Lesson 1: 西里尔字母、入门单词、寒暄、自我介绍、近况问答和课堂固定句。</p>
+          <div class="hero-actions">
+            <button class="primary-action" data-speak="Привет, я Анна, а ты?" data-audio-id="hero-01" type="button">
+              <span aria-hidden="true">▶</span>
+              <span>Привет, я Анна</span>
+            </button>
+            <a class="secondary-action" href="#alphabet">开始</a>
+          </div>
+        </div>
+        <figure class="hero-media">
+          <img src="assets/images/russian-alphabet-poster.jpg" alt="Russian alphabet poster from lesson PDF">
+        </figure>
+      </section>
+
+      <section class="control-strip" id="tts">
+        <div>
+          <label class="control-label" for="audioVariant">Google audio</label>
+          <select id="audioVariant" aria-label="Google audio speed">
+            <option value="normal">Normal</option>
+            <option value="slow">Slow</option>
+          </select>
+        </div>
+        <div>
+          <label class="control-label" for="voiceSelect">Fallback voice</label>
+          <select id="voiceSelect" aria-label="Russian fallback voice"></select>
+        </div>
+        <div>
+          <label class="control-label" for="rateControl">Rate</label>
+          <input id="rateControl" type="range" min="0.65" max="1.1" step="0.05" value="0.85" aria-label="Speech rate">
+        </div>
+        <div>
+          <label class="control-label" for="pitchControl">Pitch</label>
+          <input id="pitchControl" type="range" min="0.8" max="1.2" step="0.05" value="1" aria-label="Speech pitch">
+        </div>
+        <button class="secondary-action offline-action" id="downloadAudioPack" type="button">下载离线语音包</button>
+        <button class="icon-button" id="stopSpeech" type="button" aria-label="Stop speech" title="Stop speech">■</button>
+      </section>
+
+      <section id="alphabet" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Алфавит · Alphabet</p>
+            <h2>33 个俄文字母</h2>
+          </div>
+          <div class="search-wrap">
+            <input id="searchInput" type="search" placeholder="Search Russian, sound, Chinese..." aria-label="Search lesson content">
+          </div>
+        </div>
+        <div class="alphabet-grid" id="alphabetGrid"></div>
+      </section>
+
+      <section id="words" class="section section-band">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Графика · Буквы</p>
+            <h2>字母分组和单词</h2>
+          </div>
+          <div class="tabs" id="wordTabs" role="tablist" aria-label="Word groups"></div>
+        </div>
+        <div class="word-group-panel" id="wordGroupPanel"></div>
+      </section>
+
+      <section id="vocabulary" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Фразы · Set Phrases</p>
+            <h2>寒暄与课堂表达</h2>
+          </div>
+          <div class="filter-row" id="categoryFilter" aria-label="Vocabulary category"></div>
+        </div>
+        <div class="vocab-grid" id="vocabGrid"></div>
+      </section>
+
+      <section id="conversation" class="section section-band">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Диалоги · Dialogues</p>
+            <h2>对话</h2>
+          </div>
+          <button class="primary-action compact" id="playConversation" type="button">
+            <span aria-hidden="true">▶</span>
+            <span>播放当前对话</span>
+          </button>
+        </div>
+        <div class="conversation-layout">
+          <div class="tabs stacked" id="conversationTabs" role="tablist" aria-label="Conversation set"></div>
+          <div class="dialogue" id="dialoguePanel"></div>
+        </div>
+      </section>
+
+      <section id="sentences" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Предложения · Sentences</p>
+            <h2>句子听读</h2>
+          </div>
+        </div>
+        <div class="sentence-blocks" id="sentenceBlocks"></div>
+      </section>
+
+      <section id="practice" class="section section-band">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Quick check</p>
+            <h2>练习</h2>
+          </div>
+          <button class="secondary-action button-reset" id="newQuiz" type="button">换一组</button>
+        </div>
+        <div class="practice-layout">
+          <div class="quiz-panel">
+            <div class="quiz-prompt" id="quizPrompt"></div>
+            <div class="quiz-actions">
+              <button class="icon-button large" id="quizSpeak" type="button" aria-label="Play answer" title="Play answer">▶</button>
+            </div>
+            <div class="answers" id="answerList"></div>
+            <div class="feedback" id="quizFeedback" aria-live="polite"></div>
+          </div>
+          <aside class="source-panel">
+            <img src="assets/images/dialogue-of-acquaintance.jpg" alt="Dialogue of acquaintance worksheet page">
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Based on List1-3.pdf and Russian Alphabet 5_.pdf.</span>
+      <span id="voiceStatus">TTS ready</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

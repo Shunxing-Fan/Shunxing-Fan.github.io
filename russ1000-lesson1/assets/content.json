@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "course": "RUSS1000",
+    "lesson": "Lesson 1",
+    "title": "Russian Beginners",
+    "subtitle": "西里尔字母、入门单词、寒暄、自我介绍和课堂固定句",
+    "voice": "ru-RU-Chirp3-HD-Charon",
+    "source": "Based on List1-3.pdf and Russian Alphabet 5_.pdf"
+  },
+  "alphabet": [
+    { "id": "letter-01", "upper": "А", "lower": "а", "sound": "[a]", "letterName": "а", "example": "Анкара", "zh": "安卡拉" },
+    { "id": "letter-02", "upper": "Б", "lower": "б", "sound": "[b]", "letterName": "бэ", "example": "Берн", "zh": "伯尔尼" },
+    { "id": "letter-03", "upper": "В", "lower": "в", "sound": "[v]", "letterName": "вэ", "example": "Вена", "zh": "维也纳" },
+    { "id": "letter-04", "upper": "Г", "lower": "г", "sound": "[g]", "letterName": "гэ", "example": "Гаага", "zh": "海牙" },
+    { "id": "letter-05", "upper": "Д", "lower": "д", "sound": "[d]", "letterName": "дэ", "example": "Дрезден", "zh": "德累斯顿" },
+    { "id": "letter-06", "upper": "Е", "lower": "е", "sound": "[je]", "letterName": "е", "example": "Ереван", "zh": "埃里温", "note": "词首常读 [je]。" },
+    { "id": "letter-07", "upper": "Ё", "lower": "ё", "sound": "[jo]", "letterName": "ё", "example": "Кёльн", "zh": "科隆" },
+    { "id": "letter-08", "upper": "Ж", "lower": "ж", "sound": "[zh]", "letterName": "жэ", "example": "Женева", "zh": "日内瓦", "note": "类似浊的 sh。" },
+    { "id": "letter-09", "upper": "З", "lower": "з", "sound": "[z]", "letterName": "зэ", "example": "Загреб", "zh": "萨格勒布" },
+    { "id": "letter-10", "upper": "И", "lower": "и", "sound": "[i]", "letterName": "и", "example": "Иркутск", "zh": "伊尔库茨克" },
+    { "id": "letter-11", "upper": "Й", "lower": "й", "sound": "[j]", "letterName": "и краткое", "example": "Йемен", "zh": "也门", "note": "短 i。" },
+    { "id": "letter-12", "upper": "К", "lower": "к", "sound": "[k]", "letterName": "ка", "example": "Каир", "zh": "开罗" },
+    { "id": "letter-13", "upper": "Л", "lower": "л", "sound": "[l]", "letterName": "эль", "example": "Лондон", "zh": "伦敦" },
+    { "id": "letter-14", "upper": "М", "lower": "м", "sound": "[m]", "letterName": "эм", "example": "Москва", "zh": "莫斯科" },
+    { "id": "letter-15", "upper": "Н", "lower": "н", "sound": "[n]", "letterName": "эн", "example": "Ницца", "zh": "尼斯" },
+    { "id": "letter-16", "upper": "О", "lower": "о", "sound": "[o]", "letterName": "о", "example": "Осло", "zh": "奥斯陆" },
+    { "id": "letter-17", "upper": "П", "lower": "п", "sound": "[p]", "letterName": "пэ", "example": "Прага", "zh": "布拉格" },
+    { "id": "letter-18", "upper": "Р", "lower": "р", "sound": "[r]", "letterName": "эр", "example": "Рим", "zh": "罗马" },
+    { "id": "letter-19", "upper": "С", "lower": "с", "sound": "[s]", "letterName": "эс", "example": "Сидней", "zh": "悉尼" },
+    { "id": "letter-20", "upper": "Т", "lower": "т", "sound": "[t]", "letterName": "тэ", "example": "Токио", "zh": "东京" },
+    { "id": "letter-21", "upper": "У", "lower": "у", "sound": "[u]", "letterName": "у", "example": "Улан-Батор", "zh": "乌兰巴托" },
+    { "id": "letter-22", "upper": "Ф", "lower": "ф", "sound": "[f]", "letterName": "эф", "example": "Франкфурт", "zh": "法兰克福" },
+    { "id": "letter-23", "upper": "Х", "lower": "х", "sound": "[h]", "letterName": "ха", "example": "Хельсинки", "zh": "赫尔辛基" },
+    { "id": "letter-24", "upper": "Ц", "lower": "ц", "sound": "[ts]", "letterName": "цэ", "example": "Цейлон", "zh": "锡兰" },
+    { "id": "letter-25", "upper": "Ч", "lower": "ч", "sound": "[ch]", "letterName": "че", "example": "Чикаго", "zh": "芝加哥" },
+    { "id": "letter-26", "upper": "Ш", "lower": "ш", "sound": "[sh]", "letterName": "ша", "example": "Шанхай", "zh": "上海" },
+    { "id": "letter-27", "upper": "Щ", "lower": "щ", "sound": "[shch]", "letterName": "ща", "example": "Щецин", "zh": "什切青", "note": "教材注：soft sh；ш + [j] → щ。" },
+    { "id": "letter-28", "upper": "Ъ", "lower": "ъ", "sound": "no sound", "letterName": "твёрдый знак", "example": "твёрдый знак", "zh": "硬音符号", "note": "本身不发音。" },
+    { "id": "letter-29", "upper": "Ы", "lower": "ы", "sound": "[y]", "letterName": "ы", "example": "Крым", "zh": "克里米亚", "note": "教材注：类似“微笑的 u”。" },
+    { "id": "letter-30", "upper": "Ь", "lower": "ь", "sound": "no sound", "letterName": "мягкий знак", "example": "Брюссель, Льеж", "zh": "软音符号", "note": "本身不发音，使前一个辅音软化。" },
+    { "id": "letter-31", "upper": "Э", "lower": "э", "sound": "[e]", "letterName": "э", "example": "Эдинбург", "zh": "爱丁堡" },
+    { "id": "letter-32", "upper": "Ю", "lower": "ю", "sound": "[ju]", "letterName": "ю", "example": "Юрмала", "zh": "尤尔马拉" },
+    { "id": "letter-33", "upper": "Я", "lower": "я", "sound": "[ja]", "letterName": "я", "example": "Ялта", "zh": "雅尔塔" }
+  ],
+  "wordGroups": [
+    {
+      "id": "group-1",
+      "title": "1 · 看起来像拉丁字母的字母",
+      "letters": ["А = A", "О = O", "Е = E", "К = K", "М = M", "Т = T"],
+      "words": ["акт", "такт", "атом", "комета", "атака", "там", "кто", "мама", "кот", "Том"],
+      "dialogues": [
+        {
+          "title": "Диалог 1",
+          "lines": [
+            { "speaker": "A", "russian": "Тук-тук.", "english": "Knock-knock.", "zh": "咚咚。" },
+            { "speaker": "B", "russian": "Кто там?", "english": "Who is there?", "zh": "谁在那里？" },
+            { "speaker": "A", "russian": "Том!", "english": "Tom!", "zh": "汤姆！" },
+            { "speaker": "B", "russian": "Здравствуйте, Том!", "english": "Hello, Tom!", "zh": "你好，汤姆！" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group-2",
+      "title": "2 · В Н Р С Х И У",
+      "letters": ["В = [V]", "Н = [N]", "Р = [R]", "С = [S]", "Х = [H]", "И = [I]", "У = [U]"],
+      "words": ["Вавилон", "варвар", "вино", "водка", "вариант", "канал", "нота", "витамин", "банан", "трактор", "карта", "ром", "бар", "баррикада", "Рим", "символ", "сигнал", "старт", "соус", "сорт", "хаос", "хор", "христианин", "хаки", "хулиган", "инстинкт", "сироп", "ритм", "индивид", "аудитория", "кактус", "шоу", "унисон", "структура"],
+      "dialogues": [
+        {
+          "title": "Диалог 2",
+          "lines": [
+            { "speaker": "A", "russian": "Это «Б»?", "english": "Is this B?", "zh": "这是 Б 吗？" },
+            { "speaker": "B", "russian": "Да, это «Б».", "english": "Yes, this is B.", "zh": "是，这是 Б。" }
+          ]
+        },
+        {
+          "title": "Диалог 3",
+          "lines": [
+            { "speaker": "A", "russian": "Это «Б»?", "english": "Is this B?", "zh": "这是 Б 吗？" },
+            { "speaker": "B", "russian": "Нет, это не «Б».", "english": "No, this is not B.", "zh": "不，这不是 Б。" },
+            { "speaker": "A", "russian": "Что это?", "english": "What is this?", "zh": "这是什么？" },
+            { "speaker": "B", "russian": "Это «В».", "english": "This is V.", "zh": "这是 В。" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group-3",
+      "title": "3 · Б Г Д З Л П Ф Ц Ч",
+      "letters": ["Б", "Г", "Д", "З", "Л", "П", "Ф", "Ц", "Ч"],
+      "words": ["бамбук", "бомба", "балкон", "бандит", "банк", "гигиена", "гигант", "глобус", "галоп", "гимн", "кандидат", "мода", "кадр", "дантист", "дата", "пауза", "блуза", "бронза", "база", "роза", "лампа", "лагуна", "лимон", "блок", "литр", "паспорт", "суп", "паника", "поза", "факт", "фигура", "кофе", "кафе", "марафон", "царица", "цилиндр", "цирк", "танец", "чай", "мачо", "чипсы", "ча-ча-ча"],
+      "dialogues": []
+    },
+    {
+      "id": "group-4",
+      "title": "4 · Ш Ж Щ Э Ы Й Ё Ю Я",
+      "letters": ["Ш", "Ж", "Щ", "Э", "Ы", "Й", "Ё", "Ю", "Я"],
+      "words": ["шок", "шкала", "штамп", "школа", "шторм", "журнал", "Жанна", "джаз", "джунгли", "джинсы", "щи", "борщ", "этика", "эхо", "эпос", "этнос", "дуэт", "музыка", "макароны", "Нидерланды", "Майами", "балалайка", "йод", "йога", "май", "ёлка", "юмор", "Хьюстон", "идея", "симпатия", "Ява", "яхта"],
+      "dialogues": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "vocab-01", "russian": "Привет!", "english": "Hi!", "zh": "你好！", "category": "greeting" },
+    { "id": "vocab-02", "russian": "Здравствуй!", "english": "Hello!", "zh": "你好！（非正式）", "category": "greeting" },
+    { "id": "vocab-03", "russian": "Здравствуйте!", "english": "Hello!", "zh": "您好！", "category": "greeting" },
+    { "id": "vocab-04", "russian": "Добрый день.", "english": "Good day!", "zh": "日安。", "category": "greeting" },
+    { "id": "vocab-05", "russian": "Спасибо.", "english": "Thank you.", "zh": "谢谢。", "category": "phrase" },
+    { "id": "vocab-06", "russian": "Я Анна.", "english": "I am Anna.", "zh": "我是安娜。", "category": "introduction" },
+    { "id": "vocab-07", "russian": "Я Иван.", "english": "I am Ivan.", "zh": "我是伊万。", "category": "introduction" },
+    { "id": "vocab-08", "russian": "А ты?", "english": "And you?", "zh": "你呢？", "category": "question" },
+    { "id": "vocab-09", "russian": "Очень приятно!", "english": "Nice to meet you!", "zh": "很高兴认识你！", "category": "phrase" },
+    { "id": "vocab-10", "russian": "Спасибо, мне тоже!", "english": "Thank you, me too!", "zh": "谢谢，我也很高兴。", "category": "phrase" },
+    { "id": "vocab-11", "russian": "Как дела?", "english": "How are you?", "zh": "你好吗？", "category": "question" },
+    { "id": "vocab-12", "russian": "Хорошо.", "english": "Good.", "zh": "好。", "category": "answer" },
+    { "id": "vocab-13", "russian": "Нормально.", "english": "OK.", "zh": "还行。", "category": "answer" },
+    { "id": "vocab-14", "russian": "Так себе.", "english": "So-so.", "zh": "一般般。", "category": "answer" },
+    { "id": "vocab-15", "russian": "Кто ты?", "english": "Who are you?", "zh": "你是谁？", "category": "question" },
+    { "id": "vocab-16", "russian": "Я студент.", "english": "I am a student.", "zh": "我是男学生。", "category": "identity" },
+    { "id": "vocab-17", "russian": "Я студентка.", "english": "I am a student.", "zh": "我是女学生。", "category": "identity" },
+    { "id": "vocab-18", "russian": "Откуда ты?", "english": "Where are you from?", "zh": "你来自哪里？", "category": "question" },
+    { "id": "vocab-19", "russian": "Я из Гонконга.", "english": "I am from Hong Kong.", "zh": "我来自香港。", "category": "origin" },
+    { "id": "vocab-20", "russian": "Я из Китая.", "english": "I am from China.", "zh": "我来自中国。", "category": "origin" },
+    { "id": "vocab-21", "russian": "Я из Польши.", "english": "I am from Poland.", "zh": "我来自波兰。", "category": "origin" },
+    { "id": "vocab-22", "russian": "Я из США.", "english": "I am from the USA.", "zh": "我来自美国。", "category": "origin" },
+    { "id": "vocab-23", "russian": "Я из Вьетнама.", "english": "I am from Vietnam.", "zh": "我来自越南。", "category": "origin" },
+    { "id": "vocab-24", "russian": "Как по-русски?", "english": "How to say in Russian?", "zh": "用俄语怎么说？", "category": "classroom" },
+    { "id": "vocab-25", "russian": "Как по-английски?", "english": "How to say in English?", "zh": "用英语怎么说？", "category": "classroom" },
+    { "id": "vocab-26", "russian": "Как по-китайски?", "english": "How to say in Chinese?", "zh": "用中文怎么说？", "category": "classroom" },
+    { "id": "vocab-27", "russian": "Как по-кантонски?", "english": "How to say in Cantonese?", "zh": "用粤语怎么说？", "category": "classroom" },
+    { "id": "vocab-28", "russian": "Как по-вьетнамски?", "english": "How to say in Vietnamese?", "zh": "用越南语怎么说？", "category": "classroom" },
+    { "id": "vocab-29", "russian": "Как по-польски?", "english": "How to say in Polish?", "zh": "用波兰语怎么说？", "category": "classroom" },
+    { "id": "vocab-30", "russian": "По-русски это «привет».", "english": "In Russian it is “privet”.", "zh": "俄语是“привет”。", "category": "classroom" }
+  ],
+  "conversations": [
+    {
+      "id": "conv-1",
+      "title": "打招呼和自我介绍",
+      "lines": [
+        { "speaker": "A", "russian": "Привет!", "english": "Hi!", "zh": "你好！" },
+        { "speaker": "Б", "russian": "Здравствуй!", "english": "Hello!", "zh": "你好！" },
+        { "speaker": "A", "russian": "Я Анна, а ты?", "english": "I am Anna, and you?", "zh": "我是安娜，你呢？" },
+        { "speaker": "Б", "russian": "Я Иван.", "english": "I am Ivan.", "zh": "我是伊万。" },
+        { "speaker": "A", "russian": "Очень приятно!", "english": "Nice to meet you!", "zh": "很高兴认识你！" },
+        { "speaker": "Б", "russian": "Спасибо, мне тоже!", "english": "Thank you, me as well!", "zh": "谢谢，我也很高兴！" }
+      ]
+    },
+    {
+      "id": "conv-2",
+      "title": "询问近况",
+      "lines": [
+        { "speaker": "A", "russian": "Как дела?", "english": "How are you?", "zh": "你好吗？" },
+        { "speaker": "Б", "russian": "Хорошо, спасибо, а как ты?", "english": "I am alright, thank you, and how are you?", "zh": "很好，谢谢，你呢？" },
+        { "speaker": "A", "russian": "Хорошо!", "english": "I am alright!", "zh": "很好！" }
+      ]
+    },
+    {
+      "id": "conv-3",
+      "title": "身份和来源地",
+      "lines": [
+        { "speaker": "A", "russian": "Кто ты?", "english": "Who are you?", "zh": "你是谁？" },
+        { "speaker": "Б", "russian": "Я студент.", "english": "I am a student.", "zh": "我是男学生。" },
+        { "speaker": "A", "russian": "Откуда ты?", "english": "Where are you from?", "zh": "你来自哪里？" },
+        { "speaker": "Б", "russian": "Я из Гонконга.", "english": "I am from Hong Kong.", "zh": "我来自香港。" },
+        { "speaker": "Б", "russian": "Я из Китая.", "english": "I am from China.", "zh": "我来自中国。" }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "set-a",
+      "title": "这是…… / Это ...",
+      "items": [
+        { "russian": "Это Иван.", "english": "This is Ivan.", "zh": "这是伊万。" },
+        { "russian": "Это не Инна.", "english": "This is not Inna.", "zh": "这不是因娜。" },
+        { "russian": "Кто это?", "english": "Who is it?", "zh": "这是谁？" },
+        { "russian": "Что это?", "english": "What is it?", "zh": "这是什么？" },
+        { "russian": "Это компьютер.", "english": "This is the computer.", "zh": "这是电脑。" },
+        { "russian": "Это не телефон.", "english": "This is not the phone.", "zh": "这不是电话。" },
+        { "russian": "Это кофе.", "english": "It is coffee.", "zh": "这是咖啡。" }
+      ]
+    },
+    {
+      "id": "set-b",
+      "title": "Фразы · 句子 A",
+      "items": [
+        { "russian": "Дантист — это доктор.", "english": "A dentist is a doctor.", "zh": "牙医是医生。" },
+        { "russian": "Борщ — это суп.", "english": "Borscht is soup.", "zh": "罗宋汤是汤。" },
+        { "russian": "Вальс — это танец.", "english": "Waltz is a dance.", "zh": "华尔兹是一种舞蹈。" },
+        { "russian": "Рок и джаз — это музыка.", "english": "Rock and jazz are music.", "zh": "摇滚和爵士是音乐。" },
+        { "russian": "Паста — это макароны и соус.", "english": "Pasta is macaroni and sauce.", "zh": "意面是通心粉和酱。" },
+        { "russian": "Музыка — это мелодия и ритм.", "english": "Music is melody and rhythm.", "zh": "音乐是旋律和节奏。" },
+        { "russian": "Гитара — это музыкальный инструмент.", "english": "A guitar is a musical instrument.", "zh": "吉他是乐器。" },
+        { "russian": "Ньютон — это физик.", "english": "Newton is a physicist.", "zh": "牛顿是物理学家。" },
+        { "russian": "Пифагор — это математик.", "english": "Pythagoras is a mathematician.", "zh": "毕达哥拉斯是数学家。" },
+        { "russian": "Паспорт — это документ.", "english": "A passport is a document.", "zh": "护照是文件。" },
+        { "russian": "Контракт — это тоже документ.", "english": "A contract is also a document.", "zh": "合同也是文件。" },
+        { "russian": "Репортёр — это журналист.", "english": "A reporter is a journalist.", "zh": "记者是新闻工作者。" },
+        { "russian": "Репортаж — это текст.", "english": "A report is a text.", "zh": "报道是一篇文本。" }
+      ]
+    },
+    {
+      "id": "set-c",
+      "title": "Фразы · 句子 B",
+      "items": [
+        { "russian": "Актриса — это профессия.", "english": "Actress is a profession.", "zh": "女演员是一种职业。" },
+        { "russian": "Водка и вино — это алкоголь.", "english": "Vodka and wine are alcohol.", "zh": "伏特加和葡萄酒是酒精饮品。" },
+        { "russian": "Ром — это тоже алкоголь.", "english": "Rum is also alcohol.", "zh": "朗姆酒也是酒精饮品。" },
+        { "russian": "Йод и таблетки — это медикаменты.", "english": "Iodine and tablets are medicines.", "zh": "碘和药片是药物。" },
+        { "russian": "Метро — это транспорт.", "english": "The metro is transport.", "zh": "地铁是交通工具。" },
+        { "russian": "Автобус и трамвай — это тоже транспорт.", "english": "A bus and a tram are also transport.", "zh": "公交车和电车也是交通工具。" },
+        { "russian": "Лимон — это витамин C.", "english": "Lemon is vitamin C.", "zh": "柠檬含维生素 C。" },
+        { "russian": "Футбол и баскетбол — это спорт.", "english": "Football and basketball are sports.", "zh": "足球和篮球是运动。" },
+        { "russian": "Хоккей — это тоже спорт.", "english": "Hockey is also a sport.", "zh": "冰球也是运动。" },
+        { "russian": "Банан — это фрукт.", "english": "Banana is a fruit.", "zh": "香蕉是水果。" }
+      ]
+    }
+  ],
+  "checklist": [
+    { "prompt": "Hi!", "answer": "Привет!" },
+    { "prompt": "Thank you.", "answer": "Спасибо." },
+    { "prompt": "I am Anna.", "answer": "Я Анна." },
+    { "prompt": "Nice to meet you.", "answer": "Очень приятно." },
+    { "prompt": "This is Ivan.", "answer": "Это Иван." },
+    { "prompt": "This is not Inna.", "answer": "Это не Инна." },
+    { "prompt": "Who is it?", "answer": "Кто это?" }
+  ]
+}
