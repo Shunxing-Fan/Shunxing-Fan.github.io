@@ -33,7 +33,7 @@
           <h1>Thai Greetings</h1>
           <p class="hero-subtitle">Lesson 1 Part 2-3 vocabulary, polite particles, name exchanges, and classroom greetings.</p>
           <div class="hero-actions">
-            <button class="primary-action" data-speak="สวัสดี ครับ">
+            <button class="primary-action" data-speak="สวัสดี ครับ" data-audio-id="conv-1-01">
               <span aria-hidden="true">▶</span>
               <span>สวัสดี ครับ</span>
             </button>
@@ -47,7 +47,14 @@
 
       <section class="control-strip" id="tts">
         <div>
-          <span class="control-label">Thai voice</span>
+          <span class="control-label">Google audio</span>
+          <select id="audioVariant" aria-label="Google audio speed">
+            <option value="normal">Normal</option>
+            <option value="slow">Slow</option>
+          </select>
+        </div>
+        <div>
+          <span class="control-label">Fallback voice</span>
           <select id="voiceSelect" aria-label="Thai voice"></select>
         </div>
         <div>
@@ -58,6 +65,7 @@
           <span class="control-label">Pitch</span>
           <input id="pitchControl" type="range" min="0.8" max="1.2" step="0.05" value="1" aria-label="Speech pitch">
         </div>
+        <button class="secondary-action offline-action" id="downloadAudioPack">下载离线语音包</button>
         <button class="icon-button" id="stopSpeech" aria-label="Stop speech" title="Stop speech">■</button>
       </section>
 

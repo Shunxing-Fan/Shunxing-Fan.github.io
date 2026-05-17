@@ -41,6 +41,11 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+button:disabled {
+  cursor: progress;
+  opacity: 0.68;
+}
+
 .topbar {
   position: sticky;
   top: 0;
@@ -238,7 +243,7 @@ h2 {
 
 .control-strip {
   display: grid;
-  grid-template-columns: minmax(220px, 1.4fr) minmax(140px, 0.8fr) minmax(140px, 0.8fr) auto;
+  grid-template-columns: minmax(130px, 0.72fr) minmax(210px, 1.35fr) minmax(120px, 0.75fr) minmax(120px, 0.75fr) auto auto;
   gap: 12px;
   align-items: end;
   margin: 0 clamp(18px, 4vw, 56px);
@@ -246,6 +251,10 @@ h2 {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
+}
+
+.offline-action {
+  white-space: nowrap;
 }
 
 .control-label {

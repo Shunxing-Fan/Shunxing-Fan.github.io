@@ -85,15 +85,20 @@ const state = {
   activeTone: "all",
   activeConversation: 0,
   selectedVoiceURI: "",
+  audioVariant: "normal",
+  audioMap: new Map(),
+  currentAudio: null,
   voices: [],
   quiz: null,
   queueToken: 0
 };
 
 const els = {
+  audioVariant: document.querySelector("#audioVariant"),
   voiceSelect: document.querySelector("#voiceSelect"),
   rateControl: document.querySelector("#rateControl"),
   pitchControl: document.querySelector("#pitchControl"),
+  downloadAudioPack: document.querySelector("#downloadAudioPack"),
   stopSpeech: document.querySelector("#stopSpeech"),
   voiceStatus: document.querySelector("#voiceStatus"),
   searchInput: document.querySelector("#searchInput"),
@@ -123,6 +128,14 @@ function getSpeechText(item) {
   return cleanThai(item.speak || item.thai);
 }
 
+function getVocabAudioId(index) {
+  return `vocab-${String(index + 1).padStart(2, "0")}`;
+}
+
+function getConversationAudioId(conversationIndex, lineIndex) {
+  return `conv-${conversationIndex + 1}-${String(lineIndex + 1).padStart(2, "0")}`;
+}
+
 function getSelectedVoice() {
   return state.voices.find((voice) => voice.voiceURI === state.selectedVoiceURI) || null;
 }
@@ -131,7 +144,63 @@ function setVoiceStatus(message) {
   els.voiceStatus.textContent = message;
 }
 
-function speakThai(text) {
+function stopPlayback(status = "TTS stopped", preserveQueue = false) {
+  if (!preserveQueue) state.queueToken = 0;
+  if (state.currentAudio) {
+    state.currentAudio.pause();
+    state.currentAudio.currentTime = 0;
+    state.currentAudio = null;
+  }
+  if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+  setVoiceStatus(status);
+}
+
+async function loadAudioManifest() {
+  try {
+    const response = await fetch("assets/audio/manifest.json", { cache: "no-cache" });
+    if (!response.ok) throw new Error(`manifest ${response.status}`);
+    const manifest = await response.json();
+    state.audioMap = new Map(manifest.items.map((item) => [item.id, item]));
+    setVoiceStatus(`${manifest.voice} audio ready`);
+  } catch {
+    state.audioMap = new Map();
+    setVoiceStatus("Browser TTS fallback ready");
+  }
+}
+
+function playLocalAudio(audioId) {
+  const item = state.audioMap.get(audioId);
+  const src = item?.files?.[state.audioVariant];
+  if (!src) return Promise.resolve(false);
+
+  if (state.currentAudio) {
+    state.currentAudio.pause();
+    state.currentAudio.currentTime = 0;
+  }
+  if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+
+  const audio = new Audio(src);
+  state.currentAudio = audio;
+  setVoiceStatus(`Playing ${state.audioVariant}: ${item.text}`);
+
+  return new Promise((resolve) => {
+    audio.addEventListener("ended", () => {
+      if (state.currentAudio === audio) state.currentAudio = null;
+      setVoiceStatus("Audio ready");
+      resolve(true);
+    }, { once: true });
+    audio.addEventListener("error", () => {
+      if (state.currentAudio === audio) state.currentAudio = null;
+      resolve(false);
+    }, { once: true });
+    audio.play().catch(() => {
+      if (state.currentAudio === audio) state.currentAudio = null;
+      resolve(false);
+    });
+  });
+}
+
+function speakBrowserThai(text, preserveQueue = false) {
   if (!("speechSynthesis" in window)) {
     setVoiceStatus("This browser does not expose TTS");
     return Promise.resolve();
@@ -140,7 +209,7 @@ function speakThai(text) {
   const phrase = cleanThai(text);
   if (!phrase) return Promise.resolve();
 
-  window.speechSynthesis.cancel();
+  stopPlayback("TTS ready", preserveQueue);
   const utterance = new SpeechSynthesisUtterance(phrase);
   utterance.lang = "th-TH";
   utterance.rate = Number(els.rateControl.value);
@@ -164,12 +233,20 @@ function speakThai(text) {
   });
 }
 
+async function playThai(text, audioId = "", preserveQueue = false) {
+  if (audioId) {
+    const played = await playLocalAudio(audioId);
+    if (played) return;
+  }
+  await speakBrowserThai(text, preserveQueue);
+}
+
 async function speakQueue(lines) {
   const token = Date.now();
   state.queueToken = token;
   for (const line of lines) {
     if (state.queueToken !== token) return;
-    await speakThai(line.thai);
+    await playThai(line.thai, line.audioId, true);
     await new Promise((resolve) => setTimeout(resolve, 180));
   }
 }
@@ -207,6 +284,63 @@ function populateVoices() {
   }
 }
 
+async function registerServiceWorker() {
+  if (!("serviceWorker" in navigator)) return;
+  try {
+    await navigator.serviceWorker.register("sw.js");
+    await navigator.serviceWorker.ready;
+  } catch {
+    setVoiceStatus("Offline cache unavailable");
+  }
+}
+
+function setDownloadButton(label, disabled = false) {
+  els.downloadAudioPack.textContent = label;
+  els.downloadAudioPack.disabled = disabled;
+}
+
+async function downloadAudioPack() {
+  if (!("caches" in window)) {
+    setVoiceStatus("Offline cache unavailable");
+    return;
+  }
+
+  setDownloadButton("下载中 0%", true);
+  try {
+    const manifestResponse = await fetch("assets/audio/manifest.json", { cache: "no-cache" });
+    if (!manifestResponse.ok) throw new Error("manifest");
+    const manifest = await manifestResponse.json();
+    const audioFiles = manifest.items.flatMap((item) => Object.values(item.files));
+    const urls = [
+      "./",
+      "index.html",
+      "styles.css",
+      "app.js",
+      "sw.js",
+      "assets/thai-consonant-poster.jpg",
+      "assets/audio/manifest.json",
+      ...audioFiles
+    ];
+    const cache = await caches.open("thai1000-lesson1-v2");
+
+    for (let index = 0; index < urls.length; index += 1) {
+      const url = urls[index];
+      const response = await fetch(url, { cache: "reload" });
+      if (!response.ok) throw new Error(url);
+      await cache.put(url, response);
+      const percent = Math.round(((index + 1) / urls.length) * 100);
+      setDownloadButton(`下载中 ${percent}%`, true);
+      setVoiceStatus(`Caching audio ${index + 1}/${urls.length}`);
+    }
+
+    setDownloadButton("语音包已离线", false);
+    setVoiceStatus("Offline audio ready");
+  } catch {
+    setDownloadButton("下载离线语音包", false);
+    setVoiceStatus("Offline audio download failed");
+  }
+}
+
 function renderToneFilter() {
   els.toneFilter.innerHTML = toneFilters
     .map((tone) => {
@@ -238,6 +372,7 @@ function renderVocabulary() {
 
   els.vocabGrid.innerHTML = items
     .map((item) => {
+      const audioId = getVocabAudioId(vocabulary.indexOf(item));
       const chips = toneClasses(item.tone)
         .map((tone) => `<span class="chip ${tone.className}">${tone.label}</span>`)
         .join("");
@@ -252,7 +387,7 @@ function renderVocabulary() {
               <span class="chip">${item.zhTone}</span>
             </div>
           </div>
-          <button class="icon-button" data-speak="${getSpeechText(item)}" aria-label="Play ${item.thai}" title="Play ${item.thai}">▶</button>
+          <button class="icon-button" data-speak="${getSpeechText(item)}" data-audio-id="${audioId}" aria-label="Play ${item.thai}" title="Play ${item.thai}">▶</button>
         </article>
       `;
     })
@@ -271,7 +406,7 @@ function renderConversationTabs() {
 function renderDialogue() {
   const conversation = conversations[state.activeConversation];
   els.dialoguePanel.innerHTML = conversation.lines
-    .map((line) => `
+    .map((line, lineIndex) => `
       <article class="dialogue-line">
         <div class="speaker">${line.speaker}</div>
         <div>
@@ -281,7 +416,7 @@ function renderDialogue() {
             <span>${line.english}</span>
           </div>
         </div>
-        <button class="icon-button" data-speak="${line.thai}" aria-label="Play line" title="Play line">▶</button>
+        <button class="icon-button" data-speak="${line.thai}" data-audio-id="${getConversationAudioId(state.activeConversation, lineIndex)}" aria-label="Play line" title="Play line">▶</button>
       </article>
     `)
     .join("");
@@ -305,10 +440,11 @@ function shuffle(items) {
 }
 
 function makeQuiz() {
-  const target = vocabulary[Math.floor(Math.random() * vocabulary.length)];
+  const targetIndex = Math.floor(Math.random() * vocabulary.length);
+  const target = vocabulary[targetIndex];
   const distractors = shuffle(vocabulary.filter((item) => item.english !== target.english)).slice(0, 3);
   const answers = shuffle([target, ...distractors]);
-  state.quiz = { target, answers };
+  state.quiz = { target, targetAudioId: getVocabAudioId(targetIndex), answers };
   renderQuiz();
 }
 
@@ -336,7 +472,14 @@ function handleAnswer(button) {
 function bindEvents() {
   document.body.addEventListener("click", (event) => {
     const speakButton = event.target.closest("[data-speak]");
-    if (speakButton) speakThai(speakButton.dataset.speak);
+    if (speakButton) {
+      state.queueToken = 0;
+      playThai(speakButton.dataset.speak, speakButton.dataset.audioId || "");
+    }
+  });
+
+  els.audioVariant.addEventListener("change", () => {
+    state.audioVariant = els.audioVariant.value;
   });
 
   els.voiceSelect.addEventListener("change", () => {
@@ -344,9 +487,7 @@ function bindEvents() {
   });
 
   els.stopSpeech.addEventListener("click", () => {
-    state.queueToken = 0;
-    if ("speechSynthesis" in window) window.speechSynthesis.cancel();
-    setVoiceStatus("TTS stopped");
+    stopPlayback("TTS stopped");
   });
 
   els.searchInput.addEventListener("input", renderVocabulary);
@@ -368,11 +509,19 @@ function bindEvents() {
   });
 
   els.playConversation.addEventListener("click", () => {
-    speakQueue(conversations[state.activeConversation].lines);
+    const lines = conversations[state.activeConversation].lines.map((line, index) => ({
+      ...line,
+      audioId: getConversationAudioId(state.activeConversation, index)
+    }));
+    speakQueue(lines);
   });
 
+  els.downloadAudioPack.addEventListener("click", downloadAudioPack);
   els.newQuiz.addEventListener("click", makeQuiz);
-  els.quizSpeak.addEventListener("click", () => speakThai(getSpeechText(state.quiz.target)));
+  els.quizSpeak.addEventListener("click", () => {
+    state.queueToken = 0;
+    playThai(getSpeechText(state.quiz.target), state.quiz.targetAudioId);
+  });
 
   els.answerList.addEventListener("click", (event) => {
     const button = event.target.closest("[data-answer]");
@@ -386,6 +535,8 @@ function bindEvents() {
 
 function init() {
   populateVoices();
+  loadAudioManifest();
+  registerServiceWorker();
   renderToneFilter();
   renderVocabulary();
   renderConversationTabs();
