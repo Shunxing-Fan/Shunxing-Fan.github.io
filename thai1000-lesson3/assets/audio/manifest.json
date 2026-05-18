@@ -1,0 +1,916 @@
+{
+  "voice": "th-TH-Chirp3-HD-Achernar",
+  "languageCode": "th-TH",
+  "format": "MP3",
+  "variants": [
+    "normal",
+    "slow"
+  ],
+  "generatedAt": "2026-05-18T12:45:09.256925+00:00",
+  "itemCount": 88,
+  "fileCount": 176,
+  "items": [
+    {
+      "id": "vocab-01",
+      "type": "vocabulary",
+      "label": "ที่นี่",
+      "text": "ที่นี่",
+      "files": {
+        "normal": "assets/audio/vocab-01-normal.mp3",
+        "slow": "assets/audio/vocab-01-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-02",
+      "type": "vocabulary",
+      "label": "ที่นั่น",
+      "text": "ที่นั่น",
+      "files": {
+        "normal": "assets/audio/vocab-02-normal.mp3",
+        "slow": "assets/audio/vocab-02-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-03",
+      "type": "vocabulary",
+      "label": "ที่โน่น",
+      "text": "ที่โน่น",
+      "files": {
+        "normal": "assets/audio/vocab-03-normal.mp3",
+        "slow": "assets/audio/vocab-03-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-04",
+      "type": "vocabulary",
+      "label": "นี้",
+      "text": "นี้",
+      "files": {
+        "normal": "assets/audio/vocab-04-normal.mp3",
+        "slow": "assets/audio/vocab-04-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-05",
+      "type": "vocabulary",
+      "label": "นั้น",
+      "text": "นั้น",
+      "files": {
+        "normal": "assets/audio/vocab-05-normal.mp3",
+        "slow": "assets/audio/vocab-05-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-06",
+      "type": "vocabulary",
+      "label": "โน้น",
+      "text": "โน้น",
+      "files": {
+        "normal": "assets/audio/vocab-06-normal.mp3",
+        "slow": "assets/audio/vocab-06-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-07",
+      "type": "vocabulary",
+      "label": "ไหน",
+      "text": "ไหน",
+      "files": {
+        "normal": "assets/audio/vocab-07-normal.mp3",
+        "slow": "assets/audio/vocab-07-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-08",
+      "type": "vocabulary",
+      "label": "ใช่",
+      "text": "ใช่",
+      "files": {
+        "normal": "assets/audio/vocab-08-normal.mp3",
+        "slow": "assets/audio/vocab-08-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-09",
+      "type": "vocabulary",
+      "label": "ไหม / มั้ย",
+      "text": "ไหม มั้ย",
+      "files": {
+        "normal": "assets/audio/vocab-09-normal.mp3",
+        "slow": "assets/audio/vocab-09-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-10",
+      "type": "vocabulary",
+      "label": "ใช่ไหม / ใช่มั้ย",
+      "text": "ใช่ไหม ใช่มั้ย",
+      "files": {
+        "normal": "assets/audio/vocab-10-normal.mp3",
+        "slow": "assets/audio/vocab-10-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-11",
+      "type": "vocabulary",
+      "label": "ไม่ใช่",
+      "text": "ไม่ใช่",
+      "files": {
+        "normal": "assets/audio/vocab-11-normal.mp3",
+        "slow": "assets/audio/vocab-11-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-12",
+      "type": "vocabulary",
+      "label": "ปากกา",
+      "text": "ปากกา",
+      "files": {
+        "normal": "assets/audio/vocab-12-normal.mp3",
+        "slow": "assets/audio/vocab-12-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-13",
+      "type": "vocabulary",
+      "label": "ดินสอ",
+      "text": "ดินสอ",
+      "files": {
+        "normal": "assets/audio/vocab-13-normal.mp3",
+        "slow": "assets/audio/vocab-13-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-14",
+      "type": "vocabulary",
+      "label": "สมุด",
+      "text": "สมุด",
+      "files": {
+        "normal": "assets/audio/vocab-14-normal.mp3",
+        "slow": "assets/audio/vocab-14-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-15",
+      "type": "vocabulary",
+      "label": "หนังสือ",
+      "text": "หนังสือ",
+      "files": {
+        "normal": "assets/audio/vocab-15-normal.mp3",
+        "slow": "assets/audio/vocab-15-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-16",
+      "type": "vocabulary",
+      "label": "หนังสือเดินทาง",
+      "text": "หนังสือเดินทาง",
+      "files": {
+        "normal": "assets/audio/vocab-16-normal.mp3",
+        "slow": "assets/audio/vocab-16-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-17",
+      "type": "vocabulary",
+      "label": "กระเป๋า",
+      "text": "กระเป๋า",
+      "files": {
+        "normal": "assets/audio/vocab-17-normal.mp3",
+        "slow": "assets/audio/vocab-17-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-18",
+      "type": "vocabulary",
+      "label": "ถุง",
+      "text": "ถุง",
+      "files": {
+        "normal": "assets/audio/vocab-18-normal.mp3",
+        "slow": "assets/audio/vocab-18-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-19",
+      "type": "vocabulary",
+      "label": "กระดาษ",
+      "text": "กระดาษ",
+      "files": {
+        "normal": "assets/audio/vocab-19-normal.mp3",
+        "slow": "assets/audio/vocab-19-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-20",
+      "type": "vocabulary",
+      "label": "พลาสติก",
+      "text": "พลาสติก",
+      "files": {
+        "normal": "assets/audio/vocab-20-normal.mp3",
+        "slow": "assets/audio/vocab-20-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-21",
+      "type": "vocabulary",
+      "label": "แผนที่",
+      "text": "แผนที่",
+      "files": {
+        "normal": "assets/audio/vocab-21-normal.mp3",
+        "slow": "assets/audio/vocab-21-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-22",
+      "type": "vocabulary",
+      "label": "โทรศัพท์ (บ้าน/มือถือ)",
+      "text": "โทรศัพท์ บ้าน มือถือ",
+      "files": {
+        "normal": "assets/audio/vocab-22-normal.mp3",
+        "slow": "assets/audio/vocab-22-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-23",
+      "type": "vocabulary",
+      "label": "โทรทัศน์ / ทีวี",
+      "text": "โทรทัศน์ ทีวี",
+      "files": {
+        "normal": "assets/audio/vocab-23-normal.mp3",
+        "slow": "assets/audio/vocab-23-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-24",
+      "type": "vocabulary",
+      "label": "แว่นตา",
+      "text": "แว่นตา",
+      "files": {
+        "normal": "assets/audio/vocab-24-normal.mp3",
+        "slow": "assets/audio/vocab-24-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-25",
+      "type": "vocabulary",
+      "label": "เงิน / ตังค์",
+      "text": "เงิน ตังค์",
+      "files": {
+        "normal": "assets/audio/vocab-25-normal.mp3",
+        "slow": "assets/audio/vocab-25-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-26",
+      "type": "vocabulary",
+      "label": "โต๊ะ",
+      "text": "โต๊ะ",
+      "files": {
+        "normal": "assets/audio/vocab-26-normal.mp3",
+        "slow": "assets/audio/vocab-26-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-27",
+      "type": "vocabulary",
+      "label": "เก้าอี้",
+      "text": "เก้าอี้",
+      "files": {
+        "normal": "assets/audio/vocab-27-normal.mp3",
+        "slow": "assets/audio/vocab-27-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-28",
+      "type": "vocabulary",
+      "label": "ของ",
+      "text": "ของ",
+      "files": {
+        "normal": "assets/audio/vocab-28-normal.mp3",
+        "slow": "assets/audio/vocab-28-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-29",
+      "type": "vocabulary",
+      "label": "บน",
+      "text": "บน",
+      "files": {
+        "normal": "assets/audio/vocab-29-normal.mp3",
+        "slow": "assets/audio/vocab-29-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-30",
+      "type": "vocabulary",
+      "label": "ใต้",
+      "text": "ใต้",
+      "files": {
+        "normal": "assets/audio/vocab-30-normal.mp3",
+        "slow": "assets/audio/vocab-30-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-31",
+      "type": "vocabulary",
+      "label": "ระหว่าง",
+      "text": "ระหว่าง",
+      "files": {
+        "normal": "assets/audio/vocab-31-normal.mp3",
+        "slow": "assets/audio/vocab-31-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-32",
+      "type": "vocabulary",
+      "label": "กับ",
+      "text": "กับ",
+      "files": {
+        "normal": "assets/audio/vocab-32-normal.mp3",
+        "slow": "assets/audio/vocab-32-slow.mp3"
+      }
+    },
+    {
+      "id": "vocab-33",
+      "type": "vocabulary",
+      "label": "ใน",
+      "text": "ใน",
+      "files": {
+        "normal": "assets/audio/vocab-33-normal.mp3",
+        "slow": "assets/audio/vocab-33-slow.mp3"
+      }
+    },
+    {
+      "id": "number-01",
+      "type": "number",
+      "label": "0",
+      "text": "ศูนย์",
+      "files": {
+        "normal": "assets/audio/number-01-normal.mp3",
+        "slow": "assets/audio/number-01-slow.mp3"
+      }
+    },
+    {
+      "id": "number-02",
+      "type": "number",
+      "label": "1",
+      "text": "หนึ่ง",
+      "files": {
+        "normal": "assets/audio/number-02-normal.mp3",
+        "slow": "assets/audio/number-02-slow.mp3"
+      }
+    },
+    {
+      "id": "number-03",
+      "type": "number",
+      "label": "2",
+      "text": "สอง",
+      "files": {
+        "normal": "assets/audio/number-03-normal.mp3",
+        "slow": "assets/audio/number-03-slow.mp3"
+      }
+    },
+    {
+      "id": "number-04",
+      "type": "number",
+      "label": "3",
+      "text": "สาม",
+      "files": {
+        "normal": "assets/audio/number-04-normal.mp3",
+        "slow": "assets/audio/number-04-slow.mp3"
+      }
+    },
+    {
+      "id": "number-05",
+      "type": "number",
+      "label": "4",
+      "text": "สี่",
+      "files": {
+        "normal": "assets/audio/number-05-normal.mp3",
+        "slow": "assets/audio/number-05-slow.mp3"
+      }
+    },
+    {
+      "id": "number-06",
+      "type": "number",
+      "label": "5",
+      "text": "ห้า",
+      "files": {
+        "normal": "assets/audio/number-06-normal.mp3",
+        "slow": "assets/audio/number-06-slow.mp3"
+      }
+    },
+    {
+      "id": "number-07",
+      "type": "number",
+      "label": "6",
+      "text": "หก",
+      "files": {
+        "normal": "assets/audio/number-07-normal.mp3",
+        "slow": "assets/audio/number-07-slow.mp3"
+      }
+    },
+    {
+      "id": "number-08",
+      "type": "number",
+      "label": "7",
+      "text": "เจ็ด",
+      "files": {
+        "normal": "assets/audio/number-08-normal.mp3",
+        "slow": "assets/audio/number-08-slow.mp3"
+      }
+    },
+    {
+      "id": "number-09",
+      "type": "number",
+      "label": "8",
+      "text": "แปด",
+      "files": {
+        "normal": "assets/audio/number-09-normal.mp3",
+        "slow": "assets/audio/number-09-slow.mp3"
+      }
+    },
+    {
+      "id": "number-10",
+      "type": "number",
+      "label": "9",
+      "text": "เก้า",
+      "files": {
+        "normal": "assets/audio/number-10-normal.mp3",
+        "slow": "assets/audio/number-10-slow.mp3"
+      }
+    },
+    {
+      "id": "number-11",
+      "type": "number",
+      "label": "10",
+      "text": "สิบ",
+      "files": {
+        "normal": "assets/audio/number-11-normal.mp3",
+        "slow": "assets/audio/number-11-slow.mp3"
+      }
+    },
+    {
+      "id": "number-12",
+      "type": "number",
+      "label": "11",
+      "text": "สิบเอ็ด",
+      "files": {
+        "normal": "assets/audio/number-12-normal.mp3",
+        "slow": "assets/audio/number-12-slow.mp3"
+      }
+    },
+    {
+      "id": "number-13",
+      "type": "number",
+      "label": "12",
+      "text": "สิบสอง",
+      "files": {
+        "normal": "assets/audio/number-13-normal.mp3",
+        "slow": "assets/audio/number-13-slow.mp3"
+      }
+    },
+    {
+      "id": "number-14",
+      "type": "number",
+      "label": "13",
+      "text": "สิบสาม",
+      "files": {
+        "normal": "assets/audio/number-14-normal.mp3",
+        "slow": "assets/audio/number-14-slow.mp3"
+      }
+    },
+    {
+      "id": "number-15",
+      "type": "number",
+      "label": "20",
+      "text": "ยี่สิบ",
+      "files": {
+        "normal": "assets/audio/number-15-normal.mp3",
+        "slow": "assets/audio/number-15-slow.mp3"
+      }
+    },
+    {
+      "id": "number-16",
+      "type": "number",
+      "label": "21",
+      "text": "ยี่สิบเอ็ด",
+      "files": {
+        "normal": "assets/audio/number-16-normal.mp3",
+        "slow": "assets/audio/number-16-slow.mp3"
+      }
+    },
+    {
+      "id": "number-17",
+      "type": "number",
+      "label": "22",
+      "text": "ยี่สิบสอง",
+      "files": {
+        "normal": "assets/audio/number-17-normal.mp3",
+        "slow": "assets/audio/number-17-slow.mp3"
+      }
+    },
+    {
+      "id": "number-18",
+      "type": "number",
+      "label": "30",
+      "text": "สามสิบ",
+      "files": {
+        "normal": "assets/audio/number-18-normal.mp3",
+        "slow": "assets/audio/number-18-slow.mp3"
+      }
+    },
+    {
+      "id": "number-19",
+      "type": "number",
+      "label": "31",
+      "text": "สามสิบเอ็ด",
+      "files": {
+        "normal": "assets/audio/number-19-normal.mp3",
+        "slow": "assets/audio/number-19-slow.mp3"
+      }
+    },
+    {
+      "id": "number-20",
+      "type": "number",
+      "label": "32",
+      "text": "สามสิบสอง",
+      "files": {
+        "normal": "assets/audio/number-20-normal.mp3",
+        "slow": "assets/audio/number-20-slow.mp3"
+      }
+    },
+    {
+      "id": "number-21",
+      "type": "number",
+      "label": "40",
+      "text": "สี่สิบ",
+      "files": {
+        "normal": "assets/audio/number-21-normal.mp3",
+        "slow": "assets/audio/number-21-slow.mp3"
+      }
+    },
+    {
+      "id": "number-22",
+      "type": "number",
+      "label": "50",
+      "text": "ห้าสิบ",
+      "files": {
+        "normal": "assets/audio/number-22-normal.mp3",
+        "slow": "assets/audio/number-22-slow.mp3"
+      }
+    },
+    {
+      "id": "number-23",
+      "type": "number",
+      "label": "60",
+      "text": "หกสิบ",
+      "files": {
+        "normal": "assets/audio/number-23-normal.mp3",
+        "slow": "assets/audio/number-23-slow.mp3"
+      }
+    },
+    {
+      "id": "number-24",
+      "type": "number",
+      "label": "70",
+      "text": "เจ็ดสิบ",
+      "files": {
+        "normal": "assets/audio/number-24-normal.mp3",
+        "slow": "assets/audio/number-24-slow.mp3"
+      }
+    },
+    {
+      "id": "number-25",
+      "type": "number",
+      "label": "80",
+      "text": "แปดสิบ",
+      "files": {
+        "normal": "assets/audio/number-25-normal.mp3",
+        "slow": "assets/audio/number-25-slow.mp3"
+      }
+    },
+    {
+      "id": "number-26",
+      "type": "number",
+      "label": "90",
+      "text": "เก้าสิบ",
+      "files": {
+        "normal": "assets/audio/number-26-normal.mp3",
+        "slow": "assets/audio/number-26-slow.mp3"
+      }
+    },
+    {
+      "id": "number-27",
+      "type": "number",
+      "label": "100",
+      "text": "หนึ่งร้อย",
+      "files": {
+        "normal": "assets/audio/number-27-normal.mp3",
+        "slow": "assets/audio/number-27-slow.mp3"
+      }
+    },
+    {
+      "id": "number-28",
+      "type": "number",
+      "label": "200",
+      "text": "สองร้อย",
+      "files": {
+        "normal": "assets/audio/number-28-normal.mp3",
+        "slow": "assets/audio/number-28-slow.mp3"
+      }
+    },
+    {
+      "id": "number-29",
+      "type": "number",
+      "label": "300",
+      "text": "สามร้อย",
+      "files": {
+        "normal": "assets/audio/number-29-normal.mp3",
+        "slow": "assets/audio/number-29-slow.mp3"
+      }
+    },
+    {
+      "id": "number-30",
+      "type": "number",
+      "label": "1000",
+      "text": "หนึ่งพัน",
+      "files": {
+        "normal": "assets/audio/number-30-normal.mp3",
+        "slow": "assets/audio/number-30-slow.mp3"
+      }
+    },
+    {
+      "id": "number-31",
+      "type": "number",
+      "label": "2000",
+      "text": "สองพัน",
+      "files": {
+        "normal": "assets/audio/number-31-normal.mp3",
+        "slow": "assets/audio/number-31-slow.mp3"
+      }
+    },
+    {
+      "id": "number-32",
+      "type": "number",
+      "label": "3000",
+      "text": "สามพัน",
+      "files": {
+        "normal": "assets/audio/number-32-normal.mp3",
+        "slow": "assets/audio/number-32-slow.mp3"
+      }
+    },
+    {
+      "id": "number-33",
+      "type": "number",
+      "label": "10,000",
+      "text": "หนึ่งหมื่น",
+      "files": {
+        "normal": "assets/audio/number-33-normal.mp3",
+        "slow": "assets/audio/number-33-slow.mp3"
+      }
+    },
+    {
+      "id": "number-34",
+      "type": "number",
+      "label": "100,000",
+      "text": "หนึ่งแสน",
+      "files": {
+        "normal": "assets/audio/number-34-normal.mp3",
+        "slow": "assets/audio/number-34-slow.mp3"
+      }
+    },
+    {
+      "id": "number-35",
+      "type": "number",
+      "label": "1,000,000",
+      "text": "หนึ่งล้าน",
+      "files": {
+        "normal": "assets/audio/number-35-normal.mp3",
+        "slow": "assets/audio/number-35-slow.mp3"
+      }
+    },
+    {
+      "id": "phrase-01",
+      "type": "leave-phrase",
+      "label": "ขอ ตัว สักครู่ (ค่ะ/ครับ)",
+      "text": "ขอ ตัว สักครู่ ค่ะ",
+      "files": {
+        "normal": "assets/audio/phrase-01-normal.mp3",
+        "slow": "assets/audio/phrase-01-slow.mp3"
+      }
+    },
+    {
+      "id": "phrase-02",
+      "type": "leave-phrase",
+      "label": "ขอ ตัว ก่อน นะ (คะ/ครับ)",
+      "text": "ขอ ตัว ก่อน นะ คะ",
+      "files": {
+        "normal": "assets/audio/phrase-02-normal.mp3",
+        "slow": "assets/audio/phrase-02-slow.mp3"
+      }
+    },
+    {
+      "id": "phrase-03",
+      "type": "leave-phrase",
+      "label": "ขอ ตัว กลับ ก่อน นะ (คะ/ครับ)",
+      "text": "ขอ ตัว กลับ ก่อน นะ คะ",
+      "files": {
+        "normal": "assets/audio/phrase-03-normal.mp3",
+        "slow": "assets/audio/phrase-03-slow.mp3"
+      }
+    },
+    {
+      "id": "phrase-04",
+      "type": "leave-phrase",
+      "label": "กลับ ก่อน นะ (คะ/ครับ)",
+      "text": "กลับ ก่อน นะ คะ",
+      "files": {
+        "normal": "assets/audio/phrase-04-normal.mp3",
+        "slow": "assets/audio/phrase-04-slow.mp3"
+      }
+    },
+    {
+      "id": "phrase-05",
+      "type": "leave-phrase",
+      "label": "ต้อง ไป แล้ว (ค่ะ/ครับ)",
+      "text": "ต้อง ไป แล้ว ค่ะ",
+      "files": {
+        "normal": "assets/audio/phrase-05-normal.mp3",
+        "slow": "assets/audio/phrase-05-slow.mp3"
+      }
+    },
+    {
+      "id": "phrase-06",
+      "type": "leave-phrase",
+      "label": "ไป ก่อน นะ (คะ/ครับ)",
+      "text": "ไป ก่อน นะ คะ",
+      "files": {
+        "normal": "assets/audio/phrase-06-normal.mp3",
+        "slow": "assets/audio/phrase-06-slow.mp3"
+      }
+    },
+    {
+      "id": "phrase-07",
+      "type": "leave-phrase",
+      "label": "ไป ละ นะ",
+      "text": "ไป ละ นะ",
+      "files": {
+        "normal": "assets/audio/phrase-07-normal.mp3",
+        "slow": "assets/audio/phrase-07-slow.mp3"
+      }
+    },
+    {
+      "id": "tip-01",
+      "type": "language-tip",
+      "label": "มงก๊ก อยู่ ระหว่าง เยามาเต่ย กับ พรินซ์ เอ็ดเวิร์ด",
+      "text": "มงก๊ก อยู่ ระหว่าง เยามาเต่ย กับ พรินซ์ เอ็ดเวิร์ด",
+      "files": {
+        "normal": "assets/audio/tip-01-normal.mp3",
+        "slow": "assets/audio/tip-01-slow.mp3"
+      }
+    },
+    {
+      "id": "tip-02",
+      "type": "language-tip",
+      "label": "พรินซ์ เอ็ดเวิร์ด อยู่ ระหว่าง มงก๊ก กับ ชัม ซุย โป",
+      "text": "พรินซ์ เอ็ดเวิร์ด อยู่ ระหว่าง มงก๊ก กับ ชัม ซุย โป",
+      "files": {
+        "normal": "assets/audio/tip-02-normal.mp3",
+        "slow": "assets/audio/tip-02-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-1-01",
+      "type": "conversation",
+      "conversation": "Conversation 1",
+      "speaker": "หมวย",
+      "label": "นี่ ปากกา ใช่ มั้ย คะ",
+      "text": "นี่ ปากกา ใช่ มั้ย คะ",
+      "files": {
+        "normal": "assets/audio/conv-1-01-normal.mp3",
+        "slow": "assets/audio/conv-1-01-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-1-02",
+      "type": "conversation",
+      "conversation": "Conversation 1",
+      "speaker": "สมชาย",
+      "label": "ใช่ ครับ นั่น ปากกา ครับ",
+      "text": "ใช่ ครับ นั่น ปากกา ครับ",
+      "files": {
+        "normal": "assets/audio/conv-1-02-normal.mp3",
+        "slow": "assets/audio/conv-1-02-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-2-01",
+      "type": "conversation",
+      "conversation": "Conversation 2",
+      "speaker": "หมวย",
+      "label": "นั่น หนังสือ ใช่ มั้ย คะ",
+      "text": "นั่น หนังสือ ใช่ มั้ย คะ",
+      "files": {
+        "normal": "assets/audio/conv-2-01-normal.mp3",
+        "slow": "assets/audio/conv-2-01-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-2-02",
+      "type": "conversation",
+      "conversation": "Conversation 2",
+      "speaker": "สมชาย",
+      "label": "ไม่ ใช่ ครับ นั่น สมุด ครับ",
+      "text": "ไม่ ใช่ ครับ นั่น สมุด ครับ",
+      "files": {
+        "normal": "assets/audio/conv-2-02-normal.mp3",
+        "slow": "assets/audio/conv-2-02-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-3-01",
+      "type": "conversation",
+      "conversation": "Conversation 3",
+      "speaker": "สมชาย",
+      "label": "กระเป๋า ของ คุณ หมวย อยู่ ที่ไหน ครับ",
+      "text": "กระเป๋า ของ คุณ หมวย อยู่ ที่ไหน ครับ",
+      "files": {
+        "normal": "assets/audio/conv-3-01-normal.mp3",
+        "slow": "assets/audio/conv-3-01-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-3-02",
+      "type": "conversation",
+      "conversation": "Conversation 3",
+      "speaker": "หมวย",
+      "label": "กระเป๋า ของ ดิฉัน อยู่ ใต้ เก้าอี้ ค่ะ",
+      "text": "กระเป๋า ของ ดิฉัน อยู่ ใต้ เก้าอี้ ค่ะ",
+      "files": {
+        "normal": "assets/audio/conv-3-02-normal.mp3",
+        "slow": "assets/audio/conv-3-02-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-4-01",
+      "type": "conversation",
+      "conversation": "Conversation 4",
+      "speaker": "สมชาย",
+      "label": "Prince Edward อยู่ ที่ไหน ครับ",
+      "text": "พรินซ์ เอ็ดเวิร์ด อยู่ ที่ไหน ครับ",
+      "files": {
+        "normal": "assets/audio/conv-4-01-normal.mp3",
+        "slow": "assets/audio/conv-4-01-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-4-02",
+      "type": "conversation",
+      "conversation": "Conversation 4",
+      "speaker": "หมวย",
+      "label": "Prince Edward อยู่ ระหว่าง Mongkok กับ Shum Shui Po ค่ะ",
+      "text": "พรินซ์ เอ็ดเวิร์ด อยู่ ระหว่าง มงก๊ก กับ ชัม ซุย โป ค่ะ",
+      "files": {
+        "normal": "assets/audio/conv-4-02-normal.mp3",
+        "slow": "assets/audio/conv-4-02-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-4-03",
+      "type": "conversation",
+      "conversation": "Conversation 4",
+      "speaker": "สมชาย",
+      "label": "ขอบคุณ ครับ",
+      "text": "ขอบคุณ ครับ",
+      "files": {
+        "normal": "assets/audio/conv-4-03-normal.mp3",
+        "slow": "assets/audio/conv-4-03-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-5-01",
+      "type": "conversation",
+      "conversation": "Conversation 5",
+      "speaker": "หมวย",
+      "label": "อาจารย์ คะ ขอ ตัว ไป ห้องน้ำ ค่ะ",
+      "text": "อาจารย์ คะ ขอ ตัว ไป ห้องน้ำ ค่ะ",
+      "files": {
+        "normal": "assets/audio/conv-5-01-normal.mp3",
+        "slow": "assets/audio/conv-5-01-slow.mp3"
+      }
+    },
+    {
+      "id": "conv-5-02",
+      "type": "conversation",
+      "conversation": "Conversation 5",
+      "speaker": "สมชาย",
+      "label": "เชิญ ครับ",
+      "text": "เชิญ ครับ",
+      "files": {
+        "normal": "assets/audio/conv-5-02-normal.mp3",
+        "slow": "assets/audio/conv-5-02-slow.mp3"
+      }
+    }
+  ]
+}

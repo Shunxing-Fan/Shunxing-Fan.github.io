@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="THAI1000 Lesson 3 vocabulary, numbers, location patterns, leave phrases, and conversation practice.">
+    <title>THAI1000 Lesson 3 | Where</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23176b52'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='42' fill='white' font-family='Tahoma'%3E%E0%B9%84%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="THAI1000 Lesson 3">
+        <span class="brand-mark">ไ</span>
+        <span>
+          <strong>THAI1000</strong>
+          <small>Lesson 3 Where</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#vocabulary">词汇</a>
+        <a href="#numbers">数字</a>
+        <a href="#language-tips">句法</a>
+        <a href="#leave">请假</a>
+        <a href="#conversation">对话</a>
+        <a href="#practice">练习</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero hero-plain">
+        <div class="hero-copy">
+          <p class="eyebrow">บทที่สาม · อะไรและที่ไหน</p>
+          <h1>Where</h1>
+          <p class="hero-subtitle">Lesson 3 brings together places, demonstratives, classroom objects, Thai numbers, the pattern อยู่ ระหว่าง ... กับ ..., and polite leave phrases.</p>
+          <div class="hero-actions">
+            <button class="primary-action" data-speak="กระเป๋า ของ คุณ หมวย อยู่ ที่ไหน ครับ" data-audio-id="conv-3-01">
+              <span aria-hidden="true">▶</span>
+              <span>อยู่ ที่ไหน</span>
+            </button>
+            <a class="secondary-action" href="#vocabulary">开始</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="control-strip" id="tts">
+        <div>
+          <span class="control-label">Google audio</span>
+          <select id="audioVariant" aria-label="Google audio speed">
+            <option value="normal">Normal</option>
+            <option value="slow">Slow</option>
+          </select>
+        </div>
+        <div>
+          <span class="control-label">Fallback voice</span>
+          <select id="voiceSelect" aria-label="Thai voice"></select>
+        </div>
+        <div>
+          <span class="control-label">Rate</span>
+          <input id="rateControl" type="range" min="0.65" max="1.1" step="0.05" value="0.85" aria-label="Speech rate">
+        </div>
+        <div>
+          <span class="control-label">Pitch</span>
+          <input id="pitchControl" type="range" min="0.8" max="1.2" step="0.05" value="1" aria-label="Speech pitch">
+        </div>
+        <button class="secondary-action offline-action" id="downloadAudioPack">下载离线语音包</button>
+        <button class="icon-button" id="stopSpeech" aria-label="Stop speech" title="Stop speech">■</button>
+      </section>
+
+      <section id="vocabulary" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">คำศัพท์ · kham-sàp</p>
+            <h2>Part 2 Vocabulary</h2>
+          </div>
+          <div class="search-wrap">
+            <input id="searchInput" type="search" placeholder="Search Thai, romanization, English..." aria-label="Search vocabulary">
+          </div>
+        </div>
+        <div class="tone-filter" id="toneFilter" aria-label="Tone filter"></div>
+        <div class="vocab-grid" id="vocabGrid"></div>
+      </section>
+
+      <section id="numbers" class="section section-band">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Thai Numbers</p>
+            <h2>数字</h2>
+          </div>
+        </div>
+        <div class="numbers-grid" id="numbersGrid"></div>
+      </section>
+
+      <section id="language-tips" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Language Tips</p>
+            <h2>ระหว่าง · in between</h2>
+          </div>
+        </div>
+        <div class="grammar-panel">
+          <p><strong>核心句型：</strong><span>B อยู่ ระหว่าง A กับ C</span></p>
+          <p><strong>中文理解：</strong>B 在 A 和 C 中间。这里的 <span>อยู่</span> 标记“在某处 / 位于”，不是 Lesson 2 里“住在”的用法。</p>
+          <p><strong>ระหว่าง A กับ C：</strong><span>ระหว่าง</span> 是“在……之间”，<span>กับ</span> 连接两个边界点。这里的 <span>กับ</span> 不是普通列举里的“和”，而是把 A 和 C 组成“夹住 B 的两个参照点”。</p>
+          <p><strong>套用方法：</strong>先说被定位的地方 B，再说 <span>อยู่ ระหว่าง</span>，最后放两个参照点 A 和 C。</p>
+        </div>
+        <div class="sentence-grid" id="languageTipExamples"></div>
+      </section>
+
+      <section id="leave" class="section section-band">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">When you need to leave</p>
+            <h2>离开 / 请假用语</h2>
+          </div>
+        </div>
+        <div class="sentence-grid" id="phraseGrid"></div>
+      </section>
+
+      <section id="conversation" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">บทสนทนา · bòt-sǒn-thá-naa</p>
+            <h2>Part 3 Conversation</h2>
+          </div>
+          <button class="primary-action compact" id="playConversation">
+            <span aria-hidden="true">▶</span>
+            <span>播放当前对话</span>
+          </button>
+        </div>
+        <div class="conversation-layout">
+          <div class="tabs" id="conversationTabs" role="tablist" aria-label="Conversation set"></div>
+          <div class="dialogue" id="dialoguePanel"></div>
+        </div>
+      </section>
+
+      <section id="practice" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Quick check</p>
+            <h2>练习</h2>
+          </div>
+          <button class="secondary-action button-reset" id="newQuiz">换一组</button>
+        </div>
+        <div class="practice-layout">
+          <div class="quiz-panel">
+            <div class="quiz-thai" id="quizThai"></div>
+            <div class="quiz-roman" id="quizRoman"></div>
+            <div class="quiz-actions">
+              <button class="icon-button large" id="quizSpeak" aria-label="Play quiz word" title="Play quiz word">▶</button>
+            </div>
+            <div class="answers" id="answerList"></div>
+            <div class="feedback" id="quizFeedback" aria-live="polite"></div>
+          </div>
+          <div class="tone-board" id="toneBoard"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Based on Lesson 3 Text.pdf.</span>
+      <span id="voiceStatus">TTS ready</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
