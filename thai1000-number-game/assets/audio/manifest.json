@@ -1,0 +1,193 @@
+{
+  "voice": "th-TH-Chirp3-HD-Achernar",
+  "languageCode": "th-TH",
+  "format": "MP3",
+  "variants": [
+    "normal"
+  ],
+  "generatedAt": "2026-05-19T22:28:06.153728+00:00",
+  "itemCount": 18,
+  "fileCount": 18,
+  "items": [
+    {
+      "id": "token-suun",
+      "type": "number-token",
+      "label": "sǔun",
+      "thai": "ศูนย์",
+      "text": "ศูนย์",
+      "files": {
+        "normal": "assets/audio/token-suun-normal.mp3"
+      }
+    },
+    {
+      "id": "token-nung",
+      "type": "number-token",
+      "label": "nùng",
+      "thai": "หนึ่ง",
+      "text": "หนึ่ง",
+      "files": {
+        "normal": "assets/audio/token-nung-normal.mp3"
+      }
+    },
+    {
+      "id": "token-song",
+      "type": "number-token",
+      "label": "sɔ̌ɔng",
+      "thai": "สอง",
+      "text": "สอง",
+      "files": {
+        "normal": "assets/audio/token-song-normal.mp3"
+      }
+    },
+    {
+      "id": "token-saam",
+      "type": "number-token",
+      "label": "sǎam",
+      "thai": "สาม",
+      "text": "สาม",
+      "files": {
+        "normal": "assets/audio/token-saam-normal.mp3"
+      }
+    },
+    {
+      "id": "token-sii",
+      "type": "number-token",
+      "label": "sìi",
+      "thai": "สี่",
+      "text": "สี่",
+      "files": {
+        "normal": "assets/audio/token-sii-normal.mp3"
+      }
+    },
+    {
+      "id": "token-haa",
+      "type": "number-token",
+      "label": "hâa",
+      "thai": "ห้า",
+      "text": "ห้า",
+      "files": {
+        "normal": "assets/audio/token-haa-normal.mp3"
+      }
+    },
+    {
+      "id": "token-hok",
+      "type": "number-token",
+      "label": "hòk",
+      "thai": "หก",
+      "text": "หก",
+      "files": {
+        "normal": "assets/audio/token-hok-normal.mp3"
+      }
+    },
+    {
+      "id": "token-jet",
+      "type": "number-token",
+      "label": "jèt",
+      "thai": "เจ็ด",
+      "text": "เจ็ด",
+      "files": {
+        "normal": "assets/audio/token-jet-normal.mp3"
+      }
+    },
+    {
+      "id": "token-bpeet",
+      "type": "number-token",
+      "label": "bpɛ̀ɛt",
+      "thai": "แปด",
+      "text": "แปด",
+      "files": {
+        "normal": "assets/audio/token-bpeet-normal.mp3"
+      }
+    },
+    {
+      "id": "token-gao",
+      "type": "number-token",
+      "label": "gâo",
+      "thai": "เก้า",
+      "text": "เก้า",
+      "files": {
+        "normal": "assets/audio/token-gao-normal.mp3"
+      }
+    },
+    {
+      "id": "token-sip",
+      "type": "number-token",
+      "label": "sìp",
+      "thai": "สิบ",
+      "text": "สิบ",
+      "files": {
+        "normal": "assets/audio/token-sip-normal.mp3"
+      }
+    },
+    {
+      "id": "token-sip-et",
+      "type": "number-token",
+      "label": "sìp-èt",
+      "thai": "สิบเอ็ด",
+      "text": "สิบเอ็ด",
+      "files": {
+        "normal": "assets/audio/token-sip-et-normal.mp3"
+      }
+    },
+    {
+      "id": "token-yii",
+      "type": "number-token",
+      "label": "yîi",
+      "thai": "ยี่",
+      "text": "ยี่",
+      "files": {
+        "normal": "assets/audio/token-yii-normal.mp3"
+      }
+    },
+    {
+      "id": "token-rooy",
+      "type": "number-token",
+      "label": "rɔ́ɔy",
+      "thai": "ร้อย",
+      "text": "ร้อย",
+      "files": {
+        "normal": "assets/audio/token-rooy-normal.mp3"
+      }
+    },
+    {
+      "id": "token-phan",
+      "type": "number-token",
+      "label": "phan",
+      "thai": "พัน",
+      "text": "พัน",
+      "files": {
+        "normal": "assets/audio/token-phan-normal.mp3"
+      }
+    },
+    {
+      "id": "token-muun",
+      "type": "number-token",
+      "label": "mùun",
+      "thai": "หมื่น",
+      "text": "หมื่น",
+      "files": {
+        "normal": "assets/audio/token-muun-normal.mp3"
+      }
+    },
+    {
+      "id": "token-seen",
+      "type": "number-token",
+      "label": "sε̌εn",
+      "thai": "แสน",
+      "text": "แสน",
+      "files": {
+        "normal": "assets/audio/token-seen-normal.mp3"
+      }
+    },
+    {
+      "id": "token-et",
+      "type": "number-token",
+      "label": "èt",
+      "thai": "เอ็ด",
+      "text": "เอ็ด",
+      "files": {
+        "normal": "assets/audio/token-et-normal.mp3"
+      }
+    }
+  ]
+}

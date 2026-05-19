@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="THAI1000 Thai number game for practicing 1-100000 with romanized token suggestions and offline audio.">
+    <title>THAI1000 Number Game | Thai Numbers</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23176b52'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='42' fill='white' font-family='Tahoma'%3E%E0%B9%91%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#game" aria-label="THAI1000 Number Game">
+        <span class="brand-mark">๑</span>
+        <span>
+          <strong>THAI1000</strong>
+          <small>Number Game</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#game">游戏</a>
+        <a href="#tts">语音</a>
+        <a href="#reference">词块</a>
+        <a href="#results">结果</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="game" class="game-shell">
+        <div class="game-intro">
+          <p class="eyebrow">เลขไทย · Thai Numbers</p>
+          <h1>1-100000 数字拼读游戏</h1>
+          <p class="hero-subtitle">设置范围和题数后，按英文键盘搜索罗马音候选词块，点击词块组成答案。每次点击都会立刻播放该词块的泰语发音。</p>
+        </div>
+
+        <section class="control-strip" id="tts" aria-label="Audio controls">
+          <div>
+            <span class="control-label">Google audio</span>
+            <strong>Normal MP3</strong>
+          </div>
+          <div>
+            <span class="control-label">Fallback voice</span>
+            <select id="voiceSelect" aria-label="Thai voice"></select>
+          </div>
+          <div>
+            <span class="control-label">Rate</span>
+            <input id="rateControl" type="range" min="0.65" max="1.1" step="0.05" value="0.85" aria-label="Speech rate">
+          </div>
+          <div>
+            <span class="control-label">Pitch</span>
+            <input id="pitchControl" type="range" min="0.8" max="1.2" step="0.05" value="1" aria-label="Speech pitch">
+          </div>
+          <button class="secondary-action offline-action" id="downloadAudioPack" type="button">下载离线语音包</button>
+          <button class="icon-button" id="stopSpeech" aria-label="Stop speech" title="Stop speech" type="button">■</button>
+        </section>
+
+        <section class="setup-panel" aria-label="Game setup">
+          <label>
+            <span class="control-label">Min</span>
+            <input id="minInput" type="number" min="1" max="100000" value="1" inputmode="numeric">
+          </label>
+          <label>
+            <span class="control-label">Max</span>
+            <input id="maxInput" type="number" min="1" max="100000" value="100" inputmode="numeric">
+          </label>
+          <label>
+            <span class="control-label">题数</span>
+            <input id="countInput" type="number" min="1" max="100" value="10" inputmode="numeric">
+          </label>
+          <button class="primary-action compact" id="startGame" type="button">
+            <span aria-hidden="true">▶</span>
+            <span>开始游戏</span>
+          </button>
+          <div class="setup-message" id="setupMessage" aria-live="polite"></div>
+        </section>
+
+        <section class="play-panel" id="playPanel" aria-label="Current question" hidden>
+          <div class="progress-row">
+            <span id="progressText">Question 1/10</span>
+            <span id="scoreText">0 correct</span>
+          </div>
+          <div class="target-number" id="targetNumber">32</div>
+          <div class="answer-display" id="answerDisplay" aria-label="Selected answer tokens"></div>
+          <div class="input-row">
+            <input id="answerInput" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type letters: s, sa, sip, rooy..." aria-label="Search romanized Thai number token">
+            <button class="secondary-action" id="undoToken" type="button">删除最后一个</button>
+            <button class="secondary-action" id="clearAnswer" type="button">清空</button>
+          </div>
+          <div class="suggestions" id="suggestions" aria-label="Token suggestions"></div>
+          <div class="game-actions">
+            <button class="primary-action compact" id="submitAnswer" type="button">
+              <span aria-hidden="true">✓</span>
+              <span>Submit</span>
+            </button>
+            <button class="secondary-action" id="nextQuestion" type="button" hidden>下一题</button>
+          </div>
+          <div class="feedback-panel" id="feedbackPanel" aria-live="polite"></div>
+        </section>
+      </section>
+
+      <section id="reference" class="section section-band">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Token bank</p>
+            <h2>联想词块</h2>
+          </div>
+        </div>
+        <div class="token-grid" id="tokenGrid"></div>
+      </section>
+
+      <section id="results" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Game results</p>
+            <h2>结果和错题</h2>
+          </div>
+        </div>
+        <div class="results-panel" id="resultsPanel">
+          <p class="muted">完成一局后这里会显示正确率和错题。</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Based on Lesson 3 Thai Numbers.</span>
+      <span id="voiceStatus">TTS ready</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
