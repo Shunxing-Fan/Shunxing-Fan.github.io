@@ -152,6 +152,7 @@ const state = {
   audioVariant: "normal",
   audioMap: new Map(),
   currentAudio: null,
+  audioElement: null,
   voices: [],
   quiz: null,
   queueToken: 0,
@@ -242,11 +243,26 @@ function stopPlayback(status = "TTS stopped", preserveQueue = false) {
   if (!preserveQueue) state.queueToken = 0;
   if (state.currentAudio) {
     state.currentAudio.pause();
-    state.currentAudio.currentTime = 0;
+    try {
+      state.currentAudio.currentTime = 0;
+    } catch {
+      // Some mobile browsers reject seeking before metadata is available.
+    }
     state.currentAudio = null;
   }
   if ("speechSynthesis" in window) window.speechSynthesis.cancel();
   setVoiceStatus(status);
+}
+
+function getLocalAudioElement() {
+  if (!state.audioElement) {
+    const audio = new Audio();
+    audio.preload = "auto";
+    audio.setAttribute("playsinline", "");
+    audio.setAttribute("webkit-playsinline", "");
+    state.audioElement = audio;
+  }
+  return state.audioElement;
 }
 
 async function loadAudioManifest() {
@@ -267,31 +283,45 @@ function playLocalAudio(audioId) {
   const src = item?.files?.[state.audioVariant];
   if (!src) return Promise.resolve(false);
 
-  if (state.currentAudio) {
-    state.currentAudio.pause();
-    state.currentAudio.currentTime = 0;
-  }
   if ("speechSynthesis" in window) window.speechSynthesis.cancel();
 
-  const audio = new Audio(src);
+  const audio = getLocalAudioElement();
+  audio.pause();
+  try {
+    audio.currentTime = 0;
+  } catch {
+    // Some mobile browsers reject seeking before metadata is available.
+  }
+  audio.src = src;
+  audio.load();
   state.currentAudio = audio;
   setVoiceStatus(`Playing ${state.audioVariant}: ${item.text}`);
 
   return new Promise((resolve) => {
     let settled = false;
+    const cleanup = () => {
+      audio.removeEventListener("ended", onEnded);
+      audio.removeEventListener("error", onError);
+      audio.removeEventListener("pause", onPause);
+    };
     const finish = (played) => {
       if (settled) return;
       settled = true;
+      cleanup();
       if (state.currentAudio === audio) state.currentAudio = null;
       if (played) setVoiceStatus("Audio ready");
       resolve(played);
     };
 
-    audio.addEventListener("ended", () => finish(true), { once: true });
-    audio.addEventListener("error", () => finish(false), { once: true });
-    audio.addEventListener("pause", () => {
+    const onEnded = () => finish(true);
+    const onError = () => finish(false);
+    const onPause = () => {
       if (!audio.ended) finish(false);
-    }, { once: true });
+    };
+
+    audio.addEventListener("ended", onEnded);
+    audio.addEventListener("error", onError);
+    audio.addEventListener("pause", onPause);
     audio.play().catch(() => {
       finish(false);
     });
@@ -578,7 +608,7 @@ async function downloadAudioPack() {
       "assets/audio/manifest.json",
       ...audioFiles
     ];
-    const cache = await caches.open("thai1000-lesson3-v2");
+    const cache = await caches.open("thai1000-lesson3-v3");
 
     for (let index = 0; index < urls.length; index += 1) {
       const url = urls[index];
