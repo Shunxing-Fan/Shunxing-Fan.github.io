@@ -1,4 +1,4 @@
-const CACHE_NAME = "thai1000-lesson2-v1";
+const CACHE_NAME = "thai1000-lesson2-v2";
 const CORE_ASSETS = [
   "./",
   "index.html",

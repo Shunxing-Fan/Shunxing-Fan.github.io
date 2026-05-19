@@ -154,7 +154,11 @@ const state = {
   currentAudio: null,
   voices: [],
   quiz: null,
-  queueToken: 0
+  queueToken: 0,
+  loopSelected: new Set(),
+  loopRunning: false,
+  loopToken: 0,
+  loopCursor: 0
 };
 
 const els = {
@@ -165,6 +169,13 @@ const els = {
   downloadAudioPack: document.querySelector("#downloadAudioPack"),
   stopSpeech: document.querySelector("#stopSpeech"),
   voiceStatus: document.querySelector("#voiceStatus"),
+  loopCount: document.querySelector("#loopCount"),
+  loopGapControl: document.querySelector("#loopGapControl"),
+  loopSelectWords: document.querySelector("#loopSelectWords"),
+  loopSelectSentences: document.querySelector("#loopSelectSentences"),
+  loopClear: document.querySelector("#loopClear"),
+  loopStart: document.querySelector("#loopStart"),
+  loopStop: document.querySelector("#loopStop"),
   searchInput: document.querySelector("#searchInput"),
   toneFilter: document.querySelector("#toneFilter"),
   vocabGrid: document.querySelector("#vocabGrid"),
@@ -267,18 +278,22 @@ function playLocalAudio(audioId) {
   setVoiceStatus(`Playing ${state.audioVariant}: ${item.text}`);
 
   return new Promise((resolve) => {
-    audio.addEventListener("ended", () => {
+    let settled = false;
+    const finish = (played) => {
+      if (settled) return;
+      settled = true;
       if (state.currentAudio === audio) state.currentAudio = null;
-      setVoiceStatus("Audio ready");
-      resolve(true);
-    }, { once: true });
-    audio.addEventListener("error", () => {
-      if (state.currentAudio === audio) state.currentAudio = null;
-      resolve(false);
+      if (played) setVoiceStatus("Audio ready");
+      resolve(played);
+    };
+
+    audio.addEventListener("ended", () => finish(true), { once: true });
+    audio.addEventListener("error", () => finish(false), { once: true });
+    audio.addEventListener("pause", () => {
+      if (!audio.ended) finish(false);
     }, { once: true });
     audio.play().catch(() => {
-      if (state.currentAudio === audio) state.currentAudio = null;
-      resolve(false);
+      finish(false);
     });
   });
 }
@@ -332,6 +347,166 @@ async function speakQueue(lines) {
     await playThai(line.speak || line.thai, line.audioId, true);
     await new Promise((resolve) => setTimeout(resolve, 180));
   }
+}
+
+function buildLoopItems() {
+  const items = [];
+  vocabulary.forEach((item, index) => {
+    items.push({
+      audioId: getVocabAudioId(index),
+      group: "word",
+      label: item.thai,
+      text: getSpeechText(item)
+    });
+  });
+  numberItems.forEach((item, index) => {
+    items.push({
+      audioId: getNumberAudioId(index),
+      group: "word",
+      label: item.thai,
+      text: getSpeechText(item)
+    });
+  });
+  languageTipExamples.forEach((item, index) => {
+    items.push({
+      audioId: getTipAudioId(index),
+      group: "sentence",
+      label: item.thai,
+      text: getSpeechText(item)
+    });
+  });
+  leavePhrases.forEach((item, index) => {
+    items.push({
+      audioId: getPhraseAudioId(index),
+      group: "sentence",
+      label: item.thai,
+      text: getSpeechText(item)
+    });
+  });
+  conversations.forEach((conversation, conversationIndex) => {
+    conversation.lines.forEach((line, lineIndex) => {
+      items.push({
+        audioId: getConversationAudioId(conversationIndex, lineIndex),
+        group: "sentence",
+        label: line.thai,
+        text: getLineSpeech(line)
+      });
+    });
+  });
+  return items;
+}
+
+function renderLoopToggle(audioId, label) {
+  const checked = state.loopSelected.has(audioId) ? " checked" : "";
+  return `
+    <label class="loop-check">
+      <input type="checkbox" data-loop-id="${audioId}" aria-label="Loop ${label}"${checked}>
+      <span>循环</span>
+    </label>
+  `;
+}
+
+function getSelectedLoopItems() {
+  return buildLoopItems().filter((item) => state.loopSelected.has(item.audioId));
+}
+
+function updateLoopUI() {
+  const selectedCount = state.loopSelected.size;
+  els.loopCount.textContent = `已选 ${selectedCount} 项`;
+  els.loopStart.disabled = state.loopRunning || selectedCount === 0;
+  els.loopStop.disabled = !state.loopRunning;
+  els.loopStart.querySelector("span:last-child").textContent = state.loopRunning ? "循环中" : "开始循环";
+  document.querySelectorAll("[data-loop-id]").forEach((checkbox) => {
+    checkbox.checked = state.loopSelected.has(checkbox.dataset.loopId);
+  });
+}
+
+function setLoopSelected(audioId, selected) {
+  if (selected) {
+    state.loopSelected.add(audioId);
+  } else {
+    state.loopSelected.delete(audioId);
+  }
+  updateLoopUI();
+}
+
+function selectLoopGroup(group) {
+  buildLoopItems()
+    .filter((item) => item.group === group)
+    .forEach((item) => state.loopSelected.add(item.audioId));
+  updateLoopUI();
+}
+
+function clearLoopSelection() {
+  state.loopSelected.clear();
+  state.loopCursor = 0;
+  updateLoopUI();
+}
+
+function getLoopGapMs() {
+  const rawValue = Number(els.loopGapControl.value);
+  const seconds = Math.min(30, Math.max(0, Number.isFinite(rawValue) ? rawValue : 2));
+  els.loopGapControl.value = String(seconds);
+  return seconds * 1000;
+}
+
+function waitForLoopGap(token) {
+  const gapMs = getLoopGapMs();
+  if (gapMs === 0) return Promise.resolve(true);
+
+  return new Promise((resolve) => {
+    const startedAt = Date.now();
+    const tick = () => {
+      if (!state.loopRunning || state.loopToken !== token) {
+        resolve(false);
+        return;
+      }
+      if (Date.now() - startedAt >= gapMs) {
+        resolve(true);
+        return;
+      }
+      setTimeout(tick, 100);
+    };
+    tick();
+  });
+}
+
+function stopLoop(status = "循环已停止", stopAudio = true) {
+  state.loopRunning = false;
+  state.loopToken = 0;
+  updateLoopUI();
+  if (stopAudio) {
+    stopPlayback(status);
+  } else {
+    setVoiceStatus(status);
+  }
+}
+
+async function startLoop() {
+  const initialItems = getSelectedLoopItems();
+  if (initialItems.length === 0) {
+    setVoiceStatus("请选择循环朗读内容");
+    return;
+  }
+
+  state.loopRunning = true;
+  state.loopToken = Date.now();
+  updateLoopUI();
+  const token = state.loopToken;
+
+  while (state.loopRunning && state.loopToken === token) {
+    const items = getSelectedLoopItems();
+    if (items.length === 0) break;
+    const item = items[state.loopCursor % items.length];
+    state.loopCursor = (state.loopCursor + 1) % items.length;
+    setVoiceStatus(`循环 ${state.loopCursor || items.length}/${items.length}: ${item.label}`);
+    await playThai(item.text, item.audioId, true);
+    if (!state.loopRunning || state.loopToken !== token) break;
+    const shouldContinue = await waitForLoopGap(token);
+    if (!shouldContinue) break;
+  }
+
+  if (state.loopToken === token) stopLoop("循环已停止", false);
 }
 
 function populateVoices() {
@@ -403,7 +578,7 @@ async function downloadAudioPack() {
       "assets/audio/manifest.json",
       ...audioFiles
     ];
-    const cache = await caches.open("thai1000-lesson3-v1");
+    const cache = await caches.open("thai1000-lesson3-v2");
 
     for (let index = 0; index < urls.length; index += 1) {
       const url = urls[index];
@@ -468,6 +643,7 @@ function renderVocabulary() {
               ${chips || `<span class="chip">${item.tone}</span>`}
               <span class="chip">${item.zhTone}</span>
             </div>
+            ${renderLoopToggle(audioId, item.thai)}
           </div>
           <button class="icon-button" data-speak="${getSpeechText(item)}" data-audio-id="${audioId}" aria-label="Play ${item.thai}" title="Play ${item.thai}">▶</button>
         </article>
@@ -485,6 +661,7 @@ function renderNumbers() {
           <div class="thai-word">${item.thai}</div>
           <div class="roman">${item.roman}</div>
           <div class="meaning">Thai digit: ${item.thaiDigit}</div>
+          ${renderLoopToggle(getNumberAudioId(index), item.thai)}
         </div>
         <button class="icon-button" data-speak="${item.thai}" data-audio-id="${getNumberAudioId(index)}" aria-label="Play ${item.value}" title="Play ${item.value}">▶</button>
       </article>
@@ -503,6 +680,7 @@ function renderLanguageTips() {
             <span>${item.english}</span>
           </div>
           <p>${item.note}</p>
+          ${renderLoopToggle(getTipAudioId(index), item.thai)}
         </div>
         <button class="icon-button" data-speak="${item.thai}" data-audio-id="${getTipAudioId(index)}" aria-label="Play example" title="Play example">▶</button>
       </article>
@@ -521,6 +699,7 @@ function renderLeavePhrases() {
             <span>${item.english}</span>
           </div>
           <p>${item.usage}</p>
+          ${renderLoopToggle(getPhraseAudioId(index), item.thai)}
         </div>
         <button class="icon-button" data-speak="${getSpeechText(item)}" data-audio-id="${getPhraseAudioId(index)}" aria-label="Play phrase" title="Play phrase">▶</button>
       </article>
@@ -550,7 +729,10 @@ function renderDialogue() {
             <span>${line.english}</span>
           </div>
         </div>
-        <button class="icon-button" data-speak="${getLineSpeech(line)}" data-audio-id="${getConversationAudioId(state.activeConversation, lineIndex)}" aria-label="Play line" title="Play line">▶</button>
+        <div class="line-actions">
+          ${renderLoopToggle(getConversationAudioId(state.activeConversation, lineIndex), line.thai)}
+          <button class="icon-button" data-speak="${getLineSpeech(line)}" data-audio-id="${getConversationAudioId(state.activeConversation, lineIndex)}" aria-label="Play line" title="Play line">▶</button>
+        </div>
       </article>
     `)
     .join("");
@@ -607,9 +789,16 @@ function bindEvents() {
   document.body.addEventListener("click", (event) => {
     const speakButton = event.target.closest("[data-speak]");
     if (speakButton) {
+      if (state.loopRunning) stopLoop("循环已停止", false);
       state.queueToken = 0;
       playThai(speakButton.dataset.speak, speakButton.dataset.audioId || "");
     }
+  });
+
+  document.body.addEventListener("change", (event) => {
+    const loopCheckbox = event.target.closest("[data-loop-id]");
+    if (!loopCheckbox) return;
+    setLoopSelected(loopCheckbox.dataset.loopId, loopCheckbox.checked);
   });
 
   els.audioVariant.addEventListener("change", () => {
@@ -621,7 +810,7 @@ function bindEvents() {
   });
 
   els.stopSpeech.addEventListener("click", () => {
-    stopPlayback("TTS stopped");
+    stopLoop("TTS stopped");
   });
 
   els.searchInput.addEventListener("input", renderVocabulary);
@@ -643,6 +832,7 @@ function bindEvents() {
   });
 
   els.playConversation.addEventListener("click", () => {
+    if (state.loopRunning) stopLoop("循环已停止", false);
     const lines = conversations[state.activeConversation].lines.map((line, index) => ({
       ...line,
       thai: getLineSpeech(line),
@@ -652,8 +842,14 @@ function bindEvents() {
   });
 
   els.downloadAudioPack.addEventListener("click", downloadAudioPack);
+  els.loopSelectWords.addEventListener("click", () => selectLoopGroup("word"));
+  els.loopSelectSentences.addEventListener("click", () => selectLoopGroup("sentence"));
+  els.loopClear.addEventListener("click", clearLoopSelection);
+  els.loopStart.addEventListener("click", startLoop);
+  els.loopStop.addEventListener("click", () => stopLoop("循环已停止"));
   els.newQuiz.addEventListener("click", makeQuiz);
   els.quizSpeak.addEventListener("click", () => {
+    if (state.loopRunning) stopLoop("循环已停止", false);
     state.queueToken = 0;
     playThai(getSpeechText(state.quiz.target), state.quiz.targetAudioId);
   });
@@ -681,6 +877,7 @@ function init() {
   renderDialogue();
   renderToneBoard();
   makeQuiz();
+  updateLoopUI();
   bindEvents();
 }
 

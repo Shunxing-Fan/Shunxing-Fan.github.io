@@ -23,6 +23,7 @@
         <a href="#conversation">对话</a>
         <a href="#practice">练习</a>
         <a href="#tts">语音</a>
+        <a href="#loop">循环</a>
       </nav>
     </header>
 
@@ -67,6 +68,28 @@
         </div>
         <button class="secondary-action offline-action" id="downloadAudioPack">下载离线语音包</button>
         <button class="icon-button" id="stopSpeech" aria-label="Stop speech" title="Stop speech">■</button>
+      </section>
+
+      <section class="loop-panel" id="loop" aria-label="Loop reading">
+        <div class="loop-title">
+          <span class="control-label">Auto loop</span>
+          <strong>循环朗读</strong>
+          <span id="loopCount">已选 0 项</span>
+        </div>
+        <div class="loop-controls">
+          <button class="secondary-action" id="loopSelectWords" type="button">选择所有单词</button>
+          <button class="secondary-action" id="loopSelectSentences" type="button">选择所有句子</button>
+          <button class="secondary-action" id="loopClear" type="button">清空</button>
+          <label class="loop-gap">
+            <span class="control-label">间隔秒</span>
+            <input id="loopGapControl" type="number" min="0" max="30" step="0.5" value="2" aria-label="Loop interval seconds">
+          </label>
+          <button class="primary-action compact" id="loopStart" type="button">
+            <span aria-hidden="true">▶</span>
+            <span>开始循环</span>
+          </button>
+          <button class="secondary-action" id="loopStop" type="button">停止循环</button>
+        </div>
       </section>
 
       <section id="vocabulary" class="section">

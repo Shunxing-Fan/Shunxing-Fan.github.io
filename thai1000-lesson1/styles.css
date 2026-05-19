@@ -267,7 +267,8 @@ h2 {
 }
 
 select,
-input[type="search"] {
+input[type="search"],
+input[type="number"] {
   width: 100%;
   min-height: 42px;
   border: 1px solid var(--line);
@@ -280,6 +281,69 @@ input[type="search"] {
 input[type="range"] {
   width: 100%;
   accent-color: var(--green);
+}
+
+.loop-panel {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.42fr) 1fr;
+  gap: 14px;
+  align-items: end;
+  margin: 14px clamp(18px, 4vw, 56px) 0;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.loop-title strong,
+.loop-title span {
+  display: block;
+}
+
+.loop-title strong {
+  color: var(--charcoal);
+  font-size: 1.12rem;
+}
+
+.loop-title span:last-child {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.loop-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: end;
+  justify-content: flex-end;
+}
+
+.loop-gap {
+  width: 112px;
+}
+
+.loop-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 16px;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.loop-check input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--green);
+}
+
+.line-actions {
+  display: grid;
+  gap: 8px;
+  justify-items: end;
 }
 
 .icon-button {
@@ -626,6 +690,14 @@ input[type="range"] {
     grid-template-columns: 1fr 1fr;
   }
 
+  .loop-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .loop-controls {
+    justify-content: flex-start;
+  }
+
   .tabs {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -670,8 +742,15 @@ input[type="range"] {
   }
 
   .dialogue-line .icon-button,
-  .vocab-card .icon-button {
+  .vocab-card .icon-button,
+  .line-actions {
     justify-self: start;
+  }
+
+  .loop-controls > .secondary-action,
+  .loop-controls > .primary-action,
+  .loop-gap {
+    width: 100%;
   }
 
   h1 {
