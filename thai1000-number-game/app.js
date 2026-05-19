@@ -405,9 +405,7 @@ function renderSelectedTokens() {
 
 function getSuggestionMatches(query) {
   const normalizedQuery = stripMarks(query);
-  if (!normalizedQuery) {
-    return NUMBER_TOKENS.filter((token) => token.id !== "token-suun").slice(0, 12);
-  }
+  if (!normalizedQuery) return [];
 
   return NUMBER_TOKENS
     .map((token) => {
@@ -430,6 +428,10 @@ function getSuggestionMatches(query) {
 }
 
 function renderSuggestions() {
+  if (!stripMarks(state.query)) {
+    els.suggestions.innerHTML = "";
+    return;
+  }
   const matches = getSuggestionMatches(state.query);
   if (matches.length === 0) {
     els.suggestions.innerHTML = '<div class="empty-state">No matching number token.</div>';
@@ -440,7 +442,6 @@ function renderSuggestions() {
       <button class="suggestion-button" data-token-id="${token.id}" type="button">
         <strong>${token.roman}</strong>
         <span>${token.thai}</span>
-        <small>${token.meaning}</small>
       </button>
     `)
     .join("");
