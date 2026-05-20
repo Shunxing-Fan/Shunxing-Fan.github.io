@@ -1158,3 +1158,70 @@ input[type="range"] {
     width: 100%;
   }
 }
+
+@media (max-width: 620px) {
+  .play-panel {
+    gap: 12px;
+    padding: 14px;
+  }
+
+  .answer-display {
+    min-height: 46px;
+    padding: 8px;
+  }
+
+  .input-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 52px 52px;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .input-row input {
+    width: auto;
+    min-height: 44px;
+    padding: 9px 10px;
+    font-size: 16px;
+  }
+
+  .input-row button {
+    width: 52px;
+    min-width: 0;
+    min-height: 44px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  #undoToken {
+    color: transparent;
+    position: relative;
+  }
+
+  #undoToken::after {
+    content: attr(data-short-label);
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: var(--charcoal);
+  }
+
+  #clearAnswer {
+    font-size: 0;
+  }
+
+  #clearAnswer::after {
+    content: "清";
+    font-size: 1rem;
+  }
+
+  .suggestions {
+    gap: 8px;
+  }
+
+  .suggestion-button {
+    min-height: 54px;
+    padding: 9px 10px;
+  }
+}
