@@ -1,0 +1,707 @@
+{
+  "voice": "th-TH-Chirp3-HD-Achernar",
+  "languageCode": "th-TH",
+  "format": "MP3",
+  "variants": [
+    "normal",
+    "slow"
+  ],
+  "generatedAt": "2026-05-20T00:21:24.344677+00:00",
+  "itemCount": 63,
+  "fileCount": 126,
+  "items": [
+    {
+      "id": "group-01",
+      "type": "phoneme-group",
+      "phoneme": "/l/",
+      "label": "ล ฬ",
+      "text": "ล ลิง. ฬ จุฬา",
+      "files": {
+        "normal": "assets/audio/group-01-normal.mp3",
+        "slow": "assets/audio/group-01-slow.mp3"
+      }
+    },
+    {
+      "id": "group-02",
+      "type": "phoneme-group",
+      "phoneme": "/kʰ/",
+      "label": "ข ค ฆ",
+      "text": "ข ไข่. ค ควาย. ฆ ระฆัง",
+      "files": {
+        "normal": "assets/audio/group-02-normal.mp3",
+        "slow": "assets/audio/group-02-slow.mp3"
+      }
+    },
+    {
+      "id": "group-03",
+      "type": "phoneme-group",
+      "phoneme": "/k/",
+      "label": "ก",
+      "text": "ก ไก่",
+      "files": {
+        "normal": "assets/audio/group-03-normal.mp3",
+        "slow": "assets/audio/group-03-slow.mp3"
+      }
+    },
+    {
+      "id": "group-04",
+      "type": "phoneme-group",
+      "phoneme": "/ʔ/",
+      "label": "อ",
+      "text": "อ อ่าง",
+      "files": {
+        "normal": "assets/audio/group-04-normal.mp3",
+        "slow": "assets/audio/group-04-slow.mp3"
+      }
+    },
+    {
+      "id": "group-05",
+      "type": "phoneme-group",
+      "phoneme": "/m/",
+      "label": "ม",
+      "text": "ม ม้า",
+      "files": {
+        "normal": "assets/audio/group-05-normal.mp3",
+        "slow": "assets/audio/group-05-slow.mp3"
+      }
+    },
+    {
+      "id": "group-06",
+      "type": "phoneme-group",
+      "phoneme": "/s/",
+      "label": "ส ศ ษ ซ",
+      "text": "ส เสือ. ศ ศาลา. ษ ฤๅษี. ซ โซ่",
+      "files": {
+        "normal": "assets/audio/group-06-normal.mp3",
+        "slow": "assets/audio/group-06-slow.mp3"
+      }
+    },
+    {
+      "id": "group-07",
+      "type": "phoneme-group",
+      "phoneme": "/n/",
+      "label": "น ณ",
+      "text": "น หนู. ณ เณร",
+      "files": {
+        "normal": "assets/audio/group-07-normal.mp3",
+        "slow": "assets/audio/group-07-slow.mp3"
+      }
+    },
+    {
+      "id": "group-08",
+      "type": "phoneme-group",
+      "phoneme": "/tʰ/",
+      "label": "ถ ท ธ ฐ ฑ ฒ",
+      "text": "ถ ถุง. ท ทหาร. ธ ธง. ฐ ฐาน. ฑ มณโฑ. ฒ ผู้เฒ่า",
+      "files": {
+        "normal": "assets/audio/group-08-normal.mp3",
+        "slow": "assets/audio/group-08-slow.mp3"
+      }
+    },
+    {
+      "id": "group-09",
+      "type": "phoneme-group",
+      "phoneme": "/p/",
+      "label": "ป",
+      "text": "ป ปลา",
+      "files": {
+        "normal": "assets/audio/group-09-normal.mp3",
+        "slow": "assets/audio/group-09-slow.mp3"
+      }
+    },
+    {
+      "id": "group-10",
+      "type": "phoneme-group",
+      "phoneme": "/d/",
+      "label": "ด ฎ",
+      "text": "ด เด็ก. ฎ ชฎา",
+      "files": {
+        "normal": "assets/audio/group-10-normal.mp3",
+        "slow": "assets/audio/group-10-slow.mp3"
+      }
+    },
+    {
+      "id": "group-11",
+      "type": "phoneme-group",
+      "phoneme": "/pʰ/",
+      "label": "ผ พ ภ",
+      "text": "ผ ผึ้ง. พ พาน. ภ สำเภา",
+      "files": {
+        "normal": "assets/audio/group-11-normal.mp3",
+        "slow": "assets/audio/group-11-slow.mp3"
+      }
+    },
+    {
+      "id": "group-12",
+      "type": "phoneme-group",
+      "phoneme": "/tɕ/",
+      "label": "จ",
+      "text": "จ จาน",
+      "files": {
+        "normal": "assets/audio/group-12-normal.mp3",
+        "slow": "assets/audio/group-12-slow.mp3"
+      }
+    },
+    {
+      "id": "group-13",
+      "type": "phoneme-group",
+      "phoneme": "/w/",
+      "label": "ว",
+      "text": "ว แหวน",
+      "files": {
+        "normal": "assets/audio/group-13-normal.mp3",
+        "slow": "assets/audio/group-13-slow.mp3"
+      }
+    },
+    {
+      "id": "group-14",
+      "type": "phoneme-group",
+      "phoneme": "/t/",
+      "label": "ต ฏ",
+      "text": "ต เต่า. ฏ ปฏัก",
+      "files": {
+        "normal": "assets/audio/group-14-normal.mp3",
+        "slow": "assets/audio/group-14-slow.mp3"
+      }
+    },
+    {
+      "id": "group-15",
+      "type": "phoneme-group",
+      "phoneme": "/j/",
+      "label": "ย ญ",
+      "text": "ย ยักษ์. ญ หญิง",
+      "files": {
+        "normal": "assets/audio/group-15-normal.mp3",
+        "slow": "assets/audio/group-15-slow.mp3"
+      }
+    },
+    {
+      "id": "group-16",
+      "type": "phoneme-group",
+      "phoneme": "/tɕʰ/",
+      "label": "ฉ ช ฌ",
+      "text": "ฉ ฉิ่ง. ช ช้าง. ฌ เฌอ",
+      "files": {
+        "normal": "assets/audio/group-16-normal.mp3",
+        "slow": "assets/audio/group-16-slow.mp3"
+      }
+    },
+    {
+      "id": "group-17",
+      "type": "phoneme-group",
+      "phoneme": "/h/",
+      "label": "ห ฮ",
+      "text": "ห หีบ. ฮ นกฮูก",
+      "files": {
+        "normal": "assets/audio/group-17-normal.mp3",
+        "slow": "assets/audio/group-17-slow.mp3"
+      }
+    },
+    {
+      "id": "group-18",
+      "type": "phoneme-group",
+      "phoneme": "/b/",
+      "label": "บ",
+      "text": "บ ใบไม้",
+      "files": {
+        "normal": "assets/audio/group-18-normal.mp3",
+        "slow": "assets/audio/group-18-slow.mp3"
+      }
+    },
+    {
+      "id": "group-19",
+      "type": "phoneme-group",
+      "phoneme": "/ŋ/",
+      "label": "ง",
+      "text": "ง งู",
+      "files": {
+        "normal": "assets/audio/group-19-normal.mp3",
+        "slow": "assets/audio/group-19-slow.mp3"
+      }
+    },
+    {
+      "id": "group-20",
+      "type": "phoneme-group",
+      "phoneme": "/r/",
+      "label": "ร",
+      "text": "ร เรือ",
+      "files": {
+        "normal": "assets/audio/group-20-normal.mp3",
+        "slow": "assets/audio/group-20-slow.mp3"
+      }
+    },
+    {
+      "id": "group-21",
+      "type": "phoneme-group",
+      "phoneme": "/f/",
+      "label": "ฝ ฟ",
+      "text": "ฝ ฝา. ฟ ฟัน",
+      "files": {
+        "normal": "assets/audio/group-21-normal.mp3",
+        "slow": "assets/audio/group-21-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-lo-ling",
+      "type": "letter",
+      "phoneme": "/l/",
+      "label": "ล",
+      "text": "ล ลิง",
+      "files": {
+        "normal": "assets/audio/letter-lo-ling-normal.mp3",
+        "slow": "assets/audio/letter-lo-ling-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-lo-chula",
+      "type": "letter",
+      "phoneme": "/l/",
+      "label": "ฬ",
+      "text": "ฬ จุฬา",
+      "files": {
+        "normal": "assets/audio/letter-lo-chula-normal.mp3",
+        "slow": "assets/audio/letter-lo-chula-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-kho-khai",
+      "type": "letter",
+      "phoneme": "/kʰ/",
+      "label": "ข",
+      "text": "ข ไข่",
+      "files": {
+        "normal": "assets/audio/letter-kho-khai-normal.mp3",
+        "slow": "assets/audio/letter-kho-khai-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-kho-khwai",
+      "type": "letter",
+      "phoneme": "/kʰ/",
+      "label": "ค",
+      "text": "ค ควาย",
+      "files": {
+        "normal": "assets/audio/letter-kho-khwai-normal.mp3",
+        "slow": "assets/audio/letter-kho-khwai-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-kho-rakhang",
+      "type": "letter",
+      "phoneme": "/kʰ/",
+      "label": "ฆ",
+      "text": "ฆ ระฆัง",
+      "files": {
+        "normal": "assets/audio/letter-kho-rakhang-normal.mp3",
+        "slow": "assets/audio/letter-kho-rakhang-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-ko-kai",
+      "type": "letter",
+      "phoneme": "/k/",
+      "label": "ก",
+      "text": "ก ไก่",
+      "files": {
+        "normal": "assets/audio/letter-ko-kai-normal.mp3",
+        "slow": "assets/audio/letter-ko-kai-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-o-ang",
+      "type": "letter",
+      "phoneme": "/ʔ/",
+      "label": "อ",
+      "text": "อ อ่าง",
+      "files": {
+        "normal": "assets/audio/letter-o-ang-normal.mp3",
+        "slow": "assets/audio/letter-o-ang-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-mo-ma",
+      "type": "letter",
+      "phoneme": "/m/",
+      "label": "ม",
+      "text": "ม ม้า",
+      "files": {
+        "normal": "assets/audio/letter-mo-ma-normal.mp3",
+        "slow": "assets/audio/letter-mo-ma-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-so-suea",
+      "type": "letter",
+      "phoneme": "/s/",
+      "label": "ส",
+      "text": "ส เสือ",
+      "files": {
+        "normal": "assets/audio/letter-so-suea-normal.mp3",
+        "slow": "assets/audio/letter-so-suea-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-so-sala",
+      "type": "letter",
+      "phoneme": "/s/",
+      "label": "ศ",
+      "text": "ศ ศาลา",
+      "files": {
+        "normal": "assets/audio/letter-so-sala-normal.mp3",
+        "slow": "assets/audio/letter-so-sala-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-so-ruesi",
+      "type": "letter",
+      "phoneme": "/s/",
+      "label": "ษ",
+      "text": "ษ ฤๅษี",
+      "files": {
+        "normal": "assets/audio/letter-so-ruesi-normal.mp3",
+        "slow": "assets/audio/letter-so-ruesi-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-so-so",
+      "type": "letter",
+      "phoneme": "/s/",
+      "label": "ซ",
+      "text": "ซ โซ่",
+      "files": {
+        "normal": "assets/audio/letter-so-so-normal.mp3",
+        "slow": "assets/audio/letter-so-so-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-no-nu",
+      "type": "letter",
+      "phoneme": "/n/",
+      "label": "น",
+      "text": "น หนู",
+      "files": {
+        "normal": "assets/audio/letter-no-nu-normal.mp3",
+        "slow": "assets/audio/letter-no-nu-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-no-nen",
+      "type": "letter",
+      "phoneme": "/n/",
+      "label": "ณ",
+      "text": "ณ เณร",
+      "files": {
+        "normal": "assets/audio/letter-no-nen-normal.mp3",
+        "slow": "assets/audio/letter-no-nen-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-tho-thung",
+      "type": "letter",
+      "phoneme": "/tʰ/",
+      "label": "ถ",
+      "text": "ถ ถุง",
+      "files": {
+        "normal": "assets/audio/letter-tho-thung-normal.mp3",
+        "slow": "assets/audio/letter-tho-thung-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-tho-thahan",
+      "type": "letter",
+      "phoneme": "/tʰ/",
+      "label": "ท",
+      "text": "ท ทหาร",
+      "files": {
+        "normal": "assets/audio/letter-tho-thahan-normal.mp3",
+        "slow": "assets/audio/letter-tho-thahan-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-tho-thong",
+      "type": "letter",
+      "phoneme": "/tʰ/",
+      "label": "ธ",
+      "text": "ธ ธง",
+      "files": {
+        "normal": "assets/audio/letter-tho-thong-normal.mp3",
+        "slow": "assets/audio/letter-tho-thong-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-tho-than",
+      "type": "letter",
+      "phoneme": "/tʰ/",
+      "label": "ฐ",
+      "text": "ฐ ฐาน",
+      "files": {
+        "normal": "assets/audio/letter-tho-than-normal.mp3",
+        "slow": "assets/audio/letter-tho-than-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-tho-montho",
+      "type": "letter",
+      "phoneme": "/tʰ/",
+      "label": "ฑ",
+      "text": "ฑ มณโฑ",
+      "files": {
+        "normal": "assets/audio/letter-tho-montho-normal.mp3",
+        "slow": "assets/audio/letter-tho-montho-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-tho-phuthao",
+      "type": "letter",
+      "phoneme": "/tʰ/",
+      "label": "ฒ",
+      "text": "ฒ ผู้เฒ่า",
+      "files": {
+        "normal": "assets/audio/letter-tho-phuthao-normal.mp3",
+        "slow": "assets/audio/letter-tho-phuthao-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-po-pla",
+      "type": "letter",
+      "phoneme": "/p/",
+      "label": "ป",
+      "text": "ป ปลา",
+      "files": {
+        "normal": "assets/audio/letter-po-pla-normal.mp3",
+        "slow": "assets/audio/letter-po-pla-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-do-dek",
+      "type": "letter",
+      "phoneme": "/d/",
+      "label": "ด",
+      "text": "ด เด็ก",
+      "files": {
+        "normal": "assets/audio/letter-do-dek-normal.mp3",
+        "slow": "assets/audio/letter-do-dek-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-do-chada",
+      "type": "letter",
+      "phoneme": "/d/",
+      "label": "ฎ",
+      "text": "ฎ ชฎา",
+      "files": {
+        "normal": "assets/audio/letter-do-chada-normal.mp3",
+        "slow": "assets/audio/letter-do-chada-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-pho-phueng",
+      "type": "letter",
+      "phoneme": "/pʰ/",
+      "label": "ผ",
+      "text": "ผ ผึ้ง",
+      "files": {
+        "normal": "assets/audio/letter-pho-phueng-normal.mp3",
+        "slow": "assets/audio/letter-pho-phueng-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-pho-phan",
+      "type": "letter",
+      "phoneme": "/pʰ/",
+      "label": "พ",
+      "text": "พ พาน",
+      "files": {
+        "normal": "assets/audio/letter-pho-phan-normal.mp3",
+        "slow": "assets/audio/letter-pho-phan-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-pho-samphao",
+      "type": "letter",
+      "phoneme": "/pʰ/",
+      "label": "ภ",
+      "text": "ภ สำเภา",
+      "files": {
+        "normal": "assets/audio/letter-pho-samphao-normal.mp3",
+        "slow": "assets/audio/letter-pho-samphao-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-cho-chan",
+      "type": "letter",
+      "phoneme": "/tɕ/",
+      "label": "จ",
+      "text": "จ จาน",
+      "files": {
+        "normal": "assets/audio/letter-cho-chan-normal.mp3",
+        "slow": "assets/audio/letter-cho-chan-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-wo-waen",
+      "type": "letter",
+      "phoneme": "/w/",
+      "label": "ว",
+      "text": "ว แหวน",
+      "files": {
+        "normal": "assets/audio/letter-wo-waen-normal.mp3",
+        "slow": "assets/audio/letter-wo-waen-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-to-tao",
+      "type": "letter",
+      "phoneme": "/t/",
+      "label": "ต",
+      "text": "ต เต่า",
+      "files": {
+        "normal": "assets/audio/letter-to-tao-normal.mp3",
+        "slow": "assets/audio/letter-to-tao-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-to-patak",
+      "type": "letter",
+      "phoneme": "/t/",
+      "label": "ฏ",
+      "text": "ฏ ปฏัก",
+      "files": {
+        "normal": "assets/audio/letter-to-patak-normal.mp3",
+        "slow": "assets/audio/letter-to-patak-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-yo-yak",
+      "type": "letter",
+      "phoneme": "/j/",
+      "label": "ย",
+      "text": "ย ยักษ์",
+      "files": {
+        "normal": "assets/audio/letter-yo-yak-normal.mp3",
+        "slow": "assets/audio/letter-yo-yak-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-yo-ying",
+      "type": "letter",
+      "phoneme": "/j/",
+      "label": "ญ",
+      "text": "ญ หญิง",
+      "files": {
+        "normal": "assets/audio/letter-yo-ying-normal.mp3",
+        "slow": "assets/audio/letter-yo-ying-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-cho-ching",
+      "type": "letter",
+      "phoneme": "/tɕʰ/",
+      "label": "ฉ",
+      "text": "ฉ ฉิ่ง",
+      "files": {
+        "normal": "assets/audio/letter-cho-ching-normal.mp3",
+        "slow": "assets/audio/letter-cho-ching-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-cho-chang",
+      "type": "letter",
+      "phoneme": "/tɕʰ/",
+      "label": "ช",
+      "text": "ช ช้าง",
+      "files": {
+        "normal": "assets/audio/letter-cho-chang-normal.mp3",
+        "slow": "assets/audio/letter-cho-chang-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-cho-choe",
+      "type": "letter",
+      "phoneme": "/tɕʰ/",
+      "label": "ฌ",
+      "text": "ฌ เฌอ",
+      "files": {
+        "normal": "assets/audio/letter-cho-choe-normal.mp3",
+        "slow": "assets/audio/letter-cho-choe-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-ho-hip",
+      "type": "letter",
+      "phoneme": "/h/",
+      "label": "ห",
+      "text": "ห หีบ",
+      "files": {
+        "normal": "assets/audio/letter-ho-hip-normal.mp3",
+        "slow": "assets/audio/letter-ho-hip-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-ho-nokhuk",
+      "type": "letter",
+      "phoneme": "/h/",
+      "label": "ฮ",
+      "text": "ฮ นกฮูก",
+      "files": {
+        "normal": "assets/audio/letter-ho-nokhuk-normal.mp3",
+        "slow": "assets/audio/letter-ho-nokhuk-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-bo-baimai",
+      "type": "letter",
+      "phoneme": "/b/",
+      "label": "บ",
+      "text": "บ ใบไม้",
+      "files": {
+        "normal": "assets/audio/letter-bo-baimai-normal.mp3",
+        "slow": "assets/audio/letter-bo-baimai-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-ngo-ngu",
+      "type": "letter",
+      "phoneme": "/ŋ/",
+      "label": "ง",
+      "text": "ง งู",
+      "files": {
+        "normal": "assets/audio/letter-ngo-ngu-normal.mp3",
+        "slow": "assets/audio/letter-ngo-ngu-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-ro-ruea",
+      "type": "letter",
+      "phoneme": "/r/",
+      "label": "ร",
+      "text": "ร เรือ",
+      "files": {
+        "normal": "assets/audio/letter-ro-ruea-normal.mp3",
+        "slow": "assets/audio/letter-ro-ruea-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-fo-fa",
+      "type": "letter",
+      "phoneme": "/f/",
+      "label": "ฝ",
+      "text": "ฝ ฝา",
+      "files": {
+        "normal": "assets/audio/letter-fo-fa-normal.mp3",
+        "slow": "assets/audio/letter-fo-fa-slow.mp3"
+      }
+    },
+    {
+      "id": "letter-fo-fan",
+      "type": "letter",
+      "phoneme": "/f/",
+      "label": "ฟ",
+      "text": "ฟ ฟัน",
+      "files": {
+        "normal": "assets/audio/letter-fo-fan-normal.mp3",
+        "slow": "assets/audio/letter-fo-fan-slow.mp3"
+      }
+    }
+  ]
+}
