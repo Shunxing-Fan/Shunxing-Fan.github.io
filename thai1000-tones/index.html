@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="THAI1000 standard Thai tone contour trainer using Web Audio pitch curves.">
+    <title>THAI1000 | Thai Tone Curves</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23176b52'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='42' fill='white' font-family='Tahoma'%3E%E0%B9%84%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#trainer" aria-label="THAI1000 Thai Tone Curves">
+        <span class="brand-mark">ไ</span>
+        <span>
+          <strong>THAI1000</strong>
+          <small>Thai Tone Curves</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#trainer">播放</a>
+        <a href="#reference">数值</a>
+      </nav>
+    </header>
+
+    <main id="trainer" class="workspace">
+      <section class="hero-panel">
+        <div class="hero-copy">
+          <p class="eyebrow">เสียงวรรณยุกต์ · Thai tones</p>
+          <h1>Five Thai Tones</h1>
+          <p class="hero-subtitle">Standard 1-5 tone-level contours synthesized directly in the browser with Web Audio.</p>
+        </div>
+        <div class="readout" aria-live="polite">
+          <span id="activeToneName">Mid tone</span>
+          <strong id="activeToneLevels">3 → 3</strong>
+          <small id="activeToneHz">212 Hz → 212 Hz</small>
+        </div>
+      </section>
+
+      <section class="control-strip" aria-label="Tone controls">
+        <label>
+          <span class="control-label">Pitch range</span>
+          <select id="rangeSelect" aria-label="Pitch range">
+            <option value="standard">Standard 150-300 Hz</option>
+            <option value="male">Male 110-220 Hz</option>
+            <option value="female">Female 180-360 Hz</option>
+          </select>
+        </label>
+        <label>
+          <span class="control-label">Sound</span>
+          <select id="soundSelect" aria-label="Sound source">
+            <option value="tone">Pure tone</option>
+            <option value="aa">AA vowel</option>
+            <option value="kaa">KAA syllable</option>
+          </select>
+        </label>
+        <label>
+          <span class="control-label">Duration</span>
+          <select id="durationSelect" aria-label="Syllable duration">
+            <option value="500">500 ms</option>
+            <option value="700" selected>700 ms</option>
+            <option value="1000">1000 ms</option>
+          </select>
+        </label>
+        <label>
+          <span class="control-label">High tone</span>
+          <select id="highToneSelect" aria-label="High tone contour">
+            <option value="standard">4 → 5</option>
+            <option value="bangkok">3 → 3 → 4</option>
+          </select>
+        </label>
+        <button class="primary-action" id="playAll" type="button">
+          <span aria-hidden="true">▶</span>
+          <span>播放五调</span>
+        </button>
+        <button class="icon-button" id="stopAudio" type="button" aria-label="Stop audio" title="Stop audio">■</button>
+      </section>
+
+      <section class="trainer-grid">
+        <div class="tone-grid" id="toneGrid" aria-label="Tone buttons"></div>
+        <div class="graph-panel">
+          <svg id="curveSvg" viewBox="0 0 760 360" role="img" aria-label="F0 contour chart"></svg>
+          <div class="graph-footer">
+            <span id="statusText">Ready</span>
+            <span id="currentHz">F0 -- Hz</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="reference" class="reference-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Level to Hz</p>
+            <h2>1-5 pitch levels</h2>
+          </div>
+        </div>
+        <div class="level-grid" id="levelGrid"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
