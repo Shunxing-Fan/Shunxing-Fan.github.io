@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Russian Anastasia reading practice with sentence and word-level offline MP3 audio.">
+    <title>RUSS1000 Anastasia Reading</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23b51d2a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='40' fill='white' font-family='Arial, sans-serif'%3E%D0%AF%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="RUSS1000 Anastasia Reading">
+        <span class="brand-mark">Я</span>
+        <span>
+          <strong>RUSS1000</strong>
+          <small>Anastasia Reading</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#reading">句子</a>
+        <a href="#words">单词</a>
+        <a href="#translation">翻译</a>
+        <a href="#tts">语音</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Чтение · Анастасия</p>
+          <h1>Меня зовут Анастасия</h1>
+          <p class="hero-subtitle">句子级听读和逐词点击发音，配中文翻译与离线 MP3 语音包。</p>
+          <div class="hero-actions">
+            <button class="primary-action" type="button" data-speak="Меня зовут Анастасия." data-audio-id="sentence-01">
+              <span aria-hidden="true">▶</span>
+              <span>Меня зовут Анастасия</span>
+            </button>
+            <a class="secondary-action" href="#reading">开始</a>
+          </div>
+          <div class="stats" id="stats" aria-label="Summary"></div>
+        </div>
+        <figure class="hero-card" aria-label="Reading preview">
+          <blockquote>
+            <span>К счастью, у меня есть муж Владимир.</span>
+            <span>Я думаю, что семья – это так важно!</span>
+          </blockquote>
+        </figure>
+      </section>
+
+      <section class="control-strip" id="tts">
+        <div>
+          <label class="control-label" for="audioVariant">Google audio</label>
+          <select id="audioVariant" aria-label="Google audio speed">
+            <option value="normal">Normal</option>
+            <option value="slow">Slow</option>
+          </select>
+        </div>
+        <div>
+          <label class="control-label" for="voiceSelect">Fallback voice</label>
+          <select id="voiceSelect" aria-label="Russian fallback voice"></select>
+        </div>
+        <div>
+          <label class="control-label" for="rateControl">Rate</label>
+          <input id="rateControl" type="range" min="0.65" max="1.1" step="0.05" value="0.85" aria-label="Speech rate">
+        </div>
+        <div>
+          <label class="control-label" for="pitchControl">Pitch</label>
+          <input id="pitchControl" type="range" min="0.8" max="1.2" step="0.05" value="1" aria-label="Speech pitch">
+        </div>
+        <button class="secondary-action offline-action" id="downloadAudioPack" type="button">下载离线语音包</button>
+        <button class="icon-button" id="stopSpeech" type="button" aria-label="Stop speech" title="Stop speech">■</button>
+      </section>
+
+      <section id="reading" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Текст · Sentences</p>
+            <h2>原文听读</h2>
+          </div>
+          <div class="search-wrap">
+            <input id="searchInput" type="search" placeholder="Search Russian or Chinese..." aria-label="Search text">
+          </div>
+        </div>
+        <div class="sentence-list" id="sentenceList"></div>
+      </section>
+
+      <section id="words" class="section section-band">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Слова · Word Level</p>
+            <h2>逐词翻译</h2>
+          </div>
+        </div>
+        <div class="word-grid" id="wordGrid"></div>
+      </section>
+
+      <section id="translation" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Перевод · Chinese</p>
+            <h2>整段中文翻译</h2>
+          </div>
+        </div>
+        <article class="translation-card">
+          <p id="translationText"></p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Voice: ru-RU-Chirp3-HD-Charon.</span>
+      <span id="voiceStatus">TTS ready</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

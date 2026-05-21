@@ -1,0 +1,478 @@
+{
+  "generatedAt": "2026-05-21T18:42:25.106621+00:00",
+  "language": "ru-RU",
+  "voice": "ru-RU-Chirp3-HD-Charon",
+  "variants": [
+    {
+      "id": "normal",
+      "speakingRate": 1.0
+    },
+    {
+      "id": "slow",
+      "speakingRate": 0.76
+    }
+  ],
+  "itemCount": 51,
+  "fileCount": 102,
+  "items": [
+    {
+      "id": "sentence-01",
+      "text": "Меня зовут Анастасия.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-01-normal.mp3",
+        "slow": "assets/audio/sentence-01-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-02",
+      "text": "Я фотомодель.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-02-normal.mp3",
+        "slow": "assets/audio/sentence-02-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-03",
+      "text": "К счастью, у меня есть муж Владимир.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-03-normal.mp3",
+        "slow": "assets/audio/sentence-03-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-04",
+      "text": "Я замужем.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-04-normal.mp3",
+        "slow": "assets/audio/sentence-04-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-05",
+      "text": "Мой муж – директор компании, а это значит, что у него есть всё.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-05-normal.mp3",
+        "slow": "assets/audio/sentence-05-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-06",
+      "text": "У него есть квартира в Москве, дом на море, счёт в банке и три машины.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-06-normal.mp3",
+        "slow": "assets/audio/sentence-06-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-07",
+      "text": "У меня тоже есть машина и деньги.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-07-normal.mp3",
+        "slow": "assets/audio/sentence-07-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-08",
+      "text": "У меня нет проблем, потому что у меня есть Владимир.",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-08-normal.mp3",
+        "slow": "assets/audio/sentence-08-slow.mp3"
+      }
+    },
+    {
+      "id": "sentence-09",
+      "text": "Я думаю, что семья – это так важно!",
+      "kind": "sentence",
+      "files": {
+        "normal": "assets/audio/sentence-09-normal.mp3",
+        "slow": "assets/audio/sentence-09-slow.mp3"
+      }
+    },
+    {
+      "id": "word-01",
+      "text": "Меня",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-01-normal.mp3",
+        "slow": "assets/audio/word-01-slow.mp3"
+      }
+    },
+    {
+      "id": "word-02",
+      "text": "зовут",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-02-normal.mp3",
+        "slow": "assets/audio/word-02-slow.mp3"
+      }
+    },
+    {
+      "id": "word-03",
+      "text": "Анастасия",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-03-normal.mp3",
+        "slow": "assets/audio/word-03-slow.mp3"
+      }
+    },
+    {
+      "id": "word-04",
+      "text": "Я",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-04-normal.mp3",
+        "slow": "assets/audio/word-04-slow.mp3"
+      }
+    },
+    {
+      "id": "word-05",
+      "text": "фотомодель",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-05-normal.mp3",
+        "slow": "assets/audio/word-05-slow.mp3"
+      }
+    },
+    {
+      "id": "word-06",
+      "text": "К счастью",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-06-normal.mp3",
+        "slow": "assets/audio/word-06-slow.mp3"
+      }
+    },
+    {
+      "id": "word-07",
+      "text": "у",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-07-normal.mp3",
+        "slow": "assets/audio/word-07-slow.mp3"
+      }
+    },
+    {
+      "id": "word-08",
+      "text": "меня",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-08-normal.mp3",
+        "slow": "assets/audio/word-08-slow.mp3"
+      }
+    },
+    {
+      "id": "word-09",
+      "text": "есть",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-09-normal.mp3",
+        "slow": "assets/audio/word-09-slow.mp3"
+      }
+    },
+    {
+      "id": "word-10",
+      "text": "муж",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-10-normal.mp3",
+        "slow": "assets/audio/word-10-slow.mp3"
+      }
+    },
+    {
+      "id": "word-11",
+      "text": "Владимир",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-11-normal.mp3",
+        "slow": "assets/audio/word-11-slow.mp3"
+      }
+    },
+    {
+      "id": "word-12",
+      "text": "замужем",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-12-normal.mp3",
+        "slow": "assets/audio/word-12-slow.mp3"
+      }
+    },
+    {
+      "id": "word-13",
+      "text": "Мой",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-13-normal.mp3",
+        "slow": "assets/audio/word-13-slow.mp3"
+      }
+    },
+    {
+      "id": "word-14",
+      "text": "директор",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-14-normal.mp3",
+        "slow": "assets/audio/word-14-slow.mp3"
+      }
+    },
+    {
+      "id": "word-15",
+      "text": "компании",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-15-normal.mp3",
+        "slow": "assets/audio/word-15-slow.mp3"
+      }
+    },
+    {
+      "id": "word-16",
+      "text": "а",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-16-normal.mp3",
+        "slow": "assets/audio/word-16-slow.mp3"
+      }
+    },
+    {
+      "id": "word-17",
+      "text": "это",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-17-normal.mp3",
+        "slow": "assets/audio/word-17-slow.mp3"
+      }
+    },
+    {
+      "id": "word-18",
+      "text": "значит",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-18-normal.mp3",
+        "slow": "assets/audio/word-18-slow.mp3"
+      }
+    },
+    {
+      "id": "word-19",
+      "text": "что",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-19-normal.mp3",
+        "slow": "assets/audio/word-19-slow.mp3"
+      }
+    },
+    {
+      "id": "word-20",
+      "text": "него",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-20-normal.mp3",
+        "slow": "assets/audio/word-20-slow.mp3"
+      }
+    },
+    {
+      "id": "word-21",
+      "text": "всё",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-21-normal.mp3",
+        "slow": "assets/audio/word-21-slow.mp3"
+      }
+    },
+    {
+      "id": "word-22",
+      "text": "квартира",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-22-normal.mp3",
+        "slow": "assets/audio/word-22-slow.mp3"
+      }
+    },
+    {
+      "id": "word-23",
+      "text": "в",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-23-normal.mp3",
+        "slow": "assets/audio/word-23-slow.mp3"
+      }
+    },
+    {
+      "id": "word-24",
+      "text": "Москве",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-24-normal.mp3",
+        "slow": "assets/audio/word-24-slow.mp3"
+      }
+    },
+    {
+      "id": "word-25",
+      "text": "дом",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-25-normal.mp3",
+        "slow": "assets/audio/word-25-slow.mp3"
+      }
+    },
+    {
+      "id": "word-26",
+      "text": "на",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-26-normal.mp3",
+        "slow": "assets/audio/word-26-slow.mp3"
+      }
+    },
+    {
+      "id": "word-27",
+      "text": "море",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-27-normal.mp3",
+        "slow": "assets/audio/word-27-slow.mp3"
+      }
+    },
+    {
+      "id": "word-28",
+      "text": "счёт",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-28-normal.mp3",
+        "slow": "assets/audio/word-28-slow.mp3"
+      }
+    },
+    {
+      "id": "word-29",
+      "text": "банке",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-29-normal.mp3",
+        "slow": "assets/audio/word-29-slow.mp3"
+      }
+    },
+    {
+      "id": "word-30",
+      "text": "и",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-30-normal.mp3",
+        "slow": "assets/audio/word-30-slow.mp3"
+      }
+    },
+    {
+      "id": "word-31",
+      "text": "три",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-31-normal.mp3",
+        "slow": "assets/audio/word-31-slow.mp3"
+      }
+    },
+    {
+      "id": "word-32",
+      "text": "машины",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-32-normal.mp3",
+        "slow": "assets/audio/word-32-slow.mp3"
+      }
+    },
+    {
+      "id": "word-33",
+      "text": "тоже",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-33-normal.mp3",
+        "slow": "assets/audio/word-33-slow.mp3"
+      }
+    },
+    {
+      "id": "word-34",
+      "text": "машина",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-34-normal.mp3",
+        "slow": "assets/audio/word-34-slow.mp3"
+      }
+    },
+    {
+      "id": "word-35",
+      "text": "деньги",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-35-normal.mp3",
+        "slow": "assets/audio/word-35-slow.mp3"
+      }
+    },
+    {
+      "id": "word-36",
+      "text": "нет",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-36-normal.mp3",
+        "slow": "assets/audio/word-36-slow.mp3"
+      }
+    },
+    {
+      "id": "word-37",
+      "text": "проблем",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-37-normal.mp3",
+        "slow": "assets/audio/word-37-slow.mp3"
+      }
+    },
+    {
+      "id": "word-38",
+      "text": "потому что",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-38-normal.mp3",
+        "slow": "assets/audio/word-38-slow.mp3"
+      }
+    },
+    {
+      "id": "word-39",
+      "text": "думаю",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-39-normal.mp3",
+        "slow": "assets/audio/word-39-slow.mp3"
+      }
+    },
+    {
+      "id": "word-40",
+      "text": "семья",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-40-normal.mp3",
+        "slow": "assets/audio/word-40-slow.mp3"
+      }
+    },
+    {
+      "id": "word-41",
+      "text": "так",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-41-normal.mp3",
+        "slow": "assets/audio/word-41-slow.mp3"
+      }
+    },
+    {
+      "id": "word-42",
+      "text": "важно",
+      "kind": "word",
+      "files": {
+        "normal": "assets/audio/word-42-normal.mp3",
+        "slow": "assets/audio/word-42-slow.mp3"
+      }
+    }
+  ]
+}

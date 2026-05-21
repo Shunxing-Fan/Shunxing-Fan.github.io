@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "title": "Anastasia Reading",
+    "language": "ru-RU",
+    "voice": "ru-RU-Chirp3-HD-Charon"
+  },
+  "translation": "我叫阿纳斯塔西娅。我是摄影模特。幸运的是，我有丈夫弗拉基米尔。我结婚了。我的丈夫是一家公司的经理/总监，这意味着他什么都有。他在莫斯科有一套公寓，在海边有一栋房子，在银行有账户，还有三辆车。我也有一辆车和钱。我没有问题，因为我有弗拉基米尔。我认为家庭非常重要！",
+  "sentences": [
+    {
+      "id": "sentence-01",
+      "russian": "Меня зовут Анастасия.",
+      "chinese": "我叫阿纳斯塔西娅。",
+      "tokens": [
+        { "text": "Меня", "wordId": "word-01" },
+        { "text": "зовут", "wordId": "word-02" },
+        { "text": "Анастасия", "wordId": "word-03", "after": "." }
+      ]
+    },
+    {
+      "id": "sentence-02",
+      "russian": "Я фотомодель.",
+      "chinese": "我是摄影模特。",
+      "tokens": [
+        { "text": "Я", "wordId": "word-04" },
+        { "text": "фотомодель", "wordId": "word-05", "after": "." }
+      ]
+    },
+    {
+      "id": "sentence-03",
+      "russian": "К счастью, у меня есть муж Владимир.",
+      "chinese": "幸运的是，我有丈夫弗拉基米尔。",
+      "tokens": [
+        { "text": "К счастью", "wordId": "word-06", "after": "," },
+        { "text": "у", "wordId": "word-07" },
+        { "text": "меня", "wordId": "word-08" },
+        { "text": "есть", "wordId": "word-09" },
+        { "text": "муж", "wordId": "word-10" },
+        { "text": "Владимир", "wordId": "word-11", "after": "." }
+      ]
+    },
+    {
+      "id": "sentence-04",
+      "russian": "Я замужем.",
+      "chinese": "我结婚了。女性说法。",
+      "tokens": [
+        { "text": "Я", "wordId": "word-04" },
+        { "text": "замужем", "wordId": "word-12", "after": "." }
+      ]
+    },
+    {
+      "id": "sentence-05",
+      "russian": "Мой муж – директор компании, а это значит, что у него есть всё.",
+      "chinese": "我的丈夫是一家公司的经理/总监，这意味着他什么都有。",
+      "tokens": [
+        { "text": "Мой", "wordId": "word-13" },
+        { "text": "муж", "wordId": "word-10", "after": " –" },
+        { "text": "директор", "wordId": "word-14" },
+        { "text": "компании", "wordId": "word-15", "after": "," },
+        { "text": "а", "wordId": "word-16" },
+        { "text": "это", "wordId": "word-17" },
+        { "text": "значит", "wordId": "word-18", "after": "," },
+        { "text": "что", "wordId": "word-19" },
+        { "text": "у", "wordId": "word-07" },
+        { "text": "него", "wordId": "word-20" },
+        { "text": "есть", "wordId": "word-09" },
+        { "text": "всё", "wordId": "word-21", "after": "." }
+      ]
+    },
+    {
+      "id": "sentence-06",
+      "russian": "У него есть квартира в Москве, дом на море, счёт в банке и три машины.",
+      "chinese": "他在莫斯科有一套公寓，在海边有一栋房子，在银行有账户，还有三辆车。",
+      "tokens": [
+        { "text": "У", "wordId": "word-07" },
+        { "text": "него", "wordId": "word-20" },
+        { "text": "есть", "wordId": "word-09" },
+        { "text": "квартира", "wordId": "word-22" },
+        { "text": "в", "wordId": "word-23" },
+        { "text": "Москве", "wordId": "word-24", "after": "," },
+        { "text": "дом", "wordId": "word-25" },
+        { "text": "на", "wordId": "word-26" },
+        { "text": "море", "wordId": "word-27", "after": "," },
+        { "text": "счёт", "wordId": "word-28" },
+        { "text": "в", "wordId": "word-23" },
+        { "text": "банке", "wordId": "word-29" },
+        { "text": "и", "wordId": "word-30" },
+        { "text": "три", "wordId": "word-31" },
+        { "text": "машины", "wordId": "word-32", "after": "." }
+      ]
+    },
+    {
+      "id": "sentence-07",
+      "russian": "У меня тоже есть машина и деньги.",
+      "chinese": "我也有一辆车和钱。",
+      "tokens": [
+        { "text": "У", "wordId": "word-07" },
+        { "text": "меня", "wordId": "word-08" },
+        { "text": "тоже", "wordId": "word-33" },
+        { "text": "есть", "wordId": "word-09" },
+        { "text": "машина", "wordId": "word-34" },
+        { "text": "и", "wordId": "word-30" },
+        { "text": "деньги", "wordId": "word-35", "after": "." }
+      ]
+    },
+    {
+      "id": "sentence-08",
+      "russian": "У меня нет проблем, потому что у меня есть Владимир.",
+      "chinese": "我没有问题，因为我有弗拉基米尔。",
+      "tokens": [
+        { "text": "У", "wordId": "word-07" },
+        { "text": "меня", "wordId": "word-08" },
+        { "text": "нет", "wordId": "word-36" },
+        { "text": "проблем", "wordId": "word-37", "after": "," },
+        { "text": "потому что", "wordId": "word-38" },
+        { "text": "у", "wordId": "word-07" },
+        { "text": "меня", "wordId": "word-08" },
+        { "text": "есть", "wordId": "word-09" },
+        { "text": "Владимир", "wordId": "word-11", "after": "." }
+      ]
+    },
+    {
+      "id": "sentence-09",
+      "russian": "Я думаю, что семья – это так важно!",
+      "chinese": "我认为家庭非常重要！",
+      "tokens": [
+        { "text": "Я", "wordId": "word-04" },
+        { "text": "думаю", "wordId": "word-39", "after": "," },
+        { "text": "что", "wordId": "word-19" },
+        { "text": "семья", "wordId": "word-40", "after": " –" },
+        { "text": "это", "wordId": "word-17" },
+        { "text": "так", "wordId": "word-41" },
+        { "text": "важно", "wordId": "word-42", "after": "!" }
+      ]
+    }
+  ],
+  "words": [
+    { "id": "word-01", "russian": "Меня", "chinese": "我；“меня зовут”里表示“我叫……”" },
+    { "id": "word-02", "russian": "зовут", "chinese": "叫作，称呼" },
+    { "id": "word-03", "russian": "Анастасия", "chinese": "阿纳斯塔西娅，人名" },
+    { "id": "word-04", "russian": "Я", "chinese": "我" },
+    { "id": "word-05", "russian": "фотомодель", "chinese": "摄影模特" },
+    { "id": "word-06", "russian": "К счастью", "chinese": "幸运的是" },
+    { "id": "word-07", "russian": "у", "chinese": "在……那里；用于表达“有”" },
+    { "id": "word-08", "russian": "меня", "chinese": "我；“у меня есть”= 我有" },
+    { "id": "word-09", "russian": "есть", "chinese": "有" },
+    { "id": "word-10", "russian": "муж", "chinese": "丈夫" },
+    { "id": "word-11", "russian": "Владимир", "chinese": "弗拉基米尔，人名" },
+    { "id": "word-12", "russian": "замужем", "chinese": "已婚，嫁人了；女性说“我结婚了”" },
+    { "id": "word-13", "russian": "Мой", "chinese": "我的" },
+    { "id": "word-14", "russian": "директор", "chinese": "经理，总监，主管" },
+    { "id": "word-15", "russian": "компании", "chinese": "公司；“компания”的属格形式" },
+    { "id": "word-16", "russian": "а", "chinese": "而，而且；这里可译为“而/这”" },
+    { "id": "word-17", "russian": "это", "chinese": "这，这个" },
+    { "id": "word-18", "russian": "значит", "chinese": "意味着" },
+    { "id": "word-19", "russian": "что", "chinese": "……的事；这里译为“这意味着……”中的“……”" },
+    { "id": "word-20", "russian": "него", "chinese": "他；“у него есть”= 他有" },
+    { "id": "word-21", "russian": "всё", "chinese": "一切，所有东西" },
+    { "id": "word-22", "russian": "квартира", "chinese": "公寓，住宅" },
+    { "id": "word-23", "russian": "в", "chinese": "在……里/在……地方" },
+    { "id": "word-24", "russian": "Москве", "chinese": "莫斯科；“в Москве”= 在莫斯科" },
+    { "id": "word-25", "russian": "дом", "chinese": "房子" },
+    { "id": "word-26", "russian": "на", "chinese": "在……上/在……地方；“на море”= 在海边" },
+    { "id": "word-27", "russian": "море", "chinese": "海" },
+    { "id": "word-28", "russian": "счёт", "chinese": "账户" },
+    { "id": "word-29", "russian": "банке", "chinese": "银行；“в банке”= 在银行" },
+    { "id": "word-30", "russian": "и", "chinese": "和，而且" },
+    { "id": "word-31", "russian": "три", "chinese": "三" },
+    { "id": "word-32", "russian": "машины", "chinese": "汽车，车；复数" },
+    { "id": "word-33", "russian": "тоже", "chinese": "也" },
+    { "id": "word-34", "russian": "машина", "chinese": "汽车，一辆车" },
+    { "id": "word-35", "russian": "деньги", "chinese": "钱" },
+    { "id": "word-36", "russian": "нет", "chinese": "没有" },
+    { "id": "word-37", "russian": "проблем", "chinese": "问题；复数属格，“нет проблем”= 没有问题" },
+    { "id": "word-38", "russian": "потому что", "chinese": "因为" },
+    { "id": "word-39", "russian": "думаю", "chinese": "我想，我认为" },
+    { "id": "word-40", "russian": "семья", "chinese": "家庭" },
+    { "id": "word-41", "russian": "так", "chinese": "如此，这么" },
+    { "id": "word-42", "russian": "важно", "chinese": "重要" }
+  ]
+}
