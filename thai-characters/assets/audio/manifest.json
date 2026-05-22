@@ -6,9 +6,179 @@
     "normal",
     "slow"
   ],
-  "generatedAt": "2026-05-21T17:20:56.415346+00:00",
+  "generatedAt": "2026-05-22T19:52:53.773254+00:00",
   "itemCount": 92,
-  "fileCount": 184,
+  "fileCount": 168,
+  "audioFiles": [
+    "assets/audio/group-01-normal.mp3",
+    "assets/audio/group-01-slow.mp3",
+    "assets/audio/group-02-normal.mp3",
+    "assets/audio/group-02-slow.mp3",
+    "assets/audio/group-03-normal.mp3",
+    "assets/audio/group-03-slow.mp3",
+    "assets/audio/group-04-normal.mp3",
+    "assets/audio/group-04-slow.mp3",
+    "assets/audio/group-05-normal.mp3",
+    "assets/audio/group-05-slow.mp3",
+    "assets/audio/group-06-normal.mp3",
+    "assets/audio/group-06-slow.mp3",
+    "assets/audio/group-07-normal.mp3",
+    "assets/audio/group-07-slow.mp3",
+    "assets/audio/group-08-normal.mp3",
+    "assets/audio/group-08-slow.mp3",
+    "assets/audio/group-09-normal.mp3",
+    "assets/audio/group-09-slow.mp3",
+    "assets/audio/group-10-normal.mp3",
+    "assets/audio/group-10-slow.mp3",
+    "assets/audio/group-11-normal.mp3",
+    "assets/audio/group-11-slow.mp3",
+    "assets/audio/group-12-normal.mp3",
+    "assets/audio/group-12-slow.mp3",
+    "assets/audio/group-13-normal.mp3",
+    "assets/audio/group-13-slow.mp3",
+    "assets/audio/group-14-normal.mp3",
+    "assets/audio/group-14-slow.mp3",
+    "assets/audio/group-15-normal.mp3",
+    "assets/audio/group-15-slow.mp3",
+    "assets/audio/group-16-normal.mp3",
+    "assets/audio/group-16-slow.mp3",
+    "assets/audio/group-17-normal.mp3",
+    "assets/audio/group-17-slow.mp3",
+    "assets/audio/group-18-normal.mp3",
+    "assets/audio/group-18-slow.mp3",
+    "assets/audio/group-19-normal.mp3",
+    "assets/audio/group-19-slow.mp3",
+    "assets/audio/group-20-normal.mp3",
+    "assets/audio/group-20-slow.mp3",
+    "assets/audio/group-21-normal.mp3",
+    "assets/audio/group-21-slow.mp3",
+    "assets/audio/letter-lo-ling-normal.mp3",
+    "assets/audio/letter-lo-ling-slow.mp3",
+    "assets/audio/letter-lo-chula-normal.mp3",
+    "assets/audio/letter-lo-chula-slow.mp3",
+    "assets/audio/letter-kho-khai-normal.mp3",
+    "assets/audio/letter-kho-khai-slow.mp3",
+    "assets/audio/letter-kho-khuat-normal.mp3",
+    "assets/audio/letter-kho-khuat-slow.mp3",
+    "assets/audio/letter-kho-khwai-normal.mp3",
+    "assets/audio/letter-kho-khwai-slow.mp3",
+    "assets/audio/letter-kho-khon-normal.mp3",
+    "assets/audio/letter-kho-khon-slow.mp3",
+    "assets/audio/letter-kho-rakhang-normal.mp3",
+    "assets/audio/letter-kho-rakhang-slow.mp3",
+    "assets/audio/letter-ko-kai-normal.mp3",
+    "assets/audio/letter-ko-kai-slow.mp3",
+    "assets/audio/letter-o-ang-normal.mp3",
+    "assets/audio/letter-o-ang-slow.mp3",
+    "assets/audio/letter-mo-ma-normal.mp3",
+    "assets/audio/letter-mo-ma-slow.mp3",
+    "assets/audio/letter-so-suea-normal.mp3",
+    "assets/audio/letter-so-suea-slow.mp3",
+    "assets/audio/letter-so-sala-normal.mp3",
+    "assets/audio/letter-so-sala-slow.mp3",
+    "assets/audio/letter-so-ruesi-normal.mp3",
+    "assets/audio/letter-so-ruesi-slow.mp3",
+    "assets/audio/letter-so-so-normal.mp3",
+    "assets/audio/letter-so-so-slow.mp3",
+    "assets/audio/letter-no-nu-normal.mp3",
+    "assets/audio/letter-no-nu-slow.mp3",
+    "assets/audio/letter-no-nen-normal.mp3",
+    "assets/audio/letter-no-nen-slow.mp3",
+    "assets/audio/letter-tho-thung-normal.mp3",
+    "assets/audio/letter-tho-thung-slow.mp3",
+    "assets/audio/letter-tho-thahan-normal.mp3",
+    "assets/audio/letter-tho-thahan-slow.mp3",
+    "assets/audio/letter-tho-thong-normal.mp3",
+    "assets/audio/letter-tho-thong-slow.mp3",
+    "assets/audio/letter-tho-than-normal.mp3",
+    "assets/audio/letter-tho-than-slow.mp3",
+    "assets/audio/letter-tho-montho-normal.mp3",
+    "assets/audio/letter-tho-montho-slow.mp3",
+    "assets/audio/letter-tho-phuthao-normal.mp3",
+    "assets/audio/letter-tho-phuthao-slow.mp3",
+    "assets/audio/letter-po-pla-normal.mp3",
+    "assets/audio/letter-po-pla-slow.mp3",
+    "assets/audio/letter-do-dek-normal.mp3",
+    "assets/audio/letter-do-dek-slow.mp3",
+    "assets/audio/letter-do-chada-normal.mp3",
+    "assets/audio/letter-do-chada-slow.mp3",
+    "assets/audio/letter-pho-phueng-normal.mp3",
+    "assets/audio/letter-pho-phueng-slow.mp3",
+    "assets/audio/letter-pho-phan-normal.mp3",
+    "assets/audio/letter-pho-phan-slow.mp3",
+    "assets/audio/letter-pho-samphao-normal.mp3",
+    "assets/audio/letter-pho-samphao-slow.mp3",
+    "assets/audio/letter-cho-chan-normal.mp3",
+    "assets/audio/letter-cho-chan-slow.mp3",
+    "assets/audio/letter-wo-waen-normal.mp3",
+    "assets/audio/letter-wo-waen-slow.mp3",
+    "assets/audio/letter-to-tao-normal.mp3",
+    "assets/audio/letter-to-tao-slow.mp3",
+    "assets/audio/letter-to-patak-normal.mp3",
+    "assets/audio/letter-to-patak-slow.mp3",
+    "assets/audio/letter-yo-yak-normal.mp3",
+    "assets/audio/letter-yo-yak-slow.mp3",
+    "assets/audio/letter-yo-ying-normal.mp3",
+    "assets/audio/letter-yo-ying-slow.mp3",
+    "assets/audio/letter-cho-ching-normal.mp3",
+    "assets/audio/letter-cho-ching-slow.mp3",
+    "assets/audio/letter-cho-chang-normal.mp3",
+    "assets/audio/letter-cho-chang-slow.mp3",
+    "assets/audio/letter-cho-choe-normal.mp3",
+    "assets/audio/letter-cho-choe-slow.mp3",
+    "assets/audio/letter-ho-hip-normal.mp3",
+    "assets/audio/letter-ho-hip-slow.mp3",
+    "assets/audio/letter-ho-nokhuk-normal.mp3",
+    "assets/audio/letter-ho-nokhuk-slow.mp3",
+    "assets/audio/letter-bo-baimai-normal.mp3",
+    "assets/audio/letter-bo-baimai-slow.mp3",
+    "assets/audio/letter-ngo-ngu-normal.mp3",
+    "assets/audio/letter-ngo-ngu-slow.mp3",
+    "assets/audio/letter-ro-ruea-normal.mp3",
+    "assets/audio/letter-ro-ruea-slow.mp3",
+    "assets/audio/letter-fo-fa-normal.mp3",
+    "assets/audio/letter-fo-fa-slow.mp3",
+    "assets/audio/letter-fo-fan-normal.mp3",
+    "assets/audio/letter-fo-fan-slow.mp3",
+    "assets/audio/sara-normal.mp3",
+    "assets/audio/vowel-a-short-normal.mp3",
+    "assets/audio/vowel-a-long-normal.mp3",
+    "assets/audio/sara-slow.mp3",
+    "assets/audio/vowel-a-short-slow.mp3",
+    "assets/audio/vowel-a-long-slow.mp3",
+    "assets/audio/vowel-i-short-normal.mp3",
+    "assets/audio/vowel-i-long-normal.mp3",
+    "assets/audio/vowel-i-short-slow.mp3",
+    "assets/audio/vowel-i-long-slow.mp3",
+    "assets/audio/vowel-ue-short-normal.mp3",
+    "assets/audio/vowel-ue-long-normal.mp3",
+    "assets/audio/vowel-ue-short-slow.mp3",
+    "assets/audio/vowel-ue-long-slow.mp3",
+    "assets/audio/vowel-u-short-normal.mp3",
+    "assets/audio/vowel-u-long-normal.mp3",
+    "assets/audio/vowel-u-short-slow.mp3",
+    "assets/audio/vowel-u-long-slow.mp3",
+    "assets/audio/vowel-e-short-normal.mp3",
+    "assets/audio/vowel-e-long-normal.mp3",
+    "assets/audio/vowel-e-short-slow.mp3",
+    "assets/audio/vowel-e-long-slow.mp3",
+    "assets/audio/vowel-ae-short-normal.mp3",
+    "assets/audio/vowel-ae-long-normal.mp3",
+    "assets/audio/vowel-ae-short-slow.mp3",
+    "assets/audio/vowel-ae-long-slow.mp3",
+    "assets/audio/vowel-o-short-normal.mp3",
+    "assets/audio/vowel-o-long-normal.mp3",
+    "assets/audio/vowel-o-short-slow.mp3",
+    "assets/audio/vowel-o-long-slow.mp3",
+    "assets/audio/vowel-aw-short-normal.mp3",
+    "assets/audio/vowel-aw-long-normal.mp3",
+    "assets/audio/vowel-aw-short-slow.mp3",
+    "assets/audio/vowel-aw-long-slow.mp3",
+    "assets/audio/vowel-oe-short-normal.mp3",
+    "assets/audio/vowel-oe-long-normal.mp3",
+    "assets/audio/vowel-oe-short-slow.mp3",
+    "assets/audio/vowel-oe-long-slow.mp3"
+  ],
   "items": [
     {
       "id": "group-01",
@@ -730,9 +900,19 @@
       "type": "vowel-group",
       "label": "อะ / อา",
       "text": "สระ อะ. สระ อา",
-      "files": {
-        "normal": "assets/audio/vowel-group-a-normal.mp3",
-        "slow": "assets/audio/vowel-group-a-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-a-short-normal.mp3",
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-a-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-a-short-slow.mp3",
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-a-long-slow.mp3"
+        ]
       }
     },
     {
@@ -740,9 +920,19 @@
       "type": "vowel-group",
       "label": "อิ / อี",
       "text": "สระ อิ. สระ อี",
-      "files": {
-        "normal": "assets/audio/vowel-group-i-normal.mp3",
-        "slow": "assets/audio/vowel-group-i-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-i-short-normal.mp3",
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-i-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-i-short-slow.mp3",
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-i-long-slow.mp3"
+        ]
       }
     },
     {
@@ -750,9 +940,19 @@
       "type": "vowel-group",
       "label": "อึ / อือ",
       "text": "สระ อึ. สระ อือ",
-      "files": {
-        "normal": "assets/audio/vowel-group-ue-normal.mp3",
-        "slow": "assets/audio/vowel-group-ue-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-ue-short-normal.mp3",
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-ue-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-ue-short-slow.mp3",
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-ue-long-slow.mp3"
+        ]
       }
     },
     {
@@ -760,9 +960,19 @@
       "type": "vowel-group",
       "label": "อุ / อู",
       "text": "สระ อุ. สระ อู",
-      "files": {
-        "normal": "assets/audio/vowel-group-u-normal.mp3",
-        "slow": "assets/audio/vowel-group-u-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-u-short-normal.mp3",
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-u-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-u-short-slow.mp3",
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-u-long-slow.mp3"
+        ]
       }
     },
     {
@@ -770,9 +980,19 @@
       "type": "vowel-group",
       "label": "เอะ / เอ",
       "text": "สระ เอะ. สระ เอ",
-      "files": {
-        "normal": "assets/audio/vowel-group-e-normal.mp3",
-        "slow": "assets/audio/vowel-group-e-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-e-short-normal.mp3",
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-e-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-e-short-slow.mp3",
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-e-long-slow.mp3"
+        ]
       }
     },
     {
@@ -780,9 +1000,19 @@
       "type": "vowel-group",
       "label": "แอะ / แอ",
       "text": "สระ แอะ. สระ แอ",
-      "files": {
-        "normal": "assets/audio/vowel-group-ae-normal.mp3",
-        "slow": "assets/audio/vowel-group-ae-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-ae-short-normal.mp3",
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-ae-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-ae-short-slow.mp3",
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-ae-long-slow.mp3"
+        ]
       }
     },
     {
@@ -790,9 +1020,19 @@
       "type": "vowel-group",
       "label": "โอะ / โอ",
       "text": "สระ โอะ. สระ โอ",
-      "files": {
-        "normal": "assets/audio/vowel-group-o-normal.mp3",
-        "slow": "assets/audio/vowel-group-o-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-o-short-normal.mp3",
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-o-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-o-short-slow.mp3",
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-o-long-slow.mp3"
+        ]
       }
     },
     {
@@ -800,9 +1040,19 @@
       "type": "vowel-group",
       "label": "เอาะ / ออ",
       "text": "สระ เอาะ. สระ ออ",
-      "files": {
-        "normal": "assets/audio/vowel-group-aw-normal.mp3",
-        "slow": "assets/audio/vowel-group-aw-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-aw-short-normal.mp3",
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-aw-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-aw-short-slow.mp3",
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-aw-long-slow.mp3"
+        ]
       }
     },
     {
@@ -810,9 +1060,19 @@
       "type": "vowel-group",
       "label": "เออะ / เออ",
       "text": "สระ เออะ. สระ เออ",
-      "files": {
-        "normal": "assets/audio/vowel-group-oe-normal.mp3",
-        "slow": "assets/audio/vowel-group-oe-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-oe-short-normal.mp3",
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-oe-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-oe-short-slow.mp3",
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-oe-long-slow.mp3"
+        ]
       }
     },
     {
@@ -820,9 +1080,15 @@
       "type": "vowel",
       "label": "อะ",
       "text": "สระ อะ",
-      "files": {
-        "normal": "assets/audio/vowel-a-short-normal.mp3",
-        "slow": "assets/audio/vowel-a-short-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-a-short-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-a-short-slow.mp3"
+        ]
       }
     },
     {
@@ -830,9 +1096,15 @@
       "type": "vowel",
       "label": "อา",
       "text": "สระ อา",
-      "files": {
-        "normal": "assets/audio/vowel-a-long-normal.mp3",
-        "slow": "assets/audio/vowel-a-long-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-a-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-a-long-slow.mp3"
+        ]
       }
     },
     {
@@ -840,9 +1112,15 @@
       "type": "vowel",
       "label": "อิ",
       "text": "สระ อิ",
-      "files": {
-        "normal": "assets/audio/vowel-i-short-normal.mp3",
-        "slow": "assets/audio/vowel-i-short-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-i-short-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-i-short-slow.mp3"
+        ]
       }
     },
     {
@@ -850,9 +1128,15 @@
       "type": "vowel",
       "label": "อี",
       "text": "สระ อี",
-      "files": {
-        "normal": "assets/audio/vowel-i-long-normal.mp3",
-        "slow": "assets/audio/vowel-i-long-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-i-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-i-long-slow.mp3"
+        ]
       }
     },
     {
@@ -860,9 +1144,15 @@
       "type": "vowel",
       "label": "อึ",
       "text": "สระ อึ",
-      "files": {
-        "normal": "assets/audio/vowel-ue-short-normal.mp3",
-        "slow": "assets/audio/vowel-ue-short-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-ue-short-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-ue-short-slow.mp3"
+        ]
       }
     },
     {
@@ -870,9 +1160,15 @@
       "type": "vowel",
       "label": "อือ",
       "text": "สระ อือ",
-      "files": {
-        "normal": "assets/audio/vowel-ue-long-normal.mp3",
-        "slow": "assets/audio/vowel-ue-long-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-ue-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-ue-long-slow.mp3"
+        ]
       }
     },
     {
@@ -880,9 +1176,15 @@
       "type": "vowel",
       "label": "อุ",
       "text": "สระ อุ",
-      "files": {
-        "normal": "assets/audio/vowel-u-short-normal.mp3",
-        "slow": "assets/audio/vowel-u-short-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-u-short-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-u-short-slow.mp3"
+        ]
       }
     },
     {
@@ -890,9 +1192,15 @@
       "type": "vowel",
       "label": "อู",
       "text": "สระ อู",
-      "files": {
-        "normal": "assets/audio/vowel-u-long-normal.mp3",
-        "slow": "assets/audio/vowel-u-long-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-u-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-u-long-slow.mp3"
+        ]
       }
     },
     {
@@ -900,9 +1208,15 @@
       "type": "vowel",
       "label": "เอะ",
       "text": "สระ เอะ",
-      "files": {
-        "normal": "assets/audio/vowel-e-short-normal.mp3",
-        "slow": "assets/audio/vowel-e-short-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-e-short-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-e-short-slow.mp3"
+        ]
       }
     },
     {
@@ -910,9 +1224,15 @@
       "type": "vowel",
       "label": "เอ",
       "text": "สระ เอ",
-      "files": {
-        "normal": "assets/audio/vowel-e-long-normal.mp3",
-        "slow": "assets/audio/vowel-e-long-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-e-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-e-long-slow.mp3"
+        ]
       }
     },
     {
@@ -920,9 +1240,15 @@
       "type": "vowel",
       "label": "แอะ",
       "text": "สระ แอะ",
-      "files": {
-        "normal": "assets/audio/vowel-ae-short-normal.mp3",
-        "slow": "assets/audio/vowel-ae-short-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-ae-short-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-ae-short-slow.mp3"
+        ]
       }
     },
     {
@@ -930,9 +1256,15 @@
       "type": "vowel",
       "label": "แอ",
       "text": "สระ แอ",
-      "files": {
-        "normal": "assets/audio/vowel-ae-long-normal.mp3",
-        "slow": "assets/audio/vowel-ae-long-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-ae-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-ae-long-slow.mp3"
+        ]
       }
     },
     {
@@ -940,9 +1272,15 @@
       "type": "vowel",
       "label": "โอะ",
       "text": "สระ โอะ",
-      "files": {
-        "normal": "assets/audio/vowel-o-short-normal.mp3",
-        "slow": "assets/audio/vowel-o-short-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-o-short-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-o-short-slow.mp3"
+        ]
       }
     },
     {
@@ -950,9 +1288,15 @@
       "type": "vowel",
       "label": "โอ",
       "text": "สระ โอ",
-      "files": {
-        "normal": "assets/audio/vowel-o-long-normal.mp3",
-        "slow": "assets/audio/vowel-o-long-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-o-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-o-long-slow.mp3"
+        ]
       }
     },
     {
@@ -960,9 +1304,15 @@
       "type": "vowel",
       "label": "เอาะ",
       "text": "สระ เอาะ",
-      "files": {
-        "normal": "assets/audio/vowel-aw-short-normal.mp3",
-        "slow": "assets/audio/vowel-aw-short-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-aw-short-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-aw-short-slow.mp3"
+        ]
       }
     },
     {
@@ -970,9 +1320,15 @@
       "type": "vowel",
       "label": "ออ",
       "text": "สระ ออ",
-      "files": {
-        "normal": "assets/audio/vowel-aw-long-normal.mp3",
-        "slow": "assets/audio/vowel-aw-long-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-aw-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-aw-long-slow.mp3"
+        ]
       }
     },
     {
@@ -980,9 +1336,15 @@
       "type": "vowel",
       "label": "เออะ",
       "text": "สระ เออะ",
-      "files": {
-        "normal": "assets/audio/vowel-oe-short-normal.mp3",
-        "slow": "assets/audio/vowel-oe-short-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-oe-short-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-oe-short-slow.mp3"
+        ]
       }
     },
     {
@@ -990,9 +1352,15 @@
       "type": "vowel",
       "label": "เออ",
       "text": "สระ เออ",
-      "files": {
-        "normal": "assets/audio/vowel-oe-long-normal.mp3",
-        "slow": "assets/audio/vowel-oe-long-slow.mp3"
+      "sequence": {
+        "normal": [
+          "assets/audio/sara-normal.mp3",
+          "assets/audio/vowel-oe-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/sara-slow.mp3",
+          "assets/audio/vowel-oe-long-slow.mp3"
+        ]
       }
     }
   ]

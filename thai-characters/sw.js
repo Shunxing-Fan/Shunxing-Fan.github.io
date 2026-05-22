@@ -1,4 +1,4 @@
-const CACHE_NAME = "thai-characters-v1";
+const CACHE_NAME = "thai-characters-v2";
 const CORE_ASSETS = [
   "./",
   "index.html",

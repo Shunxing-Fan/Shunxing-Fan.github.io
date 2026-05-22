@@ -47,23 +47,11 @@
 
       <section class="control-strip" id="tts">
         <div>
-          <span class="control-label">Google audio</span>
+          <span class="control-label">Audio speed</span>
           <select id="audioVariant" aria-label="Google audio speed">
             <option value="normal">Normal</option>
             <option value="slow">Slow</option>
           </select>
-        </div>
-        <div>
-          <span class="control-label">Fallback voice</span>
-          <select id="voiceSelect" aria-label="Thai voice"></select>
-        </div>
-        <div>
-          <span class="control-label">Rate</span>
-          <input id="rateControl" type="range" min="0.65" max="1.1" step="0.05" value="0.85" aria-label="Speech rate">
-        </div>
-        <div>
-          <span class="control-label">Pitch</span>
-          <input id="pitchControl" type="range" min="0.8" max="1.2" step="0.05" value="1" aria-label="Speech pitch">
         </div>
         <button class="secondary-action offline-action" id="downloadAudioPack" type="button">下载离线语音包</button>
         <button class="icon-button" id="stopSpeech" type="button" aria-label="Stop speech" title="Stop speech">■</button>
@@ -142,7 +130,7 @@
 
     <footer class="footer">
       <span>Source: THAI1000 Alphabet charts and LT-CS consonant order.</span>
-      <span id="voiceStatus">TTS ready</span>
+      <span id="voiceStatus">Audio ready</span>
     </footer>
 
     <script src="app.js"></script>

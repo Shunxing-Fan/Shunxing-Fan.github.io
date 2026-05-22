@@ -1,4 +1,4 @@
-const CACHE_NAME = "thai-characters-v1";
+const CACHE_NAME = "thai-characters-v2";
 
 const state = {
   groups: [],
@@ -8,8 +8,8 @@ const state = {
   charts: [],
   audioMap: new Map(),
   currentAudio: null,
-  voices: [],
-  selectedVoiceURI: "",
+  currentAudioResolve: null,
+  playToken: 0,
   selectedChartId: "week-1",
   game: {
     active: false,
@@ -23,9 +23,6 @@ const state = {
 
 const els = {
   audioVariant: document.querySelector("#audioVariant"),
-  voiceSelect: document.querySelector("#voiceSelect"),
-  rateControl: document.querySelector("#rateControl"),
-  pitchControl: document.querySelector("#pitchControl"),
   downloadAudioPack: document.querySelector("#downloadAudioPack"),
   stopSpeech: document.querySelector("#stopSpeech"),
   voiceStatus: document.querySelector("#voiceStatus"),
@@ -83,12 +80,16 @@ function setVoiceStatus(message) {
 }
 
 function stopPlayback(status = "Audio stopped") {
+  state.playToken += 1;
   if (state.currentAudio) {
     state.currentAudio.pause();
     state.currentAudio.currentTime = 0;
     state.currentAudio = null;
   }
-  if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+  if (state.currentAudioResolve) {
+    state.currentAudioResolve(false);
+    state.currentAudioResolve = null;
+  }
   setVoiceStatus(status);
 }
 
@@ -129,99 +130,60 @@ async function loadAudioManifest() {
     renderStats(manifest);
   } catch {
     state.audioMap = new Map();
-    setVoiceStatus("Browser TTS fallback ready");
+    setVoiceStatus("Audio manifest unavailable");
     renderStats();
   }
 }
 
-function playLocalAudio(audioId) {
+function getAudioSources(item) {
+  const variant = els.audioVariant.value;
+  if (item?.sequence?.[variant]) return item.sequence[variant];
+  if (item?.files?.[variant]) return [item.files[variant]];
+  return [];
+}
+
+function playAudioSource(src, token) {
+  return new Promise((resolve) => {
+    const audio = new Audio(src);
+    state.currentAudio = audio;
+    state.currentAudioResolve = resolve;
+
+    const cleanup = (result) => {
+      if (state.currentAudio === audio) state.currentAudio = null;
+      if (state.currentAudioResolve === resolve) state.currentAudioResolve = null;
+      resolve(result);
+    };
+
+    audio.addEventListener("ended", () => cleanup(true), { once: true });
+    audio.addEventListener("error", () => cleanup(false), { once: true });
+    audio.play().catch(() => cleanup(false));
+
+    if (token !== state.playToken) cleanup(false);
+  });
+}
+
+async function playThai(_text, audioId) {
   const item = state.audioMap.get(audioId);
-  const src = item?.files?.[els.audioVariant.value];
-  if (!src) return Promise.resolve(false);
-
-  stopPlayback("Audio ready");
-  const audio = new Audio(src);
-  state.currentAudio = audio;
-  setVoiceStatus(`Playing ${els.audioVariant.value}: ${item.text}`);
-
-  return new Promise((resolve) => {
-    audio.addEventListener("ended", () => {
-      if (state.currentAudio === audio) state.currentAudio = null;
-      setVoiceStatus("Audio ready");
-      resolve(true);
-    }, { once: true });
-    audio.addEventListener("error", () => {
-      if (state.currentAudio === audio) state.currentAudio = null;
-      resolve(false);
-    }, { once: true });
-    audio.play().catch(() => {
-      if (state.currentAudio === audio) state.currentAudio = null;
-      resolve(false);
-    });
-  });
-}
-
-function getSelectedVoice() {
-  return state.voices.find((voice) => voice.voiceURI === state.selectedVoiceURI) || null;
-}
-
-function speakBrowserThai(text) {
-  if (!("speechSynthesis" in window)) {
-    setVoiceStatus("This browser does not expose TTS");
-    return Promise.resolve();
-  }
-
-  const phrase = String(text || "").replace(/\s+/g, " ").trim();
-  if (!phrase) return Promise.resolve();
-
-  stopPlayback("TTS ready");
-  const utterance = new SpeechSynthesisUtterance(phrase);
-  utterance.lang = "th-TH";
-  utterance.rate = Number(els.rateControl.value);
-  utterance.pitch = Number(els.pitchControl.value);
-  const selectedVoice = getSelectedVoice();
-  if (selectedVoice) utterance.voice = selectedVoice;
-
-  setVoiceStatus(`Speaking: ${phrase}`);
-  return new Promise((resolve) => {
-    utterance.onend = () => {
-      setVoiceStatus("Audio ready");
-      resolve();
-    };
-    utterance.onerror = () => {
-      setVoiceStatus("TTS failed");
-      resolve();
-    };
-    window.speechSynthesis.speak(utterance);
-  });
-}
-
-async function playThai(text, audioId) {
-  const played = await playLocalAudio(audioId);
-  if (!played) await speakBrowserThai(text);
-}
-
-function populateVoices() {
-  if (!("speechSynthesis" in window)) {
-    els.voiceSelect.innerHTML = '<option value="">TTS unavailable</option>';
-    els.voiceSelect.disabled = true;
+  const sources = getAudioSources(item);
+  if (!item || !sources.length) {
+    setVoiceStatus(`Missing audio asset: ${audioId}`);
     return;
   }
 
-  const voices = window.speechSynthesis.getVoices();
-  const thaiVoices = voices.filter((voice) => voice.lang.toLowerCase().startsWith("th"));
-  const otherVoices = voices.filter((voice) => !voice.lang.toLowerCase().startsWith("th"));
-  state.voices = [...thaiVoices, ...otherVoices];
-  const previous = state.selectedVoiceURI;
-  els.voiceSelect.innerHTML = "";
-  els.voiceSelect.append(new Option("System default (th-TH)", ""));
+  stopPlayback("Audio ready");
+  const token = state.playToken;
+  setVoiceStatus(`Playing ${els.audioVariant.value}: ${item.text}`);
 
-  state.voices.forEach((voice) => {
-    els.voiceSelect.append(new Option(`${voice.name} · ${voice.lang}`, voice.voiceURI));
-  });
+  for (let index = 0; index < sources.length; index += 1) {
+    if (token !== state.playToken) return;
+    const ok = await playAudioSource(sources[index], token);
+    if (!ok || token !== state.playToken) {
+      setVoiceStatus(`Audio failed: ${item.text}`);
+      return;
+    }
+  }
 
-  state.selectedVoiceURI = previous || thaiVoices[0]?.voiceURI || "";
-  els.voiceSelect.value = state.selectedVoiceURI;
+  if (token === state.playToken) setVoiceStatus("Audio ready");
 }
 
 async function registerServiceWorker() {
@@ -250,7 +212,10 @@ async function downloadAudioPack() {
     const manifestResponse = await fetch("assets/audio/manifest.json", { cache: "no-cache" });
     if (!manifestResponse.ok) throw new Error("manifest");
     const manifest = await manifestResponse.json();
-    const audioFiles = manifest.items.flatMap((item) => Object.values(item.files));
+    const audioFiles = manifest.audioFiles || manifest.items.flatMap((item) => [
+      ...Object.values(item.files || {}),
+      ...Object.values(item.sequence || {}).flat()
+    ]);
     const chartFiles = state.charts.map((chart) => chart.src);
     const urls = Array.from(new Set([
       "./",
@@ -284,7 +249,7 @@ async function downloadAudioPack() {
 }
 
 function renderStats(manifest = null) {
-  const audioText = manifest ? `${manifest.fileCount} MP3` : "TTS fallback";
+  const audioText = manifest ? `${manifest.fileCount} MP3` : "Audio loading";
   els.stats.innerHTML = `
     <span><strong>${state.groups.length}</strong> 个辅音发音组</span>
     <span><strong>${state.consonants.length}</strong> 个辅音</span>
@@ -667,9 +632,6 @@ function bindEvents() {
     renderSoundGrid();
     renderConsonants();
   });
-  els.voiceSelect.addEventListener("change", () => {
-    state.selectedVoiceURI = els.voiceSelect.value;
-  });
   els.downloadAudioPack.addEventListener("click", downloadAudioPack);
   els.stopSpeech.addEventListener("click", () => stopPlayback());
 }
@@ -686,10 +648,6 @@ async function init() {
     renderCharts();
     bindEvents();
     await loadAudioManifest();
-    populateVoices();
-    if ("speechSynthesis" in window) {
-      window.speechSynthesis.onvoiceschanged = populateVoices;
-    }
     await registerServiceWorker();
   } catch (error) {
     setVoiceStatus(`Load failed: ${error.message}`);
