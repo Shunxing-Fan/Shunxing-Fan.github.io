@@ -20,7 +20,7 @@ const state = {
   view: "lesson",
   lesson: LESSONS[0]?.lesson || 1,
   query: "",
-  studyLesson: "all",
+  studySet: "all",
   studyMode: "audio-en",
   selectedStudyIds: new Set(),
   audioVariant: "normal",
@@ -265,9 +265,43 @@ function renderPosView() {
 
 function filteredStudyItems() {
   return STUDY_ITEMS.filter((item) => (
-    (state.studyLesson === "all" || String(item.lesson) === state.studyLesson) &&
+    studySetMatches(item) &&
     queryMatches(item)
   ));
+}
+
+function studySetMatches(item) {
+  if (state.studySet === "all") return true;
+  const separator = state.studySet.indexOf(":");
+  if (separator === -1) return true;
+
+  const type = state.studySet.slice(0, separator);
+  const value = state.studySet.slice(separator + 1);
+  if (type === "lesson") return String(item.lesson) === value;
+  if (type === "pos") return item.pos === value;
+  return true;
+}
+
+function appendStudySetOptions(select) {
+  select.appendChild(new Option(`All words (${STUDY_ITEMS.length})`, "all"));
+
+  const lessonGroup = document.createElement("optgroup");
+  lessonGroup.label = "Lessons";
+  LESSONS.forEach((lesson) => {
+    lessonGroup.appendChild(new Option(
+      `Lesson ${lesson.lesson} (${lesson.vocabulary.length})`,
+      `lesson:${lesson.lesson}`
+    ));
+  });
+  select.appendChild(lessonGroup);
+
+  const posGroup = document.createElement("optgroup");
+  posGroup.label = "Parts of Speech";
+  POS_GROUPS.forEach((pos) => {
+    const count = STUDY_ITEMS.filter((item) => item.pos === pos).length;
+    if (count) posGroup.appendChild(new Option(`${pos} (${count})`, `pos:${pos}`));
+  });
+  select.appendChild(posGroup);
 }
 
 function selectedStudyItems() {
@@ -301,16 +335,15 @@ function renderStudySetup() {
 
   const shell = make("section", "study-shell");
   const controls = make("div", "study-controls");
-  const lessonField = make("div", "toolbar-field");
+  const setField = make("div", "toolbar-field");
   const label = make("label", "", "Study Set");
-  label.setAttribute("for", "studyLessonFilter");
+  label.setAttribute("for", "studySetFilter");
   const select = document.createElement("select");
-  select.id = "studyLessonFilter";
-  select.dataset.studyLessonFilter = "";
-  select.appendChild(new Option("All lessons", "all"));
-  LESSONS.forEach((lesson) => select.appendChild(new Option(`Lesson ${lesson.lesson}`, String(lesson.lesson))));
-  select.value = state.studyLesson;
-  lessonField.append(label, select);
+  select.id = "studySetFilter";
+  select.dataset.studySetFilter = "";
+  appendStudySetOptions(select);
+  select.value = state.studySet;
+  setField.append(label, select);
 
   const actions = make("div", "selection-actions");
   actions.appendChild(make("span", "pill", `${selectedCount} selected`));
@@ -324,7 +357,7 @@ function renderStudySetup() {
     button.dataset.studyAction = action;
     actions.appendChild(button);
   });
-  controls.append(lessonField, actions);
+  controls.append(setField, actions);
   shell.appendChild(controls);
 
   const modeTabs = make("div", "mode-tabs");
@@ -884,9 +917,9 @@ function bindEvents() {
       return;
     }
 
-    const lessonFilter = event.target.closest("[data-study-lesson-filter]");
-    if (lessonFilter) {
-      state.studyLesson = lessonFilter.value;
+    const studySetFilter = event.target.closest("[data-study-set-filter]");
+    if (studySetFilter) {
+      state.studySet = studySetFilter.value;
       render();
     }
   });
