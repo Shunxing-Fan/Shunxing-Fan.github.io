@@ -1,0 +1,3332 @@
+{
+  "voice": "th-TH-Chirp3-HD-Achernar",
+  "languageCode": "th-TH",
+  "format": "MP3",
+  "variants": [
+    "normal",
+    "slow"
+  ],
+  "generatedAt": "2026-05-31T19:25:27.522010+00:00",
+  "itemCount": 237,
+  "fileCount": 474,
+  "items": [
+    {
+      "id": "L1-001",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "ฉัน",
+      "roman": "chǎn",
+      "english": "I (for both sex)",
+      "text": "ฉัน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-001-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-001-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-002",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "ผม",
+      "roman": "phŏm",
+      "english": "I (for male speaker)",
+      "text": "ผม",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-002-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-002-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-003",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "ดิฉัน / ดิชั้น",
+      "roman": "dì-chǎn / dì-chán",
+      "english": "I (for female speaker)",
+      "text": "ดิฉัน ดิชั้น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-003-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-003-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-004",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "คุณ",
+      "roman": "khun",
+      "english": "you / addressing people",
+      "text": "คุณ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-004-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-004-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-005",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "เรา",
+      "roman": "rao",
+      "english": "both of us, we, I",
+      "text": "เรา",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-005-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-005-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-006",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "เขา / เค้า",
+      "roman": "khǎo / kháo",
+      "english": "he/she",
+      "text": "เขา เค้า",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-006-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-006-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-007",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "ชื่อ",
+      "roman": "chûu",
+      "english": "name",
+      "text": "ชื่อ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-007-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-007-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-008",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "สวัสดี",
+      "roman": "sà-wàt-dii",
+      "english": "hello",
+      "text": "สวัสดี",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-008-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-008-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-009",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "สบายดี",
+      "roman": "sà-baay dii",
+      "english": "fine",
+      "text": "สบายดี",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-009-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-009-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-010",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "ไหม / มั้ย",
+      "roman": "mǎi / máy",
+      "english": "question word, or not",
+      "text": "ไหม มั้ย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-010-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-010-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-011",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "หรือ / รึ",
+      "roman": "rǔu / rú",
+      "english": "or",
+      "text": "หรือ รึ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-011-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-011-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-012",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "อะไร",
+      "roman": "à-rai",
+      "english": "what",
+      "text": "อะไร",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-012-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-012-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-013",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "ยินดีที่ได้รู้จัก",
+      "roman": "yin-dii thîi dâai rúu-jàk",
+      "english": "happy to know you",
+      "text": "ยินดีที่ได้รู้จัก",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-013-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-013-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-014",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "เช่นกัน",
+      "roman": "chên-gan",
+      "english": "same here",
+      "text": "เช่นกัน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-014-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-014-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-015",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "ขอบคุณ",
+      "roman": "khɔ̀ɔp-khun",
+      "english": "thank you",
+      "text": "ขอบคุณ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-015-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-015-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-016",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "ขอโทษ",
+      "roman": "khɔ̌ɔ-thôot",
+      "english": "sorry/excuse me",
+      "text": "ขอโทษ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-016-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-016-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-017",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "ไม่เป็นไร",
+      "roman": "mâi bpen rai",
+      "english": "it's alright / no problem",
+      "text": "ไม่เป็นไร",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-017-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-017-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-018",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "แล้วเจอกันใหม่",
+      "roman": "lέεw jәә-gan mài",
+      "english": "see you again",
+      "text": "แล้วเจอกันใหม่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-018-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-018-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-019",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "แล้วพบกันใหม่",
+      "roman": "lέεw phóp-gan mài",
+      "english": "see you again (formal)",
+      "text": "แล้วพบกันใหม่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-019-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-019-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-020",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "ฟัง",
+      "roman": "fang",
+      "english": "to listen",
+      "text": "ฟัง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-020-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-020-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-021",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "พูด",
+      "roman": "phûut",
+      "english": "to speak",
+      "text": "พูด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-021-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-021-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-022",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "อ่าน",
+      "roman": "àan",
+      "english": "to read",
+      "text": "อ่าน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-022-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-022-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-023",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "เขียน",
+      "roman": "khǐan",
+      "english": "to write",
+      "text": "เขียน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-023-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-023-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-024",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "พร้อม ๆ กัน",
+      "roman": "phrɔ́ɔm phrɔ́ɔm gan",
+      "english": "together",
+      "text": "พร้อม ๆ กัน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-024-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-024-slow.mp3"
+      }
+    },
+    {
+      "id": "L1-025",
+      "type": "cleared-vocabulary",
+      "lesson": 1,
+      "lessonTitle": "Greetings",
+      "label": "ดัง ๆ",
+      "roman": "dang dang",
+      "english": "loudly",
+      "text": "ดัง ๆ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L1-025-normal.mp3",
+        "slow": "thai1000_vocab_audio/L1-025-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-001",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "เป็น",
+      "roman": "bpen",
+      "english": "verb to be \"is\"",
+      "text": "เป็น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-001-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-001-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-002",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "อยู่",
+      "roman": "yùu",
+      "english": "verb to be \"is\", to be at, to live",
+      "text": "อยู่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-002-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-002-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-003",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "คือ",
+      "roman": "khuu",
+      "english": "verb to be \"is\"",
+      "text": "คือ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-003-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-003-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-004",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "คน",
+      "roman": "khon",
+      "english": "human",
+      "text": "คน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-004-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-004-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-005",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "ประเทศ",
+      "roman": "bprà-thêet",
+      "english": "country",
+      "text": "ประเทศ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-005-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-005-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-006",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "ภาษา",
+      "roman": "phaa-sǎa",
+      "english": "language",
+      "text": "ภาษา",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-006-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-006-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-007",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "ไทย",
+      "roman": "thai",
+      "english": "Thai",
+      "text": "ไทย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-007-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-007-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-008",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "จีน",
+      "roman": "jiin",
+      "english": "China",
+      "text": "จีน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-008-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-008-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-009",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "ฮ่องกง",
+      "roman": "hɔ̂ɔng-gong",
+      "english": "Hong Kong",
+      "text": "ฮ่องกง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-009-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-009-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-010",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "ญี่ปุ่น",
+      "roman": "yîi-bpùn",
+      "english": "Japan",
+      "text": "ญี่ปุ่น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-010-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-010-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-011",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "เกาหลี",
+      "roman": "gao-lǐi",
+      "english": "Korea",
+      "text": "เกาหลี",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-011-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-011-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-012",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "ง่าย",
+      "roman": "ngâay",
+      "english": "easy",
+      "text": "ง่าย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-012-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-012-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-013",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "ยาก",
+      "roman": "yâak",
+      "english": "difficult",
+      "text": "ยาก",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-013-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-013-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-014",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "มาก",
+      "roman": "mâak",
+      "english": "a lot / very much",
+      "text": "มาก",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-014-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-014-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-015",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "สวย",
+      "roman": "sǔay",
+      "english": "beautiful",
+      "text": "สวย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-015-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-015-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-016",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "หล่อ",
+      "roman": "lɔ̀ɔ",
+      "english": "handsome",
+      "text": "หล่อ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-016-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-016-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-017",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "เก่ง",
+      "roman": "gèng",
+      "english": "excellently / proficiently",
+      "text": "เก่ง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-017-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-017-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-018",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "ดี",
+      "roman": "dii",
+      "english": "good",
+      "text": "ดี",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-018-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-018-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-019",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "รวย",
+      "roman": "ruay",
+      "english": "rich",
+      "text": "รวย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-019-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-019-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-020",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "ใคร",
+      "roman": "khrai",
+      "english": "who",
+      "text": "ใคร",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-020-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-020-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-021",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "ทำไม",
+      "roman": "tham-mai",
+      "english": "why",
+      "text": "ทำไม",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-021-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-021-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-022",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "อย่างไร / ยังไง",
+      "roman": "yàang-rai / yang-ngai",
+      "english": "how",
+      "text": "อย่างไร ยังไง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-022-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-022-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-023",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "ก็",
+      "roman": "gɔ̂ɔ",
+      "english": "also",
+      "text": "ก็",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-023-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-023-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-024",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "ไม่",
+      "roman": "mâi",
+      "english": "no / not",
+      "text": "ไม่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-024-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-024-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-025",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "จำ",
+      "roman": "jam",
+      "english": "to memorize / remember",
+      "text": "จำ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-025-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-025-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-026",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "จำได้",
+      "roman": "jam dâi",
+      "english": "able to memorize",
+      "text": "จำได้",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-026-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-026-slow.mp3"
+      }
+    },
+    {
+      "id": "L2-027",
+      "type": "cleared-vocabulary",
+      "lesson": 2,
+      "lessonTitle": "Who, Where, Verb to be",
+      "label": "จำไม่ได้",
+      "roman": "jam mâi-dâi",
+      "english": "not able to memorize",
+      "text": "จำไม่ได้",
+      "files": {
+        "normal": "thai1000_vocab_audio/L2-027-normal.mp3",
+        "slow": "thai1000_vocab_audio/L2-027-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-001",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ที่นี่",
+      "roman": "thîi nîi",
+      "english": "here",
+      "text": "ที่นี่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-001-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-001-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-002",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ที่นั่น",
+      "roman": "thîi nân",
+      "english": "there",
+      "text": "ที่นั่น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-002-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-002-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-003",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ที่โน่น",
+      "roman": "thîi nôon",
+      "english": "there further away",
+      "text": "ที่โน่น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-003-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-003-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-004",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "นี้",
+      "roman": "níi",
+      "english": "this",
+      "text": "นี้",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-004-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-004-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-005",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "นั้น",
+      "roman": "nán",
+      "english": "that",
+      "text": "นั้น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-005-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-005-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-006",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "โน้น",
+      "roman": "nóon",
+      "english": "that further away",
+      "text": "โน้น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-006-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-006-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-007",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ไหน",
+      "roman": "nǎi",
+      "english": "which",
+      "text": "ไหน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-007-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-007-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-008",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ใช่",
+      "roman": "châi",
+      "english": "yes",
+      "text": "ใช่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-008-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-008-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-009",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ไหม / มั้ย",
+      "roman": "mǎi / máy",
+      "english": "question particle, or not",
+      "text": "ไหม มั้ย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-009-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-009-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-010",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ใช่ไหม / ใช่มั้ย",
+      "roman": "châi mǎi / châi máy",
+      "english": "...right?",
+      "text": "ใช่ไหม ใช่มั้ย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-010-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-010-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-011",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ไม่ใช่",
+      "roman": "mâi châi",
+      "english": "no / not yes",
+      "text": "ไม่ใช่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-011-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-011-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-012",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ปากกา",
+      "roman": "bpàak-gaa",
+      "english": "pen",
+      "text": "ปากกา",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-012-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-012-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-013",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ดินสอ",
+      "roman": "din-sɔ̌ɔ",
+      "english": "pencil",
+      "text": "ดินสอ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-013-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-013-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-014",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "สมุด",
+      "roman": "sà-mùt",
+      "english": "notebook",
+      "text": "สมุด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-014-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-014-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-015",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "หนังสือ",
+      "roman": "nǎng-sǔu",
+      "english": "book",
+      "text": "หนังสือ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-015-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-015-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-016",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "กระเป๋า",
+      "roman": "grà-bpǎo",
+      "english": "bag",
+      "text": "กระเป๋า",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-016-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-016-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-017",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ถุง",
+      "roman": "thǔng",
+      "english": "bag",
+      "text": "ถุง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-017-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-017-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-018",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "กระดาษ",
+      "roman": "grà-dàat",
+      "english": "paper",
+      "text": "กระดาษ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-018-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-018-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-019",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "แว่นตา",
+      "roman": "wε̂εn dtaa",
+      "english": "eye glasses",
+      "text": "แว่นตา",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-019-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-019-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-020",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "เงิน / ตังค์",
+      "roman": "ngәn / dtang",
+      "english": "money",
+      "text": "เงิน ตังค์",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-020-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-020-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-021",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "โต๊ะ",
+      "roman": "dtó",
+      "english": "table",
+      "text": "โต๊ะ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-021-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-021-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-022",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "เก้าอี้",
+      "roman": "gâo-îi",
+      "english": "chair",
+      "text": "เก้าอี้",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-022-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-022-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-023",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ของ",
+      "roman": "khɔ̌ɔng",
+      "english": "thing, belonging to",
+      "text": "ของ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-023-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-023-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-024",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "บน",
+      "roman": "bon",
+      "english": "on",
+      "text": "บน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-024-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-024-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-025",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ใต้",
+      "roman": "dtâai",
+      "english": "under",
+      "text": "ใต้",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-025-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-025-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-026",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ระหว่าง",
+      "roman": "rá-wàang",
+      "english": "between",
+      "text": "ระหว่าง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-026-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-026-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-027",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "กับ",
+      "roman": "gàp",
+      "english": "and / with",
+      "text": "กับ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-027-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-027-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-028",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "หนึ่ง",
+      "roman": "nùng",
+      "english": "one (1)",
+      "text": "หนึ่ง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-028-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-028-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-029",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "สอง",
+      "roman": "sɔ̌ɔng",
+      "english": "two (2)",
+      "text": "สอง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-029-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-029-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-030",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "สาม",
+      "roman": "sǎam",
+      "english": "three (3)",
+      "text": "สาม",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-030-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-030-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-031",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "สี่",
+      "roman": "sìi",
+      "english": "four (4)",
+      "text": "สี่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-031-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-031-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-032",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ห้า",
+      "roman": "hâa",
+      "english": "five (5)",
+      "text": "ห้า",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-032-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-032-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-033",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "หก",
+      "roman": "hòk",
+      "english": "six (6)",
+      "text": "หก",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-033-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-033-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-034",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "เจ็ด",
+      "roman": "jèt",
+      "english": "seven (7)",
+      "text": "เจ็ด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-034-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-034-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-035",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "แปด",
+      "roman": "bpὲεt",
+      "english": "eight (8)",
+      "text": "แปด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-035-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-035-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-036",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "เก้า",
+      "roman": "gâo",
+      "english": "nine (9)",
+      "text": "เก้า",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-036-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-036-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-037",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "สิบ",
+      "roman": "sìp",
+      "english": "ten (10)",
+      "text": "สิบ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-037-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-037-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-038",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ยี่สิบเอ็ด",
+      "roman": "yîi sìp-èt",
+      "english": "twenty-one (21)",
+      "text": "ยี่สิบเอ็ด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-038-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-038-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-039",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "ยี่สิบสอง",
+      "roman": "yîi sìp sɔ̌ɔng",
+      "english": "twenty-two (22)",
+      "text": "ยี่สิบสอง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-039-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-039-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-040",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "หนึ่งร้อย",
+      "roman": "nùng rɔ́ɔy",
+      "english": "one hundred (100)",
+      "text": "หนึ่งร้อย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-040-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-040-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-041",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "หนึ่งพัน",
+      "roman": "nùng phan",
+      "english": "one thousand (1000)",
+      "text": "หนึ่งพัน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-041-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-041-slow.mp3"
+      }
+    },
+    {
+      "id": "L3-042",
+      "type": "cleared-vocabulary",
+      "lesson": 3,
+      "lessonTitle": "Objects, Places, Numbers",
+      "label": "หนึ่งหมื่น",
+      "roman": "nùng mùun",
+      "english": "ten thousand (10000)",
+      "text": "หนึ่งหมื่น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L3-042-normal.mp3",
+        "slow": "thai1000_vocab_audio/L3-042-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-001",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "ไป",
+      "roman": "bpai",
+      "english": "to go",
+      "text": "ไป",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-001-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-001-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-002",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "มา",
+      "roman": "maa",
+      "english": "to come",
+      "text": "มา",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-002-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-002-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-003",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "กลับ",
+      "roman": "glàp",
+      "english": "to return",
+      "text": "กลับ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-003-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-003-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-004",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "เรียน",
+      "roman": "rian",
+      "english": "to study",
+      "text": "เรียน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-004-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-004-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-005",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "สอน",
+      "roman": "sɔ̌ɔn",
+      "english": "to teach",
+      "text": "สอน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-005-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-005-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-006",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "ดู",
+      "roman": "duu",
+      "english": "to see / watch",
+      "text": "ดู",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-006-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-006-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-007",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "ฟัง",
+      "roman": "fang",
+      "english": "to listen",
+      "text": "ฟัง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-007-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-007-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-008",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "พูด",
+      "roman": "phûut",
+      "english": "to speak",
+      "text": "พูด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-008-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-008-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-009",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "อ่าน",
+      "roman": "àan",
+      "english": "to read",
+      "text": "อ่าน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-009-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-009-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-010",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "เขียน",
+      "roman": "khǐan",
+      "english": "to write",
+      "text": "เขียน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-010-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-010-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-011",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "นอน",
+      "roman": "nɔɔn",
+      "english": "to sleep",
+      "text": "นอน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-011-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-011-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-012",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "เดิน",
+      "roman": "dәәn",
+      "english": "to walk",
+      "text": "เดิน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-012-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-012-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-013",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "วิ่ง",
+      "roman": "wîng",
+      "english": "to run",
+      "text": "วิ่ง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-013-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-013-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-014",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "ได้ / เป็น",
+      "roman": "dâai / bpen",
+      "english": "to be able to",
+      "text": "ได้ เป็น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-014-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-014-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-015",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "นิดหน่อย",
+      "roman": "nít-nɔ̀ɔy",
+      "english": "a little bit",
+      "text": "นิดหน่อย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-015-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-015-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-016",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "เล็ก",
+      "roman": "lék",
+      "english": "small",
+      "text": "เล็ก",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-016-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-016-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-017",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "ใหญ่",
+      "roman": "yài",
+      "english": "big",
+      "text": "ใหญ่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-017-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-017-slow.mp3"
+      }
+    },
+    {
+      "id": "L4-018",
+      "type": "cleared-vocabulary",
+      "lesson": 4,
+      "lessonTitle": "Verb and Action",
+      "label": "แต่",
+      "roman": "dtɛ̀ε",
+      "english": "but",
+      "text": "แต่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L4-018-normal.mp3",
+        "slow": "thai1000_vocab_audio/L4-018-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-001",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "กิน",
+      "roman": "gin",
+      "english": "to eat",
+      "text": "กิน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-001-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-001-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-002",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "ทาน",
+      "roman": "thaan",
+      "english": "to eat (formal)",
+      "text": "ทาน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-002-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-002-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-003",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "ดื่ม",
+      "roman": "dùum",
+      "english": "to drink",
+      "text": "ดื่ม",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-003-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-003-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-004",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "อยาก",
+      "roman": "yàak",
+      "english": "to want",
+      "text": "อยาก",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-004-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-004-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-005",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "อยากจะ",
+      "roman": "yàak jà",
+      "english": "to want to do sth",
+      "text": "อยากจะ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-005-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-005-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-006",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "ถาม",
+      "roman": "thǎam",
+      "english": "to ask",
+      "text": "ถาม",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-006-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-006-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-007",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "ตอบ",
+      "roman": "dtɔ̀ɔp",
+      "english": "to answer",
+      "text": "ตอบ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-007-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-007-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-008",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "ชอบ",
+      "roman": "chɔ̂ɔp",
+      "english": "to like",
+      "text": "ชอบ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-008-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-008-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-009",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "ขาย",
+      "roman": "khǎay",
+      "english": "to sell",
+      "text": "ขาย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-009-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-009-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-010",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "ซื้อ",
+      "roman": "súu",
+      "english": "to buy",
+      "text": "ซื้อ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-010-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-010-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-011",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "คำถาม",
+      "roman": "kham thǎam",
+      "english": "a question",
+      "text": "คำถาม",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-011-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-011-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-012",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "คำตอบ",
+      "roman": "kham dtɔ̀ɔp",
+      "english": "an answer",
+      "text": "คำตอบ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-012-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-012-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-013",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "เครื่องเย็บกระดาษ",
+      "roman": "khrûang yép grà-dàat",
+      "english": "stapler",
+      "text": "เครื่องเย็บกระดาษ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-013-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-013-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-014",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "แล้ว",
+      "roman": "lέεw",
+      "english": "already",
+      "text": "แล้ว",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-014-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-014-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-015",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "จะ",
+      "roman": "jà",
+      "english": "will",
+      "text": "จะ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-015-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-015-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-016",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "วันนี้",
+      "roman": "wan-níi",
+      "english": "today",
+      "text": "วันนี้",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-016-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-016-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-017",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "พรุ่งนี้",
+      "roman": "phrûng-níi",
+      "english": "tomorrow",
+      "text": "พรุ่งนี้",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-017-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-017-slow.mp3"
+      }
+    },
+    {
+      "id": "L5-018",
+      "type": "cleared-vocabulary",
+      "lesson": 5,
+      "lessonTitle": "Verb and Action (Con)",
+      "label": "เมื่อวานนี้",
+      "roman": "mûa-wan-níi",
+      "english": "yesterday",
+      "text": "เมื่อวานนี้",
+      "files": {
+        "normal": "thai1000_vocab_audio/L5-018-normal.mp3",
+        "slow": "thai1000_vocab_audio/L5-018-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-001",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "ที่ไหน",
+      "roman": "thîi nǎi",
+      "english": "where",
+      "text": "ที่ไหน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-001-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-001-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-002",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "บ้าน",
+      "roman": "bâan",
+      "english": "house",
+      "text": "บ้าน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-002-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-002-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-003",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "ซ้าย",
+      "roman": "sáay",
+      "english": "left",
+      "text": "ซ้าย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-003-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-003-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-004",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "ขวา",
+      "roman": "khwǎa",
+      "english": "right",
+      "text": "ขวา",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-004-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-004-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-005",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "หน้า",
+      "roman": "nâa",
+      "english": "front",
+      "text": "หน้า",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-005-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-005-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-006",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "ด้าน / ข้างหน้า",
+      "roman": "dâan / khâang nâa",
+      "english": "in front of",
+      "text": "ด้าน ข้างหน้า",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-006-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-006-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-007",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "เลี้ยว",
+      "roman": "líaw",
+      "english": "turn",
+      "text": "เลี้ยว",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-007-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-007-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-008",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "เดิน",
+      "roman": "dәәn",
+      "english": "walk",
+      "text": "เดิน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-008-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-008-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-009",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "ตรง (ไป)",
+      "roman": "dtrong (bpai)",
+      "english": "straight",
+      "text": "ตรง ไป",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-009-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-009-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-010",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "ห้องน้ำ",
+      "roman": "hɔ̂ɔng-náam",
+      "english": "bathroom / toilet",
+      "text": "ห้องน้ำ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-010-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-010-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-011",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "โรงแรม",
+      "roman": "roong rεεm",
+      "english": "hotel",
+      "text": "โรงแรม",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-011-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-011-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-012",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "โรงเรียน",
+      "roman": "roong rian",
+      "english": "school",
+      "text": "โรงเรียน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-012-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-012-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-013",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "หอพัก",
+      "roman": "hɔ̌ɔ phák",
+      "english": "dormitory, boarding house",
+      "text": "หอพัก",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-013-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-013-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-014",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "ร้านอาหาร",
+      "roman": "ráan aa-hǎan",
+      "english": "restaurant",
+      "text": "ร้านอาหาร",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-014-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-014-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-015",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "สนามบิน",
+      "roman": "sà-nǎam bin",
+      "english": "airport",
+      "text": "สนามบิน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-015-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-015-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-016",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "ตลาด",
+      "roman": "dtà-làat",
+      "english": "market",
+      "text": "ตลาด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-016-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-016-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-017",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "วัด",
+      "roman": "wát",
+      "english": "temple",
+      "text": "วัด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-017-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-017-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-018",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "มหาวิทยาลัย",
+      "roman": "má-hǎa wít-thá-yaa-lai",
+      "english": "university",
+      "text": "มหาวิทยาลัย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-018-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-018-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-019",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "คณะ",
+      "roman": "khá-ná",
+      "english": "faculty",
+      "text": "คณะ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-019-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-019-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-020",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "แผนก",
+      "roman": "phà-nὲεk",
+      "english": "department",
+      "text": "แผนก",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-020-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-020-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-021",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "ป้ายรถเมล์",
+      "roman": "bpâai rót-mee",
+      "english": "bus stop",
+      "text": "ป้ายรถเมล์",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-021-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-021-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-022",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "สถานีรถไฟฟ้า",
+      "roman": "sà-thǎa-nii rót fai (fáa)",
+      "english": "train / MRT station",
+      "text": "สถานีรถไฟฟ้า",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-022-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-022-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-023",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "ซูเปอร์มาร์เก็ต",
+      "roman": "súp-bpәә-maa-gèt",
+      "english": "supermarket",
+      "text": "ซูเปอร์มาร์เก็ต",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-023-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-023-slow.mp3"
+      }
+    },
+    {
+      "id": "L6-024",
+      "type": "cleared-vocabulary",
+      "lesson": 6,
+      "lessonTitle": "Places",
+      "label": "คณะศิลปศาสตร์",
+      "roman": "khá-ná sǐn-lá-bpà sàat",
+      "english": "Faculty of Arts",
+      "text": "คณะศิลปศาสตร์",
+      "files": {
+        "normal": "thai1000_vocab_audio/L6-024-normal.mp3",
+        "slow": "thai1000_vocab_audio/L6-024-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-001",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "รถเมล์",
+      "roman": "rót-mee",
+      "english": "bus",
+      "text": "รถเมล์",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-001-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-001-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-002",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "รถไฟ",
+      "roman": "rót-fai",
+      "english": "train",
+      "text": "รถไฟ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-002-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-002-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-003",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "รถไฟฟ้า",
+      "roman": "rót-fai-fáa",
+      "english": "electric train",
+      "text": "รถไฟฟ้า",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-003-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-003-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-004",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "รถไฟใต้ดิน",
+      "roman": "rót-fai-dtâai-din",
+      "english": "subway",
+      "text": "รถไฟใต้ดิน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-004-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-004-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-005",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "สองแถว",
+      "roman": "sɔ̌ɔng-thε̌εw",
+      "english": "Thai minibus",
+      "text": "สองแถว",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-005-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-005-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-006",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "ตุ๊กตุ๊ก",
+      "roman": "dtúk-dtúk",
+      "english": "motor tricycle",
+      "text": "ตุ๊กตุ๊ก",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-006-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-006-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-007",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "รถยนต์",
+      "roman": "rót-yon",
+      "english": "car",
+      "text": "รถยนต์",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-007-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-007-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-008",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "รถตู้",
+      "roman": "rót-dtûu",
+      "english": "van",
+      "text": "รถตู้",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-008-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-008-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-009",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "เครื่องบิน",
+      "roman": "khrûang-bin",
+      "english": "air-plane",
+      "text": "เครื่องบิน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-009-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-009-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-010",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "แท็กซี่",
+      "roman": "thέεk-sîi",
+      "english": "taxi",
+      "text": "แท็กซี่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-010-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-010-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-011",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "เรือ",
+      "roman": "rua",
+      "english": "boat, ship",
+      "text": "เรือ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-011-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-011-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-012",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "สามล้อ / ซาเล้ง",
+      "roman": "sǎam-lɔ́ɔ / saa-léng",
+      "english": "tricycle",
+      "text": "สามล้อ ซาเล้ง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-012-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-012-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-013",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "รถเข็น",
+      "roman": "rót khěn",
+      "english": "cart / wheelchair",
+      "text": "รถเข็น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-013-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-013-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-014",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "บัตร",
+      "roman": "bàt",
+      "english": "card",
+      "text": "บัตร",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-014-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-014-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-015",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "ตั๋ว",
+      "roman": "dtǔa",
+      "english": "ticket",
+      "text": "ตั๋ว",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-015-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-015-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-016",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "ค่ารถ / ค่าโดยสาร",
+      "roman": "khâa rót / khâa dooy-sǎan",
+      "english": "car fare",
+      "text": "ค่ารถ ค่าโดยสาร",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-016-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-016-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-017",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "นั่ง",
+      "roman": "nâng",
+      "english": "sit",
+      "text": "นั่ง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-017-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-017-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-018",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "ขับ",
+      "roman": "khàp",
+      "english": "drive",
+      "text": "ขับ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-018-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-018-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-019",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "คัน",
+      "roman": "khan",
+      "english": "classifier for car",
+      "text": "คัน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-019-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-019-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-020",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "ลงรถ",
+      "roman": "long rót",
+      "english": "get out of a car",
+      "text": "ลงรถ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-020-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-020-slow.mp3"
+      }
+    },
+    {
+      "id": "L7-021",
+      "type": "cleared-vocabulary",
+      "lesson": 7,
+      "lessonTitle": "Getting Around",
+      "label": "ขึ้นรถ",
+      "roman": "khûn rót",
+      "english": "get into a car",
+      "text": "ขึ้นรถ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L7-021-normal.mp3",
+        "slow": "thai1000_vocab_audio/L7-021-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-001",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "อันนี้",
+      "roman": "an níi",
+      "english": "this one",
+      "text": "อันนี้",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-001-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-001-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-002",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "อันนั้น",
+      "roman": "an nán",
+      "english": "that one",
+      "text": "อันนั้น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-002-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-002-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-003",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "อันโน้น",
+      "roman": "an nóon",
+      "english": "that one further away",
+      "text": "อันโน้น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-003-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-003-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-004",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "อันไหน",
+      "roman": "an nǎi",
+      "english": "which one",
+      "text": "อันไหน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-004-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-004-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-005",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "เท่าไหร่ / กี่",
+      "roman": "thâo-rài / gìi",
+      "english": "how much / how many",
+      "text": "เท่าไหร่ กี่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-005-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-005-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-006",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "ซื้อ",
+      "roman": "súu",
+      "english": "to buy",
+      "text": "ซื้อ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-006-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-006-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-007",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "ขาย",
+      "roman": "khǎay",
+      "english": "to sell",
+      "text": "ขาย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-007-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-007-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-008",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "ถูก",
+      "roman": "thùuk",
+      "english": "cheap",
+      "text": "ถูก",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-008-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-008-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-009",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "แพง",
+      "roman": "phεεng",
+      "english": "expensive",
+      "text": "แพง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-009-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-009-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-010",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "ราคา",
+      "roman": "raa-khaa",
+      "english": "price",
+      "text": "ราคา",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-010-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-010-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-011",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "ลด",
+      "roman": "lót",
+      "english": "to give discount",
+      "text": "ลด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-011-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-011-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-012",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "สีขาว",
+      "roman": "sǐi khǎaw",
+      "english": "white",
+      "text": "สีขาว",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-012-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-012-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-013",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "สีดำ",
+      "roman": "sǐi dam",
+      "english": "black",
+      "text": "สีดำ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-013-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-013-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-014",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "เสื้อ",
+      "roman": "sûa",
+      "english": "shirt / blouse",
+      "text": "เสื้อ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-014-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-014-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-015",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "เสื้อยืด",
+      "roman": "sûa yûut",
+      "english": "T-shirt",
+      "text": "เสื้อยืด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-015-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-015-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-016",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "เสื้อเชิ้ต",
+      "roman": "sûa chә́әt",
+      "english": "shirt",
+      "text": "เสื้อเชิ้ต",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-016-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-016-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-017",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "กระโปรง",
+      "roman": "grà-bproong",
+      "english": "skirt",
+      "text": "กระโปรง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-017-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-017-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-018",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "แหวน",
+      "roman": "wε̌εn",
+      "english": "ring",
+      "text": "แหวน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-018-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-018-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-019",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "ลอง",
+      "roman": "lɔɔng",
+      "english": "try",
+      "text": "ลอง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-019-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-019-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-020",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "เล็ก",
+      "roman": "lék",
+      "english": "small",
+      "text": "เล็ก",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-020-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-020-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-021",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "ใหญ่",
+      "roman": "yài",
+      "english": "big",
+      "text": "ใหญ่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-021-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-021-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-022",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "สั้น",
+      "roman": "sân",
+      "english": "short",
+      "text": "สั้น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-022-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-022-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-023",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "ยาว",
+      "roman": "yaaw",
+      "english": "long",
+      "text": "ยาว",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-023-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-023-slow.mp3"
+      }
+    },
+    {
+      "id": "L8-024",
+      "type": "cleared-vocabulary",
+      "lesson": 8,
+      "lessonTitle": "Shopping",
+      "label": "กว่า",
+      "roman": "gwàa",
+      "english": "...than",
+      "text": "กว่า",
+      "files": {
+        "normal": "thai1000_vocab_audio/L8-024-normal.mp3",
+        "slow": "thai1000_vocab_audio/L8-024-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-001",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "กิน",
+      "roman": "gin",
+      "english": "eat",
+      "text": "กิน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-001-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-001-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-002",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ทาน",
+      "roman": "thaan",
+      "english": "eat (formal word)",
+      "text": "ทาน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-002-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-002-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-003",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ดื่ม",
+      "roman": "dùum",
+      "english": "drink",
+      "text": "ดื่ม",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-003-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-003-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-004",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "สั่ง",
+      "roman": "sàng",
+      "english": "order",
+      "text": "สั่ง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-004-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-004-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-005",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "อาหาร",
+      "roman": "aa-hǎan",
+      "english": "food",
+      "text": "อาหาร",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-005-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-005-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-006",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "อาหารไทย",
+      "roman": "aa-hǎan thai",
+      "english": "Thai food",
+      "text": "อาหารไทย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-006-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-006-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-007",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "อาหารจีน",
+      "roman": "aa-hǎan jiin",
+      "english": "Chinese food",
+      "text": "อาหารจีน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-007-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-007-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-008",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "อาหารฝรั่ง",
+      "roman": "aa-hǎan fá-ràng",
+      "english": "Western food",
+      "text": "อาหารฝรั่ง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-008-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-008-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-009",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ข้าว",
+      "roman": "khâaw",
+      "english": "rice",
+      "text": "ข้าว",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-009-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-009-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-010",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ไข่",
+      "roman": "khài",
+      "english": "egg",
+      "text": "ไข่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-010-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-010-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-011",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ปลา",
+      "roman": "bplaa",
+      "english": "fish",
+      "text": "ปลา",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-011-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-011-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-012",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ไก่",
+      "roman": "gài",
+      "english": "chicken",
+      "text": "ไก่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-012-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-012-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-013",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "เป็ด",
+      "roman": "bpèt",
+      "english": "duck",
+      "text": "เป็ด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-013-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-013-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-014",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "หมู",
+      "roman": "mǔu",
+      "english": "pork",
+      "text": "หมู",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-014-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-014-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-015",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "เนื้อวัว",
+      "roman": "núa wua",
+      "english": "beef",
+      "text": "เนื้อวัว",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-015-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-015-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-016",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "กุ้ง",
+      "roman": "gûng",
+      "english": "shrimp",
+      "text": "กุ้ง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-016-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-016-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-017",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ปู",
+      "roman": "bpuu",
+      "english": "crab",
+      "text": "ปู",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-017-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-017-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-018",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ผัด",
+      "roman": "phàt",
+      "english": "stir-fry",
+      "text": "ผัด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-018-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-018-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-019",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "แกง",
+      "roman": "gεεng",
+      "english": "curry",
+      "text": "แกง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-019-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-019-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-020",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "แกงจืด",
+      "roman": "gεεng jùut",
+      "english": "clear soup",
+      "text": "แกงจืด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-020-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-020-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-021",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ทอด",
+      "roman": "thɔ̂ɔt",
+      "english": "deep-fry",
+      "text": "ทอด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-021-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-021-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-022",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ย่าง",
+      "roman": "yâang",
+      "english": "grill",
+      "text": "ย่าง",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-022-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-022-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-023",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ก๋วยเตี๋ยว",
+      "roman": "gǔay-dtǐaw",
+      "english": "rice noodle",
+      "text": "ก๋วยเตี๋ยว",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-023-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-023-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-024",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "บะหมี่",
+      "roman": "bà-mìi",
+      "english": "noodle",
+      "text": "บะหมี่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-024-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-024-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-025",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "น้ำตาล",
+      "roman": "nám-dtaan",
+      "english": "sugar",
+      "text": "น้ำตาล",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-025-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-025-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-026",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "เครื่องดื่ม",
+      "roman": "krûang-dùum",
+      "english": "drinks",
+      "text": "เครื่องดื่ม",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-026-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-026-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-027",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "น้ำเปล่า",
+      "roman": "nám-bplàw",
+      "english": "water",
+      "text": "น้ำเปล่า",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-027-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-027-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-028",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ชา",
+      "roman": "chaa",
+      "english": "tea",
+      "text": "ชา",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-028-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-028-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-029",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "กาแฟ",
+      "roman": "gaa-fεε",
+      "english": "coffee",
+      "text": "กาแฟ",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-029-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-029-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-030",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "น้ำส้ม",
+      "roman": "nám-sôm",
+      "english": "orange juice",
+      "text": "น้ำส้ม",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-030-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-030-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-031",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "อร่อย",
+      "roman": "à-rɔ̀ɔy",
+      "english": "delicious",
+      "text": "อร่อย",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-031-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-031-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-032",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "หวาน",
+      "roman": "wǎan",
+      "english": "sweet",
+      "text": "หวาน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-032-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-032-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-033",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "เผ็ด",
+      "roman": "phèt",
+      "english": "spicy",
+      "text": "เผ็ด",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-033-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-033-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-034",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ร้อน",
+      "roman": "rɔ́ɔn",
+      "english": "hot",
+      "text": "ร้อน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-034-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-034-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-035",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "เย็น",
+      "roman": "yen",
+      "english": "cold",
+      "text": "เย็น",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-035-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-035-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-036",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ส้ม",
+      "roman": "sôm",
+      "english": "orange",
+      "text": "ส้ม",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-036-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-036-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-037",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ทุเรียน",
+      "roman": "thú-rian",
+      "english": "durian",
+      "text": "ทุเรียน",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-037-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-037-slow.mp3"
+      }
+    },
+    {
+      "id": "L9-038",
+      "type": "cleared-vocabulary",
+      "lesson": 9,
+      "lessonTitle": "Food",
+      "label": "ลิ้นจี่",
+      "roman": "lín-jìi",
+      "english": "lychee",
+      "text": "ลิ้นจี่",
+      "files": {
+        "normal": "thai1000_vocab_audio/L9-038-normal.mp3",
+        "slow": "thai1000_vocab_audio/L9-038-slow.mp3"
+      }
+    }
+  ]
+}

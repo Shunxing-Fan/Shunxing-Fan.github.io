@@ -1,0 +1,1649 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>THAI1000 Cleared Vocabulary</title>
+  <style>
+    :root { color-scheme: light; --bg: #f4f7f8; --surface: #fff; --surface-2: #eef4f5; --ink: #10222b; --muted: #5d7180; --line: #d5e0e4; --accent: #0f6f78; --accent-2: #944f12; --shadow: 0 16px 44px rgba(16,34,43,.09); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: var(--bg); color: var(--ink); }
+    button, input, select { font: inherit; }
+    button { -webkit-tap-highlight-color: transparent; }
+    button:disabled { cursor: default; opacity: .6; }
+    .shell { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 28px 0 42px; }
+    header { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px; align-items: end; margin-bottom: 18px; }
+    h1 { margin: 0; font-size: 2rem; line-height: 1.12; letter-spacing: 0; }
+    .subtitle { margin: 8px 0 0; max-width: 760px; color: var(--muted); line-height: 1.5; }
+    .toolbar { display: grid; gap: 10px; min-width: 320px; }
+    .toolbar-field { display: grid; gap: 8px; }
+    .audio-toolbar { display: grid; grid-template-columns: minmax(96px, 1fr) auto auto; gap: 8px; align-items: end; }
+    .voice-status { grid-column: 1 / -1; color: var(--muted); font-size: .84rem; line-height: 1.35; text-align: right; }
+    label { color: var(--muted); font-size: .82rem; font-weight: 800; text-transform: uppercase; }
+    select, .search { width: 100%; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); padding: 10px 12px; outline: none; }
+    select:focus, .search:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(15,111,120,.14); }
+    .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+    .tab { border: 1px solid var(--line); border-radius: 8px; min-height: 40px; padding: 9px 13px; background: var(--surface); color: var(--ink); cursor: pointer; }
+    .tab.is-active { border-color: var(--accent); background: var(--accent); color: #fff; }
+    .summary { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+    .pill { display: inline-flex; align-items: center; min-height: 30px; padding: 5px 10px; border-radius: 999px; background: var(--surface-2); color: var(--muted); font-size: .88rem; }
+    .layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 18px; align-items: start; }
+    .layout.pos-mode { grid-template-columns: minmax(0, 1fr); }
+    .layout.pos-mode main { grid-column: 1; }
+    .side-nav { position: sticky; top: 16px; display: grid; gap: 8px; padding: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); box-shadow: var(--shadow); }
+    .nav-button { border: 0; border-radius: 7px; min-height: 40px; padding: 9px 11px; background: transparent; text-align: left; color: var(--ink); cursor: pointer; }
+    .nav-button:hover { background: var(--surface-2); }
+    .nav-button.is-active { background: var(--accent); color: #fff; }
+    main { min-width: 0; display: grid; gap: 14px; }
+    .card { border: 1px solid var(--line); border-radius: 8px; background: var(--surface); box-shadow: var(--shadow); overflow: hidden; }
+    .card-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 15px 17px; border-bottom: 1px solid var(--line); background: #fbfcfd; }
+    .card-head h2, .card-head h3 { margin: 0; font-size: 1.08rem; line-height: 1.25; letter-spacing: 0; }
+    .card-head .pill { justify-self: end; }
+    .card-body { padding: 16px 17px 18px; }
+    .top-actions { display: grid; grid-template-columns: minmax(0, 420px) auto; gap: 12px; align-items: end; margin-bottom: 12px; }
+    .utility-button, .icon-button, .start-button, .next-button { display: inline-flex; align-items: center; justify-content: center; min-height: 40px; border-radius: 8px; cursor: pointer; font-weight: 800; }
+    .utility-button, .icon-button { border: 1px solid var(--line); background: var(--surface); color: var(--accent); padding: 0 12px; }
+    .icon-button { width: 40px; padding: 0; }
+    .utility-button:hover, .utility-button:focus-visible, .icon-button:hover, .icon-button:focus-visible { border-color: var(--accent); background: var(--surface-2); outline: none; }
+    .table-wrap { width: 100%; overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
+    .pos-table-wrap { border-radius: 0; border-left: 0; border-right: 0; border-bottom: 0; }
+    table { width: 100%; min-width: 720px; border-collapse: collapse; background: var(--surface); }
+    th, td { padding: 11px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; line-height: 1.45; }
+    th { background: var(--surface-2); color: #354b58; font-size: .82rem; text-transform: uppercase; letter-spacing: 0; }
+    tr:last-child td { border-bottom: 0; }
+    .roman { font-weight: 800; color: #07535c; }
+    .thai { font-size: 1.12rem; font-weight: 900; color: #16333c; }
+    .pos { color: var(--accent-2); font-weight: 700; }
+    .lesson-badges { display: flex; flex-wrap: wrap; gap: 5px; }
+    .badge { display: inline-flex; align-items: center; justify-content: center; min-width: 34px; min-height: 24px; padding: 3px 7px; border-radius: 999px; background: var(--surface-2); color: var(--muted); font-size: .8rem; font-weight: 800; }
+    .group-list { display: grid; gap: 16px; }
+    .pos-group { border: 1px solid var(--line); border-radius: 8px; background: #fff; overflow: hidden; }
+    .pos-group-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 13px 15px; background: #fbfcfd; border-bottom: 1px solid var(--line); }
+    .pos-group-head h3 { margin: 0; font-size: 1.02rem; letter-spacing: 0; }
+    .pos-group-body { padding: 0; }
+    .pos-group-body table { min-width: 780px; }
+    .study-shell { display: grid; gap: 16px; }
+    .study-controls { display: grid; grid-template-columns: minmax(180px, 260px) minmax(0, 1fr); gap: 12px; align-items: end; }
+    .selection-actions, .game-actions, .result-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: flex-end; }
+    .mode-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .mode-tabs button { min-height: 48px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); cursor: pointer; font-weight: 900; }
+    .mode-tabs button.is-active { border-color: var(--accent); background: rgba(15,111,120,.1); color: #07535c; }
+    .word-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+    .word-select-card { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 10px; min-height: 138px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); padding: 13px; cursor: pointer; font-size: 1rem; font-weight: 400; text-transform: none; }
+    .word-select-card:has(input:checked) { border-color: rgba(15,111,120,.62); background: #f4fbfc; }
+    .word-select-card input { margin-top: 6px; width: 18px; height: 18px; accent-color: var(--accent); }
+    .word-select-card strong, .word-select-card small, .word-select-card em { display: block; min-width: 0; overflow-wrap: anywhere; }
+    .word-select-card strong { color: #16333c; font-size: 1.28rem; line-height: 1.25; }
+    .word-select-card small { color: var(--ink); line-height: 1.38; }
+    .word-select-card em { color: var(--muted); font-size: .78rem; font-style: normal; text-transform: uppercase; }
+    .start-button, .next-button { border: 0; background: var(--accent); color: #fff; padding: 0 18px; box-shadow: 0 10px 22px rgba(15,111,120,.18); }
+    .start-button { width: 100%; margin-top: 2px; }
+    .start-button:not(:disabled):hover, .start-button:not(:disabled):focus-visible, .next-button:hover, .next-button:focus-visible { background: #0b5961; outline: none; }
+    .progress-line { display: flex; justify-content: space-between; gap: 12px; color: var(--muted); font-weight: 800; }
+    .prompt-card { display: grid; place-items: center; min-height: 218px; border: 1px solid var(--line); border-radius: 8px; background: linear-gradient(135deg, rgba(15,111,120,.08), rgba(148,79,18,.1)), #fff; padding: 22px; text-align: center; }
+    .speaker-button { display: grid; place-items: center; width: 108px; height: 108px; border: 2px solid var(--accent); border-radius: 999px; background: #fff; color: var(--accent); cursor: pointer; }
+    .speaker-button::before { content: ""; width: 42px; height: 42px; background: var(--accent); clip-path: polygon(0 32%, 32% 32%, 68% 0, 68% 100%, 32% 68%, 0 68%); }
+    .speaker-button:hover, .speaker-button:focus-visible { background: var(--surface-2); outline: none; }
+    .thai-prompt, .english-prompt { overflow-wrap: anywhere; line-height: 1.05; }
+    .thai-prompt { color: #16333c; font-size: clamp(2.3rem, 8vw, 5rem); font-weight: 900; }
+    .english-prompt { color: #07535c; font-size: clamp(2rem, 6vw, 4.2rem); font-weight: 900; }
+    .prompt-meta { margin-top: 10px; color: var(--muted); font-weight: 800; }
+    .feedback { min-height: 32px; color: var(--muted); font-weight: 800; }
+    .feedback.is-correct { color: #19613d; }
+    .feedback.is-wrong { color: #8a3114; }
+    .options-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+    .option-button { min-height: 74px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); padding: 10px; cursor: pointer; font-weight: 850; overflow-wrap: anywhere; }
+    .option-button small { display: block; margin-top: 3px; color: var(--muted); font-weight: 700; }
+    .option-button:hover, .option-button:focus-visible { border-color: var(--accent); background: var(--surface-2); outline: none; }
+    .option-button.is-correct { border-color: #28784f; background: #e8f5ee; color: #145432; }
+    .option-button.is-wrong { border-color: #b4592b; background: #fff1ea; color: #853214; }
+    .result-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+    .result-stats div, .mistake-item, .empty-result { border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 13px; }
+    .result-stats span, .result-stats strong { display: block; }
+    .result-stats span { color: var(--muted); font-size: .78rem; font-weight: 800; text-transform: uppercase; }
+    .result-stats strong { color: var(--accent); font-size: 1.7rem; }
+    .mistake-list { display: grid; gap: 10px; }
+    .mistake-item { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1fr) minmax(0, 1fr); gap: 10px; line-height: 1.4; }
+    .mistake-item strong { color: #19613d; }
+    .mistake-item em { color: var(--muted); font-style: normal; }
+    .empty { padding: 16px; border-radius: 8px; background: var(--surface-2); color: var(--muted); }
+    .hidden { display: none !important; }
+    @media (max-width: 900px) { .options-grid, .result-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 840px) { .shell { width: min(100% - 20px, 1180px); padding-top: 18px; } header, .layout, .card-head, .top-actions, .study-controls { grid-template-columns: 1fr; } .toolbar { min-width: 0; } .voice-status { text-align: left; } .card-head .pill { justify-self: start; } .side-nav { position: static; grid-template-columns: repeat(3, minmax(0, 1fr)); } .nav-button { text-align: center; padding: 8px 6px; } table { min-width: 620px; } .selection-actions { justify-content: flex-start; } }
+    @media (max-width: 560px) { .audio-toolbar, .mode-tabs, .options-grid, .result-stats, .mistake-item { grid-template-columns: 1fr; } .word-list { grid-template-columns: 1fr; } .speaker-button { width: 96px; height: 96px; } .game-actions, .result-actions { align-items: stretch; flex-direction: column; } .game-actions .utility-button, .game-actions .next-button, .result-actions .utility-button, .result-actions .next-button { width: 100%; } }
+    @media (max-width: 520px) { h1 { font-size: 1.55rem; } .shell { width: min(100% - 20px, 1180px); } .side-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); } .card-body, .card-head { padding-left: 12px; padding-right: 12px; } table { min-width: 560px; } th, td { padding: 10px; } }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div><h1>THAI1000 Cleared Vocabulary</h1><p class="subtitle">Selected vocabulary grouped by lesson and by part of speech.</p></div>
+      <div class="toolbar">
+        <div class="toolbar-field"><label for="lessonSelect">Lesson</label><select id="lessonSelect"></select></div>
+        <div class="audio-toolbar" id="tts">
+          <div class="toolbar-field"><label for="audioVariant">Audio</label><select id="audioVariant" aria-label="Audio speed"><option value="normal">Normal</option><option value="slow">Slow</option></select></div>
+          <button class="utility-button" id="preloadAudio" type="button">预加载语音</button>
+          <button class="icon-button" id="stopSpeech" type="button" aria-label="Stop audio" title="Stop audio">■</button>
+          <span class="voice-status" id="voiceStatus">Audio loading</span>
+        </div>
+      </div>
+    </header>
+    <div class="tabs" role="tablist" aria-label="Vocabulary view"><button class="tab is-active" type="button" data-view="lesson">By Lesson</button><button class="tab" type="button" data-view="pos">By Part of Speech</button><button class="tab" type="button" data-view="study">背单词</button></div>
+    <div class="summary" id="summary"></div>
+    <div class="layout">
+      <nav class="side-nav" id="sideNav" aria-label="Lesson navigation"></nav>
+      <main><section class="card"><div class="card-head"><h2 id="viewTitle"></h2><span class="pill" id="viewCount"></span></div><div class="card-body"><div class="top-actions" id="topActions"><div><label for="searchInput">Search</label><input class="search" id="searchInput" type="search" placeholder="Search words"></div></div><div id="content"></div></div></section></main>
+    </div>
+  </div>
+  <script>
+    const LESSONS = [
+  {
+    "lesson": 1,
+    "title": "Greetings",
+    "vocabulary": [
+      {
+        "roman": "chǎn",
+        "english": "I (for both sex)",
+        "pos": "Pronouns",
+        "thai": "ฉัน"
+      },
+      {
+        "roman": "phŏm",
+        "english": "I (for male speaker)",
+        "pos": "Pronouns",
+        "thai": "ผม"
+      },
+      {
+        "roman": "dì-chǎn / dì-chán",
+        "english": "I (for female speaker)",
+        "pos": "Pronouns",
+        "thai": "ดิฉัน / ดิชั้น",
+        "speak": "ดิฉัน ดิชั้น"
+      },
+      {
+        "roman": "khun",
+        "english": "you / addressing people",
+        "pos": "Pronouns",
+        "thai": "คุณ"
+      },
+      {
+        "roman": "rao",
+        "english": "both of us, we, I",
+        "pos": "Pronouns",
+        "thai": "เรา"
+      },
+      {
+        "roman": "khǎo / kháo",
+        "english": "he/she",
+        "pos": "Pronouns",
+        "thai": "เขา / เค้า",
+        "speak": "เขา เค้า"
+      },
+      {
+        "roman": "chûu",
+        "english": "name",
+        "pos": "Nouns",
+        "thai": "ชื่อ"
+      },
+      {
+        "roman": "sà-wàt-dii",
+        "english": "hello",
+        "pos": "Phrases / Expressions",
+        "thai": "สวัสดี"
+      },
+      {
+        "roman": "sà-baay dii",
+        "english": "fine",
+        "pos": "Phrases / Expressions",
+        "thai": "สบายดี"
+      },
+      {
+        "roman": "mǎi / máy",
+        "english": "question word, or not",
+        "pos": "Question Words",
+        "thai": "ไหม / มั้ย",
+        "speak": "ไหม มั้ย"
+      },
+      {
+        "roman": "rǔu / rú",
+        "english": "or",
+        "pos": "Particles / Connectors",
+        "thai": "หรือ / รึ",
+        "speak": "หรือ รึ"
+      },
+      {
+        "roman": "à-rai",
+        "english": "what",
+        "pos": "Question Words",
+        "thai": "อะไร"
+      },
+      {
+        "roman": "yin-dii thîi dâai rúu-jàk",
+        "english": "happy to know you",
+        "pos": "Phrases / Expressions",
+        "thai": "ยินดีที่ได้รู้จัก"
+      },
+      {
+        "roman": "chên-gan",
+        "english": "same here",
+        "pos": "Phrases / Expressions",
+        "thai": "เช่นกัน"
+      },
+      {
+        "roman": "khɔ̀ɔp-khun",
+        "english": "thank you",
+        "pos": "Phrases / Expressions",
+        "thai": "ขอบคุณ"
+      },
+      {
+        "roman": "khɔ̌ɔ-thôot",
+        "english": "sorry/excuse me",
+        "pos": "Phrases / Expressions",
+        "thai": "ขอโทษ"
+      },
+      {
+        "roman": "mâi bpen rai",
+        "english": "it's alright / no problem",
+        "pos": "Phrases / Expressions",
+        "thai": "ไม่เป็นไร"
+      },
+      {
+        "roman": "lέεw jәә-gan mài",
+        "english": "see you again",
+        "pos": "Phrases / Expressions",
+        "thai": "แล้วเจอกันใหม่"
+      },
+      {
+        "roman": "lέεw phóp-gan mài",
+        "english": "see you again (formal)",
+        "pos": "Phrases / Expressions",
+        "thai": "แล้วพบกันใหม่"
+      },
+      {
+        "roman": "fang",
+        "english": "to listen",
+        "pos": "Verbs",
+        "thai": "ฟัง"
+      },
+      {
+        "roman": "phûut",
+        "english": "to speak",
+        "pos": "Verbs",
+        "thai": "พูด"
+      },
+      {
+        "roman": "àan",
+        "english": "to read",
+        "pos": "Verbs",
+        "thai": "อ่าน"
+      },
+      {
+        "roman": "khǐan",
+        "english": "to write",
+        "pos": "Verbs",
+        "thai": "เขียน"
+      },
+      {
+        "roman": "phrɔ́ɔm phrɔ́ɔm gan",
+        "english": "together",
+        "pos": "Adverbs",
+        "thai": "พร้อม ๆ กัน"
+      },
+      {
+        "roman": "dang dang",
+        "english": "loudly",
+        "pos": "Adverbs",
+        "thai": "ดัง ๆ"
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "title": "Who, Where, Verb to be",
+    "vocabulary": [
+      {
+        "roman": "bpen",
+        "english": "verb to be \"is\"",
+        "pos": "Verbs",
+        "thai": "เป็น"
+      },
+      {
+        "roman": "yùu",
+        "english": "verb to be \"is\", to be at, to live",
+        "pos": "Verbs",
+        "thai": "อยู่"
+      },
+      {
+        "roman": "khuu",
+        "english": "verb to be \"is\"",
+        "pos": "Verbs",
+        "thai": "คือ"
+      },
+      {
+        "roman": "khon",
+        "english": "human",
+        "pos": "Nouns",
+        "thai": "คน"
+      },
+      {
+        "roman": "bprà-thêet",
+        "english": "country",
+        "pos": "Nouns",
+        "thai": "ประเทศ"
+      },
+      {
+        "roman": "phaa-sǎa",
+        "english": "language",
+        "pos": "Nouns",
+        "thai": "ภาษา"
+      },
+      {
+        "roman": "thai",
+        "english": "Thai",
+        "pos": "Nouns",
+        "thai": "ไทย"
+      },
+      {
+        "roman": "jiin",
+        "english": "China",
+        "pos": "Nouns",
+        "thai": "จีน"
+      },
+      {
+        "roman": "hɔ̂ɔng-gong",
+        "english": "Hong Kong",
+        "pos": "Nouns",
+        "thai": "ฮ่องกง"
+      },
+      {
+        "roman": "yîi-bpùn",
+        "english": "Japan",
+        "pos": "Nouns",
+        "thai": "ญี่ปุ่น"
+      },
+      {
+        "roman": "gao-lǐi",
+        "english": "Korea",
+        "pos": "Nouns",
+        "thai": "เกาหลี"
+      },
+      {
+        "roman": "ngâay",
+        "english": "easy",
+        "pos": "Adjectives",
+        "thai": "ง่าย"
+      },
+      {
+        "roman": "yâak",
+        "english": "difficult",
+        "pos": "Adjectives",
+        "thai": "ยาก"
+      },
+      {
+        "roman": "mâak",
+        "english": "a lot / very much",
+        "pos": "Adverbs",
+        "thai": "มาก"
+      },
+      {
+        "roman": "sǔay",
+        "english": "beautiful",
+        "pos": "Adjectives",
+        "thai": "สวย"
+      },
+      {
+        "roman": "lɔ̀ɔ",
+        "english": "handsome",
+        "pos": "Adjectives",
+        "thai": "หล่อ"
+      },
+      {
+        "roman": "gèng",
+        "english": "excellently / proficiently",
+        "pos": "Adjectives",
+        "thai": "เก่ง"
+      },
+      {
+        "roman": "dii",
+        "english": "good",
+        "pos": "Adjectives",
+        "thai": "ดี"
+      },
+      {
+        "roman": "ruay",
+        "english": "rich",
+        "pos": "Adjectives",
+        "thai": "รวย"
+      },
+      {
+        "roman": "khrai",
+        "english": "who",
+        "pos": "Question Words",
+        "thai": "ใคร"
+      },
+      {
+        "roman": "tham-mai",
+        "english": "why",
+        "pos": "Question Words",
+        "thai": "ทำไม"
+      },
+      {
+        "roman": "yàang-rai / yang-ngai",
+        "english": "how",
+        "pos": "Question Words",
+        "thai": "อย่างไร / ยังไง",
+        "speak": "อย่างไร ยังไง"
+      },
+      {
+        "roman": "gɔ̂ɔ",
+        "english": "also",
+        "pos": "Particles / Connectors",
+        "thai": "ก็"
+      },
+      {
+        "roman": "mâi",
+        "english": "no / not",
+        "pos": "Particles / Connectors",
+        "thai": "ไม่"
+      },
+      {
+        "roman": "jam",
+        "english": "to memorize / remember",
+        "pos": "Verbs",
+        "thai": "จำ"
+      },
+      {
+        "roman": "jam dâi",
+        "english": "able to memorize",
+        "pos": "Verbs",
+        "thai": "จำได้"
+      },
+      {
+        "roman": "jam mâi-dâi",
+        "english": "not able to memorize",
+        "pos": "Verbs",
+        "thai": "จำไม่ได้"
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "title": "Objects, Places, Numbers",
+    "vocabulary": [
+      {
+        "roman": "thîi nîi",
+        "english": "here",
+        "pos": "Position / Direction",
+        "thai": "ที่นี่"
+      },
+      {
+        "roman": "thîi nân",
+        "english": "there",
+        "pos": "Position / Direction",
+        "thai": "ที่นั่น"
+      },
+      {
+        "roman": "thîi nôon",
+        "english": "there further away",
+        "pos": "Position / Direction",
+        "thai": "ที่โน่น"
+      },
+      {
+        "roman": "níi",
+        "english": "this",
+        "pos": "Demonstratives",
+        "thai": "นี้"
+      },
+      {
+        "roman": "nán",
+        "english": "that",
+        "pos": "Demonstratives",
+        "thai": "นั้น"
+      },
+      {
+        "roman": "nóon",
+        "english": "that further away",
+        "pos": "Demonstratives",
+        "thai": "โน้น"
+      },
+      {
+        "roman": "nǎi",
+        "english": "which",
+        "pos": "Question Words",
+        "thai": "ไหน"
+      },
+      {
+        "roman": "châi",
+        "english": "yes",
+        "pos": "Phrases / Expressions",
+        "thai": "ใช่"
+      },
+      {
+        "roman": "mǎi / máy",
+        "english": "question particle, or not",
+        "pos": "Question Words",
+        "thai": "ไหม / มั้ย",
+        "speak": "ไหม มั้ย"
+      },
+      {
+        "roman": "châi mǎi / châi máy",
+        "english": "...right?",
+        "pos": "Question Words",
+        "thai": "ใช่ไหม / ใช่มั้ย",
+        "speak": "ใช่ไหม ใช่มั้ย"
+      },
+      {
+        "roman": "mâi châi",
+        "english": "no / not yes",
+        "pos": "Phrases / Expressions",
+        "thai": "ไม่ใช่"
+      },
+      {
+        "roman": "bpàak-gaa",
+        "english": "pen",
+        "pos": "Nouns",
+        "thai": "ปากกา"
+      },
+      {
+        "roman": "din-sɔ̌ɔ",
+        "english": "pencil",
+        "pos": "Nouns",
+        "thai": "ดินสอ"
+      },
+      {
+        "roman": "sà-mùt",
+        "english": "notebook",
+        "pos": "Nouns",
+        "thai": "สมุด"
+      },
+      {
+        "roman": "nǎng-sǔu",
+        "english": "book",
+        "pos": "Nouns",
+        "thai": "หนังสือ"
+      },
+      {
+        "roman": "grà-bpǎo",
+        "english": "bag",
+        "pos": "Nouns",
+        "thai": "กระเป๋า"
+      },
+      {
+        "roman": "thǔng",
+        "english": "bag",
+        "pos": "Nouns",
+        "thai": "ถุง"
+      },
+      {
+        "roman": "grà-dàat",
+        "english": "paper",
+        "pos": "Nouns",
+        "thai": "กระดาษ"
+      },
+      {
+        "roman": "wε̂εn dtaa",
+        "english": "eye glasses",
+        "pos": "Nouns",
+        "thai": "แว่นตา"
+      },
+      {
+        "roman": "ngәn / dtang",
+        "english": "money",
+        "pos": "Nouns",
+        "thai": "เงิน / ตังค์",
+        "speak": "เงิน ตังค์"
+      },
+      {
+        "roman": "dtó",
+        "english": "table",
+        "pos": "Nouns",
+        "thai": "โต๊ะ"
+      },
+      {
+        "roman": "gâo-îi",
+        "english": "chair",
+        "pos": "Nouns",
+        "thai": "เก้าอี้"
+      },
+      {
+        "roman": "khɔ̌ɔng",
+        "english": "thing, belonging to",
+        "pos": "Nouns",
+        "thai": "ของ"
+      },
+      {
+        "roman": "bon",
+        "english": "on",
+        "pos": "Position / Direction",
+        "thai": "บน"
+      },
+      {
+        "roman": "dtâai",
+        "english": "under",
+        "pos": "Position / Direction",
+        "thai": "ใต้"
+      },
+      {
+        "roman": "rá-wàang",
+        "english": "between",
+        "pos": "Position / Direction",
+        "thai": "ระหว่าง"
+      },
+      {
+        "roman": "gàp",
+        "english": "and / with",
+        "pos": "Particles / Connectors",
+        "thai": "กับ"
+      },
+      {
+        "roman": "nùng",
+        "english": "one (1)",
+        "pos": "Numbers",
+        "thai": "หนึ่ง"
+      },
+      {
+        "roman": "sɔ̌ɔng",
+        "english": "two (2)",
+        "pos": "Numbers",
+        "thai": "สอง"
+      },
+      {
+        "roman": "sǎam",
+        "english": "three (3)",
+        "pos": "Numbers",
+        "thai": "สาม"
+      },
+      {
+        "roman": "sìi",
+        "english": "four (4)",
+        "pos": "Numbers",
+        "thai": "สี่"
+      },
+      {
+        "roman": "hâa",
+        "english": "five (5)",
+        "pos": "Numbers",
+        "thai": "ห้า"
+      },
+      {
+        "roman": "hòk",
+        "english": "six (6)",
+        "pos": "Numbers",
+        "thai": "หก"
+      },
+      {
+        "roman": "jèt",
+        "english": "seven (7)",
+        "pos": "Numbers",
+        "thai": "เจ็ด"
+      },
+      {
+        "roman": "bpὲεt",
+        "english": "eight (8)",
+        "pos": "Numbers",
+        "thai": "แปด"
+      },
+      {
+        "roman": "gâo",
+        "english": "nine (9)",
+        "pos": "Numbers",
+        "thai": "เก้า"
+      },
+      {
+        "roman": "sìp",
+        "english": "ten (10)",
+        "pos": "Numbers",
+        "thai": "สิบ"
+      },
+      {
+        "roman": "yîi sìp-èt",
+        "english": "twenty-one (21)",
+        "pos": "Numbers",
+        "thai": "ยี่สิบเอ็ด"
+      },
+      {
+        "roman": "yîi sìp sɔ̌ɔng",
+        "english": "twenty-two (22)",
+        "pos": "Numbers",
+        "thai": "ยี่สิบสอง"
+      },
+      {
+        "roman": "nùng rɔ́ɔy",
+        "english": "one hundred (100)",
+        "pos": "Numbers",
+        "thai": "หนึ่งร้อย"
+      },
+      {
+        "roman": "nùng phan",
+        "english": "one thousand (1000)",
+        "pos": "Numbers",
+        "thai": "หนึ่งพัน"
+      },
+      {
+        "roman": "nùng mùun",
+        "english": "ten thousand (10000)",
+        "pos": "Numbers",
+        "thai": "หนึ่งหมื่น"
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "title": "Verb and Action",
+    "vocabulary": [
+      {
+        "roman": "bpai",
+        "english": "to go",
+        "pos": "Verbs",
+        "thai": "ไป"
+      },
+      {
+        "roman": "maa",
+        "english": "to come",
+        "pos": "Verbs",
+        "thai": "มา"
+      },
+      {
+        "roman": "glàp",
+        "english": "to return",
+        "pos": "Verbs",
+        "thai": "กลับ"
+      },
+      {
+        "roman": "rian",
+        "english": "to study",
+        "pos": "Verbs",
+        "thai": "เรียน"
+      },
+      {
+        "roman": "sɔ̌ɔn",
+        "english": "to teach",
+        "pos": "Verbs",
+        "thai": "สอน"
+      },
+      {
+        "roman": "duu",
+        "english": "to see / watch",
+        "pos": "Verbs",
+        "thai": "ดู"
+      },
+      {
+        "roman": "fang",
+        "english": "to listen",
+        "pos": "Verbs",
+        "thai": "ฟัง"
+      },
+      {
+        "roman": "phûut",
+        "english": "to speak",
+        "pos": "Verbs",
+        "thai": "พูด"
+      },
+      {
+        "roman": "àan",
+        "english": "to read",
+        "pos": "Verbs",
+        "thai": "อ่าน"
+      },
+      {
+        "roman": "khǐan",
+        "english": "to write",
+        "pos": "Verbs",
+        "thai": "เขียน"
+      },
+      {
+        "roman": "nɔɔn",
+        "english": "to sleep",
+        "pos": "Verbs",
+        "thai": "นอน"
+      },
+      {
+        "roman": "dәәn",
+        "english": "to walk",
+        "pos": "Verbs",
+        "thai": "เดิน"
+      },
+      {
+        "roman": "wîng",
+        "english": "to run",
+        "pos": "Verbs",
+        "thai": "วิ่ง"
+      },
+      {
+        "roman": "dâai / bpen",
+        "english": "to be able to",
+        "pos": "Verbs",
+        "thai": "ได้ / เป็น",
+        "speak": "ได้ เป็น"
+      },
+      {
+        "roman": "nít-nɔ̀ɔy",
+        "english": "a little bit",
+        "pos": "Adverbs",
+        "thai": "นิดหน่อย"
+      },
+      {
+        "roman": "lék",
+        "english": "small",
+        "pos": "Adjectives",
+        "thai": "เล็ก"
+      },
+      {
+        "roman": "yài",
+        "english": "big",
+        "pos": "Adjectives",
+        "thai": "ใหญ่"
+      },
+      {
+        "roman": "dtɛ̀ε",
+        "english": "but",
+        "pos": "Particles / Connectors",
+        "thai": "แต่"
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "title": "Verb and Action (Con)",
+    "vocabulary": [
+      {
+        "roman": "gin",
+        "english": "to eat",
+        "pos": "Verbs",
+        "thai": "กิน"
+      },
+      {
+        "roman": "thaan",
+        "english": "to eat (formal)",
+        "pos": "Verbs",
+        "thai": "ทาน"
+      },
+      {
+        "roman": "dùum",
+        "english": "to drink",
+        "pos": "Verbs",
+        "thai": "ดื่ม"
+      },
+      {
+        "roman": "yàak",
+        "english": "to want",
+        "pos": "Verbs",
+        "thai": "อยาก"
+      },
+      {
+        "roman": "yàak jà",
+        "english": "to want to do sth",
+        "pos": "Verbs",
+        "thai": "อยากจะ"
+      },
+      {
+        "roman": "thǎam",
+        "english": "to ask",
+        "pos": "Verbs",
+        "thai": "ถาม"
+      },
+      {
+        "roman": "dtɔ̀ɔp",
+        "english": "to answer",
+        "pos": "Verbs",
+        "thai": "ตอบ"
+      },
+      {
+        "roman": "chɔ̂ɔp",
+        "english": "to like",
+        "pos": "Verbs",
+        "thai": "ชอบ"
+      },
+      {
+        "roman": "khǎay",
+        "english": "to sell",
+        "pos": "Verbs",
+        "thai": "ขาย"
+      },
+      {
+        "roman": "súu",
+        "english": "to buy",
+        "pos": "Verbs",
+        "thai": "ซื้อ"
+      },
+      {
+        "roman": "kham thǎam",
+        "english": "a question",
+        "pos": "Nouns",
+        "thai": "คำถาม"
+      },
+      {
+        "roman": "kham dtɔ̀ɔp",
+        "english": "an answer",
+        "pos": "Nouns",
+        "thai": "คำตอบ"
+      },
+      {
+        "roman": "khrûang yép grà-dàat",
+        "english": "stapler",
+        "pos": "Nouns",
+        "thai": "เครื่องเย็บกระดาษ"
+      },
+      {
+        "roman": "lέεw",
+        "english": "already",
+        "pos": "Particles / Connectors",
+        "thai": "แล้ว"
+      },
+      {
+        "roman": "jà",
+        "english": "will",
+        "pos": "Particles / Connectors",
+        "thai": "จะ"
+      },
+      {
+        "roman": "wan-níi",
+        "english": "today",
+        "pos": "Adverbs",
+        "thai": "วันนี้"
+      },
+      {
+        "roman": "phrûng-níi",
+        "english": "tomorrow",
+        "pos": "Adverbs",
+        "thai": "พรุ่งนี้"
+      },
+      {
+        "roman": "mûa-wan-níi",
+        "english": "yesterday",
+        "pos": "Adverbs",
+        "thai": "เมื่อวานนี้"
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "title": "Places",
+    "vocabulary": [
+      {
+        "roman": "thîi nǎi",
+        "english": "where",
+        "pos": "Question Words",
+        "thai": "ที่ไหน"
+      },
+      {
+        "roman": "bâan",
+        "english": "house",
+        "pos": "Nouns",
+        "thai": "บ้าน"
+      },
+      {
+        "roman": "sáay",
+        "english": "left",
+        "pos": "Position / Direction",
+        "thai": "ซ้าย"
+      },
+      {
+        "roman": "khwǎa",
+        "english": "right",
+        "pos": "Position / Direction",
+        "thai": "ขวา"
+      },
+      {
+        "roman": "nâa",
+        "english": "front",
+        "pos": "Position / Direction",
+        "thai": "หน้า"
+      },
+      {
+        "roman": "dâan / khâang nâa",
+        "english": "in front of",
+        "pos": "Position / Direction",
+        "thai": "ด้าน / ข้างหน้า",
+        "speak": "ด้าน ข้างหน้า"
+      },
+      {
+        "roman": "líaw",
+        "english": "turn",
+        "pos": "Verbs",
+        "thai": "เลี้ยว"
+      },
+      {
+        "roman": "dәәn",
+        "english": "walk",
+        "pos": "Verbs",
+        "thai": "เดิน"
+      },
+      {
+        "roman": "dtrong (bpai)",
+        "english": "straight",
+        "pos": "Position / Direction",
+        "thai": "ตรง (ไป)",
+        "speak": "ตรง ไป"
+      },
+      {
+        "roman": "hɔ̂ɔng-náam",
+        "english": "bathroom / toilet",
+        "pos": "Nouns",
+        "thai": "ห้องน้ำ"
+      },
+      {
+        "roman": "roong rεεm",
+        "english": "hotel",
+        "pos": "Nouns",
+        "thai": "โรงแรม"
+      },
+      {
+        "roman": "roong rian",
+        "english": "school",
+        "pos": "Nouns",
+        "thai": "โรงเรียน"
+      },
+      {
+        "roman": "hɔ̌ɔ phák",
+        "english": "dormitory, boarding house",
+        "pos": "Nouns",
+        "thai": "หอพัก"
+      },
+      {
+        "roman": "ráan aa-hǎan",
+        "english": "restaurant",
+        "pos": "Nouns",
+        "thai": "ร้านอาหาร"
+      },
+      {
+        "roman": "sà-nǎam bin",
+        "english": "airport",
+        "pos": "Nouns",
+        "thai": "สนามบิน"
+      },
+      {
+        "roman": "dtà-làat",
+        "english": "market",
+        "pos": "Nouns",
+        "thai": "ตลาด"
+      },
+      {
+        "roman": "wát",
+        "english": "temple",
+        "pos": "Nouns",
+        "thai": "วัด"
+      },
+      {
+        "roman": "má-hǎa wít-thá-yaa-lai",
+        "english": "university",
+        "pos": "Nouns",
+        "thai": "มหาวิทยาลัย"
+      },
+      {
+        "roman": "khá-ná",
+        "english": "faculty",
+        "pos": "Nouns",
+        "thai": "คณะ"
+      },
+      {
+        "roman": "phà-nὲεk",
+        "english": "department",
+        "pos": "Nouns",
+        "thai": "แผนก"
+      },
+      {
+        "roman": "bpâai rót-mee",
+        "english": "bus stop",
+        "pos": "Nouns",
+        "thai": "ป้ายรถเมล์"
+      },
+      {
+        "roman": "sà-thǎa-nii rót fai (fáa)",
+        "english": "train / MRT station",
+        "pos": "Nouns",
+        "thai": "สถานีรถไฟฟ้า"
+      },
+      {
+        "roman": "súp-bpәә-maa-gèt",
+        "english": "supermarket",
+        "pos": "Nouns",
+        "thai": "ซูเปอร์มาร์เก็ต"
+      },
+      {
+        "roman": "khá-ná sǐn-lá-bpà sàat",
+        "english": "Faculty of Arts",
+        "pos": "Nouns",
+        "thai": "คณะศิลปศาสตร์"
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "title": "Getting Around",
+    "vocabulary": [
+      {
+        "roman": "rót-mee",
+        "english": "bus",
+        "pos": "Nouns",
+        "thai": "รถเมล์"
+      },
+      {
+        "roman": "rót-fai",
+        "english": "train",
+        "pos": "Nouns",
+        "thai": "รถไฟ"
+      },
+      {
+        "roman": "rót-fai-fáa",
+        "english": "electric train",
+        "pos": "Nouns",
+        "thai": "รถไฟฟ้า"
+      },
+      {
+        "roman": "rót-fai-dtâai-din",
+        "english": "subway",
+        "pos": "Nouns",
+        "thai": "รถไฟใต้ดิน"
+      },
+      {
+        "roman": "sɔ̌ɔng-thε̌εw",
+        "english": "Thai minibus",
+        "pos": "Nouns",
+        "thai": "สองแถว"
+      },
+      {
+        "roman": "dtúk-dtúk",
+        "english": "motor tricycle",
+        "pos": "Nouns",
+        "thai": "ตุ๊กตุ๊ก"
+      },
+      {
+        "roman": "rót-yon",
+        "english": "car",
+        "pos": "Nouns",
+        "thai": "รถยนต์"
+      },
+      {
+        "roman": "rót-dtûu",
+        "english": "van",
+        "pos": "Nouns",
+        "thai": "รถตู้"
+      },
+      {
+        "roman": "khrûang-bin",
+        "english": "air-plane",
+        "pos": "Nouns",
+        "thai": "เครื่องบิน"
+      },
+      {
+        "roman": "thέεk-sîi",
+        "english": "taxi",
+        "pos": "Nouns",
+        "thai": "แท็กซี่"
+      },
+      {
+        "roman": "rua",
+        "english": "boat, ship",
+        "pos": "Nouns",
+        "thai": "เรือ"
+      },
+      {
+        "roman": "sǎam-lɔ́ɔ / saa-léng",
+        "english": "tricycle",
+        "pos": "Nouns",
+        "thai": "สามล้อ / ซาเล้ง",
+        "speak": "สามล้อ ซาเล้ง"
+      },
+      {
+        "roman": "rót khěn",
+        "english": "cart / wheelchair",
+        "pos": "Nouns",
+        "thai": "รถเข็น"
+      },
+      {
+        "roman": "bàt",
+        "english": "card",
+        "pos": "Nouns",
+        "thai": "บัตร"
+      },
+      {
+        "roman": "dtǔa",
+        "english": "ticket",
+        "pos": "Nouns",
+        "thai": "ตั๋ว"
+      },
+      {
+        "roman": "khâa rót / khâa dooy-sǎan",
+        "english": "car fare",
+        "pos": "Nouns",
+        "thai": "ค่ารถ / ค่าโดยสาร",
+        "speak": "ค่ารถ ค่าโดยสาร"
+      },
+      {
+        "roman": "nâng",
+        "english": "sit",
+        "pos": "Verbs",
+        "thai": "นั่ง"
+      },
+      {
+        "roman": "khàp",
+        "english": "drive",
+        "pos": "Verbs",
+        "thai": "ขับ"
+      },
+      {
+        "roman": "khan",
+        "english": "classifier for car",
+        "pos": "Nouns",
+        "thai": "คัน"
+      },
+      {
+        "roman": "long rót",
+        "english": "get out of a car",
+        "pos": "Verbs",
+        "thai": "ลงรถ"
+      },
+      {
+        "roman": "khûn rót",
+        "english": "get into a car",
+        "pos": "Verbs",
+        "thai": "ขึ้นรถ"
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "title": "Shopping",
+    "vocabulary": [
+      {
+        "roman": "an níi",
+        "english": "this one",
+        "pos": "Demonstratives",
+        "thai": "อันนี้"
+      },
+      {
+        "roman": "an nán",
+        "english": "that one",
+        "pos": "Demonstratives",
+        "thai": "อันนั้น"
+      },
+      {
+        "roman": "an nóon",
+        "english": "that one further away",
+        "pos": "Demonstratives",
+        "thai": "อันโน้น"
+      },
+      {
+        "roman": "an nǎi",
+        "english": "which one",
+        "pos": "Question Words",
+        "thai": "อันไหน"
+      },
+      {
+        "roman": "thâo-rài / gìi",
+        "english": "how much / how many",
+        "pos": "Question Words",
+        "thai": "เท่าไหร่ / กี่",
+        "speak": "เท่าไหร่ กี่"
+      },
+      {
+        "roman": "súu",
+        "english": "to buy",
+        "pos": "Verbs",
+        "thai": "ซื้อ"
+      },
+      {
+        "roman": "khǎay",
+        "english": "to sell",
+        "pos": "Verbs",
+        "thai": "ขาย"
+      },
+      {
+        "roman": "thùuk",
+        "english": "cheap",
+        "pos": "Adjectives",
+        "thai": "ถูก"
+      },
+      {
+        "roman": "phεεng",
+        "english": "expensive",
+        "pos": "Adjectives",
+        "thai": "แพง"
+      },
+      {
+        "roman": "raa-khaa",
+        "english": "price",
+        "pos": "Nouns",
+        "thai": "ราคา"
+      },
+      {
+        "roman": "lót",
+        "english": "to give discount",
+        "pos": "Verbs",
+        "thai": "ลด"
+      },
+      {
+        "roman": "sǐi khǎaw",
+        "english": "white",
+        "pos": "Adjectives",
+        "thai": "สีขาว"
+      },
+      {
+        "roman": "sǐi dam",
+        "english": "black",
+        "pos": "Adjectives",
+        "thai": "สีดำ"
+      },
+      {
+        "roman": "sûa",
+        "english": "shirt / blouse",
+        "pos": "Nouns",
+        "thai": "เสื้อ"
+      },
+      {
+        "roman": "sûa yûut",
+        "english": "T-shirt",
+        "pos": "Nouns",
+        "thai": "เสื้อยืด"
+      },
+      {
+        "roman": "sûa chә́әt",
+        "english": "shirt",
+        "pos": "Nouns",
+        "thai": "เสื้อเชิ้ต"
+      },
+      {
+        "roman": "grà-bproong",
+        "english": "skirt",
+        "pos": "Nouns",
+        "thai": "กระโปรง"
+      },
+      {
+        "roman": "wε̌εn",
+        "english": "ring",
+        "pos": "Nouns",
+        "thai": "แหวน"
+      },
+      {
+        "roman": "lɔɔng",
+        "english": "try",
+        "pos": "Verbs",
+        "thai": "ลอง"
+      },
+      {
+        "roman": "lék",
+        "english": "small",
+        "pos": "Adjectives",
+        "thai": "เล็ก"
+      },
+      {
+        "roman": "yài",
+        "english": "big",
+        "pos": "Adjectives",
+        "thai": "ใหญ่"
+      },
+      {
+        "roman": "sân",
+        "english": "short",
+        "pos": "Adjectives",
+        "thai": "สั้น"
+      },
+      {
+        "roman": "yaaw",
+        "english": "long",
+        "pos": "Adjectives",
+        "thai": "ยาว"
+      },
+      {
+        "roman": "gwàa",
+        "english": "...than",
+        "pos": "Particles / Connectors",
+        "thai": "กว่า"
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "title": "Food",
+    "vocabulary": [
+      {
+        "roman": "gin",
+        "english": "eat",
+        "pos": "Verbs",
+        "thai": "กิน"
+      },
+      {
+        "roman": "thaan",
+        "english": "eat (formal word)",
+        "pos": "Nouns",
+        "thai": "ทาน"
+      },
+      {
+        "roman": "dùum",
+        "english": "drink",
+        "pos": "Verbs",
+        "thai": "ดื่ม"
+      },
+      {
+        "roman": "sàng",
+        "english": "order",
+        "pos": "Verbs",
+        "thai": "สั่ง"
+      },
+      {
+        "roman": "aa-hǎan",
+        "english": "food",
+        "pos": "Nouns",
+        "thai": "อาหาร"
+      },
+      {
+        "roman": "aa-hǎan thai",
+        "english": "Thai food",
+        "pos": "Nouns",
+        "thai": "อาหารไทย"
+      },
+      {
+        "roman": "aa-hǎan jiin",
+        "english": "Chinese food",
+        "pos": "Nouns",
+        "thai": "อาหารจีน"
+      },
+      {
+        "roman": "aa-hǎan fá-ràng",
+        "english": "Western food",
+        "pos": "Nouns",
+        "thai": "อาหารฝรั่ง"
+      },
+      {
+        "roman": "khâaw",
+        "english": "rice",
+        "pos": "Nouns",
+        "thai": "ข้าว"
+      },
+      {
+        "roman": "khài",
+        "english": "egg",
+        "pos": "Nouns",
+        "thai": "ไข่"
+      },
+      {
+        "roman": "bplaa",
+        "english": "fish",
+        "pos": "Nouns",
+        "thai": "ปลา"
+      },
+      {
+        "roman": "gài",
+        "english": "chicken",
+        "pos": "Nouns",
+        "thai": "ไก่"
+      },
+      {
+        "roman": "bpèt",
+        "english": "duck",
+        "pos": "Nouns",
+        "thai": "เป็ด"
+      },
+      {
+        "roman": "mǔu",
+        "english": "pork",
+        "pos": "Nouns",
+        "thai": "หมู"
+      },
+      {
+        "roman": "núa wua",
+        "english": "beef",
+        "pos": "Nouns",
+        "thai": "เนื้อวัว"
+      },
+      {
+        "roman": "gûng",
+        "english": "shrimp",
+        "pos": "Nouns",
+        "thai": "กุ้ง"
+      },
+      {
+        "roman": "bpuu",
+        "english": "crab",
+        "pos": "Nouns",
+        "thai": "ปู"
+      },
+      {
+        "roman": "phàt",
+        "english": "stir-fry",
+        "pos": "Verbs",
+        "thai": "ผัด"
+      },
+      {
+        "roman": "gεεng",
+        "english": "curry",
+        "pos": "Nouns",
+        "thai": "แกง"
+      },
+      {
+        "roman": "gεεng jùut",
+        "english": "clear soup",
+        "pos": "Nouns",
+        "thai": "แกงจืด"
+      },
+      {
+        "roman": "thɔ̂ɔt",
+        "english": "deep-fry",
+        "pos": "Verbs",
+        "thai": "ทอด"
+      },
+      {
+        "roman": "yâang",
+        "english": "grill",
+        "pos": "Verbs",
+        "thai": "ย่าง"
+      },
+      {
+        "roman": "gǔay-dtǐaw",
+        "english": "rice noodle",
+        "pos": "Nouns",
+        "thai": "ก๋วยเตี๋ยว"
+      },
+      {
+        "roman": "bà-mìi",
+        "english": "noodle",
+        "pos": "Nouns",
+        "thai": "บะหมี่"
+      },
+      {
+        "roman": "nám-dtaan",
+        "english": "sugar",
+        "pos": "Nouns",
+        "thai": "น้ำตาล"
+      },
+      {
+        "roman": "krûang-dùum",
+        "english": "drinks",
+        "pos": "Nouns",
+        "thai": "เครื่องดื่ม"
+      },
+      {
+        "roman": "nám-bplàw",
+        "english": "water",
+        "pos": "Nouns",
+        "thai": "น้ำเปล่า"
+      },
+      {
+        "roman": "chaa",
+        "english": "tea",
+        "pos": "Nouns",
+        "thai": "ชา"
+      },
+      {
+        "roman": "gaa-fεε",
+        "english": "coffee",
+        "pos": "Nouns",
+        "thai": "กาแฟ"
+      },
+      {
+        "roman": "nám-sôm",
+        "english": "orange juice",
+        "pos": "Nouns",
+        "thai": "น้ำส้ม"
+      },
+      {
+        "roman": "à-rɔ̀ɔy",
+        "english": "delicious",
+        "pos": "Adjectives",
+        "thai": "อร่อย"
+      },
+      {
+        "roman": "wǎan",
+        "english": "sweet",
+        "pos": "Adjectives",
+        "thai": "หวาน"
+      },
+      {
+        "roman": "phèt",
+        "english": "spicy",
+        "pos": "Adjectives",
+        "thai": "เผ็ด"
+      },
+      {
+        "roman": "rɔ́ɔn",
+        "english": "hot",
+        "pos": "Adjectives",
+        "thai": "ร้อน"
+      },
+      {
+        "roman": "yen",
+        "english": "cold",
+        "pos": "Adjectives",
+        "thai": "เย็น"
+      },
+      {
+        "roman": "sôm",
+        "english": "orange",
+        "pos": "Adjectives",
+        "thai": "ส้ม"
+      },
+      {
+        "roman": "thú-rian",
+        "english": "durian",
+        "pos": "Nouns",
+        "thai": "ทุเรียน"
+      },
+      {
+        "roman": "lín-jìi",
+        "english": "lychee",
+        "pos": "Nouns",
+        "thai": "ลิ้นจี่"
+      }
+    ]
+  }
+];
+    const POS_GROUPS = [
+  "Nouns",
+  "Verbs",
+  "Adjectives",
+  "Adverbs",
+  "Pronouns",
+  "Numbers",
+  "Question Words",
+  "Particles / Connectors",
+  "Position / Direction",
+  "Demonstratives",
+  "Phrases / Expressions",
+  "Other"
+];
+  </script>
+  <script src="thai1000_vocab_game.js"></script>
+</body>
+</html>
