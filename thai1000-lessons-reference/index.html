@@ -66,7 +66,29 @@
     .empty-state { padding: 18px; color: var(--muted); background: var(--surface-alt); border-radius: 8px; }
     .top-actions { display: flex; align-items: end; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
     .search-box { width: min(420px, 100%); display: grid; gap: 6px; }
-    @media (max-width: 840px) { .app-shell { width: min(100% - 20px, 1180px); padding-top: 18px; } header, .layout, .lesson-heading, .section-header { grid-template-columns: 1fr; } .lesson-select-wrap { min-width: 0; } .lesson-nav { position: static; grid-template-columns: repeat(3, minmax(0, 1fr)); } .lesson-button { text-align: center; padding: 9px 6px; } .counts, .conversation-toolbar { justify-content: flex-start; } .example-row { grid-template-columns: 1fr; gap: 4px; } .dialogue-line { grid-template-columns: 34px minmax(0, 1fr); gap: 4px 10px; } .line-english { grid-column: 2; } table { min-width: 480px; } }
+    .toolkit-intro { margin: 0 0 14px; color: #334554; line-height: 1.55; }
+    .strategy-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; margin-bottom: 16px; }
+    .strategy-step { border: 1px solid var(--line); border-radius: 8px; padding: 10px; background: #fbfcfd; min-width: 0; }
+    .strategy-step strong { display: block; margin-bottom: 4px; color: var(--accent-strong); }
+    .strategy-step span { display: block; color: var(--muted); font-size: 0.9rem; line-height: 1.4; }
+    .toolkit-group { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #fff; margin-top: 12px; }
+    .toolkit-group h4 { margin: 0; padding: 12px 14px; background: var(--surface-alt); font-size: 0.98rem; }
+    .pattern-list { display: grid; gap: 0; }
+    .pattern-item { display: grid; grid-template-columns: minmax(140px, 0.34fr) minmax(0, 1fr); gap: 12px; padding: 12px 14px; border-top: 1px solid var(--line); }
+    .pattern-item:first-child { border-top: 0; }
+    .pattern-use { color: var(--amber); font-weight: 800; line-height: 1.4; }
+    .qa-stack { display: grid; gap: 8px; min-width: 0; }
+    .qa-line { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 8px; line-height: 1.45; }
+    .qa-label { color: var(--muted); font-weight: 800; text-transform: uppercase; font-size: 0.78rem; padding-top: 2px; }
+    .qa-text { min-width: 0; }
+    .qa-roman { display: block; font-weight: 800; color: var(--accent-strong); }
+    .qa-english { display: block; color: #334554; margin-top: 2px; }
+    .slot-note { margin: 2px 0 0; color: var(--muted); line-height: 1.5; }
+    .topic-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .topic-item { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: #fbfcfd; min-width: 0; }
+    .topic-item h5 { margin: 0 0 6px; font-size: 0.96rem; }
+    .topic-item p { margin: 0; color: #334554; line-height: 1.5; }
+    @media (max-width: 840px) { .app-shell { width: min(100% - 20px, 1180px); padding-top: 18px; } header, .layout, .lesson-heading, .section-header { grid-template-columns: 1fr; } .lesson-select-wrap { min-width: 0; } .lesson-nav { position: static; grid-template-columns: repeat(3, minmax(0, 1fr)); } .lesson-button { text-align: center; padding: 9px 6px; } .counts, .conversation-toolbar { justify-content: flex-start; } .example-row { grid-template-columns: 1fr; gap: 4px; } .dialogue-line { grid-template-columns: 34px minmax(0, 1fr); gap: 4px 10px; } .line-english { grid-column: 2; } .strategy-grid, .topic-grid { grid-template-columns: 1fr; } .pattern-item { grid-template-columns: 1fr; gap: 8px; } table { min-width: 480px; } }
     @media (max-width: 520px) { h1 { font-size: 1.55rem; } .section-body, .section-header, .lesson-heading { padding-left: 12px; padding-right: 12px; } .lesson-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); } table { min-width: 420px; } th, td { padding: 10px; } }
   </style>
 </head>
@@ -80,6 +102,243 @@
       <nav class="lesson-nav" id="lessonNav" aria-label="Lesson navigation"></nav>
       <main>
         <section class="lesson-heading" aria-live="polite"><div><h2 id="lessonTitle"></h2></div><div class="counts" id="lessonCounts"></div></section>
+        <section class="section-card" aria-labelledby="toolkitHeading">
+          <div class="section-header"><h3 id="toolkitHeading">Oral Speaking Toolkit</h3><span class="count-pill">Q&A patterns + likely topics</span></div>
+          <div class="section-body">
+            <p class="toolkit-intro">Use this as the reusable sentence bank for an 8-minute pair conversation. The safest structure is: greet, identify the situation, ask and answer 2-3 core questions, expand with ability / preference / past / future / location, then close politely.</p>
+            <div class="strategy-grid" aria-label="Eight minute conversation flow">
+              <div class="strategy-step"><strong>1. Open</strong><span>Greeting, name, how are you.</span></div>
+              <div class="strategy-step"><strong>2. Set topic</strong><span>Where / food / shopping / transport / plan.</span></div>
+              <div class="strategy-step"><strong>3. Core Q&A</strong><span>Ask one clear question, answer fully.</span></div>
+              <div class="strategy-step"><strong>4. Expand</strong><span>Add ability, preference, reason, past, future.</span></div>
+              <div class="strategy-step"><strong>5. Close</strong><span>Thanks, no problem, see you again.</span></div>
+            </div>
+
+            <div class="toolkit-group">
+              <h4>1. Greeting, identity, nationality</h4>
+              <div class="pattern-list">
+                <div class="pattern-item">
+                  <div class="pattern-use">Start the conversation</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">sà-wàt-dii khráp / khâ. khun sà-baay dii máy?</span><span class="qa-english">Hello. How are you?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">sà-baay dii khráp / khâ. khɔ̀ɔp-khun. khun lâ?</span><span class="qa-english">I am fine. Thank you. And you?</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Ask names</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">khun chûu à-rai khráp / khá?</span><span class="qa-english">What is your name?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">phǒm / dì-chán chûu ... khráp / khâ. yin-dii thîi dâai rúu-jàk.</span><span class="qa-english">My name is ... Nice to meet you.</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Nationality</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">khun bpen khon à-rai khráp / khá?</span><span class="qa-english">What nationality are you?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">phǒm / dì-chán bpen khon ... khráp / khâ.</span><span class="qa-english">I am ...</span></span></div>
+                    <p class="slot-note">Useful slots: thai, jiin, yîi-bpùn, ang-grìt, amerigan, hɔ̂ɔng-gong.</p>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Where are you from?</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">khun maa jàak thîi-nǎi khráp / khá?</span><span class="qa-english">Where do you come from?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">phǒm / dì-chán maa jàak ... khráp / khâ.</span><span class="qa-english">I come from ...</span></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="toolkit-group">
+              <h4>2. Ability, language, study</h4>
+              <div class="pattern-list">
+                <div class="pattern-item">
+                  <div class="pattern-use">Can you speak?</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">khun phûut phaa-sǎa ... dâai máy khráp / khá?</span><span class="qa-english">Can you speak ...?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">dâai nít-nɔ̀ɔy, dtɛ̀ε mâi gèng khráp / khâ.</span><span class="qa-english">I can a little, but not well.</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Can you write?</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">khun khǐan phaa-sǎa ... dâai / bpen máy khráp / khá?</span><span class="qa-english">Can you write ...?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">dâai / bpen nít-nɔ̀ɔy khráp / khâ.</span><span class="qa-english">I can write a little.</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Class / obligation</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">khun dtɔ̂ɔng bpai rian máy khráp / khá?</span><span class="qa-english">Do you have to go to class?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">dtɔ̂ɔng bpai rian khráp / khâ. phǒm / dì-chán dtɔ̂ɔng khɔ̌ɔ dtua gɔ̀ɔn.</span><span class="qa-english">I have to go to class. I need to leave first.</span></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="toolkit-group">
+              <h4>3. Likes, food, ordering</h4>
+              <div class="pattern-list">
+                <div class="pattern-item">
+                  <div class="pattern-use">Like or dislike</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">khun chɔ̂ɔp aa-hǎan ... máy khráp / khá?</span><span class="qa-english">Do you like ... food?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">chɔ̂ɔp mâak khráp / khâ. / mâi chɔ̂ɔp khráp / khâ, dtὲε chɔ̂ɔp ...</span><span class="qa-english">I like it very much. / I do not like it, but I like ...</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Can eat spicy?</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">khun thaan phèt dâai máy khráp / khá?</span><span class="qa-english">Can you eat spicy food?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">thaan dâai khâ, dtὲε mâi mâak ná khá. / khɔ̌ɔ mâi phèt khâ.</span><span class="qa-english">I can, but not too spicy. / Not spicy please.</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Order food</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">jà ráp à-rai dii khráp / khá?</span><span class="qa-english">What would you like to order?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">phǒm / dì-chán khɔ̌ɔ ... dûay khráp / khâ.</span><span class="qa-english">May I have ... please?</span></span></div>
+                    <p class="slot-note">Useful order frame: khɔ̌ɔ + item + dûay. Add: mâi sài nom, mâi sài dtôn-hɔ̌ɔm, khɔ̌ɔ phèt phèt.</p>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Drink and bill</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">jà ráp khrûang-dùum à-rai dii khráp / khá?</span><span class="qa-english">What do you want to drink?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">khɔ̌ɔ nám-bplào / gaa-fεε dam khráp / khâ. nɔ́ɔng khá, chék-bin dûay khâ.</span><span class="qa-english">Water / black coffee please. Waiter, check please.</span></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="toolkit-group">
+              <h4>4. Places, directions, transportation</h4>
+              <div class="pattern-list">
+                <div class="pattern-item">
+                  <div class="pattern-use">Where is it?</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">... yùu thîi-nǎi rǒo khráp / khá?</span><span class="qa-english">Where is ...?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">... yùu thîi nâa / khâang-nâa / bon / dtâai ... khráp / khâ.</span><span class="qa-english">It is in front of / ahead / on / under ...</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">How to go?</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">... bpai yang-ngai khráp / khá?</span><span class="qa-english">How can I go to ...?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">dәәn dtrong bpai lέεw líaw sáay / khwǎa khráp / khâ.</span><span class="qa-english">Walk straight, then turn left / right.</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Far or near</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">yùu glai máy khráp / khá?</span><span class="qa-english">Is it far?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">yùu mâi glai. dәәn bpai gɔ̂ɔ dâai. / yùu glai, dtɔ̂ɔng nâng rót bpai.</span><span class="qa-english">It is not far. You can walk. / It is far, you must take a car.</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Bus, taxi, train</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">dtɔ̂ɔng nâng rót sǎay à-rai khá? / bpâai rót-mee yùu thîi-nǎi?</span><span class="qa-english">Which bus line should I take? / Where is the bus stop?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">nâng rót-mee sǎay ... lέεw long thîi nâa ... khráp / khâ.</span><span class="qa-english">Take bus line ... and get off in front of ...</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Fare and receipt</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">bpai ... khâa-rót bprà-maan thâo-rài khá?</span><span class="qa-english">Approximately how much is the fare to ...?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">bprà-maan ... bàat khráp. khɔ̌ɔ bai-sèt dûay ná khá.</span><span class="qa-english">Approximately ... baht. Can I have a receipt too?</span></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="toolkit-group">
+              <h4>5. Shopping, color, size, comparison</h4>
+              <div class="pattern-list">
+                <div class="pattern-item">
+                  <div class="pattern-use">Price</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">an-níi raa-khaa thâo-rài khráp / khá?</span><span class="qa-english">How much is this one?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">... bàat / rǐan khráp / khâ.</span><span class="qa-english">It is ... baht / dollars.</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Bargain</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">phεεng jang lәәy. lót nɔ̀i dâai máy khráp / khá?</span><span class="qa-english">It is so expensive. Can you give a little discount?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">ngán ... bàat lá gan khráp / khâ.</span><span class="qa-english">Then ... baht, okay?</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Choose and buy</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">mii sǐi ... máy khráp / khá? lɔɔng sài dâai máy?</span><span class="qa-english">Do you have ... color? Can I try it on?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">mii khráp / khâ. rɔɔ sák-khrûu ná. / phǒm ao an níi.</span><span class="qa-english">Yes. Please wait a moment. / I will take this one.</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Size and comparison</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">dtua lék / yài gwàa níi mii máy khráp / khá?</span><span class="qa-english">Do you have a smaller / bigger one than this?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">mii khráp / khâ. / khǎay mòt lέεw khráp / khâ.</span><span class="qa-english">Yes, we have. / It is sold out.</span></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="toolkit-group">
+              <h4>6. Time logic: already, future, requests, closing</h4>
+              <div class="pattern-list">
+                <div class="pattern-item">
+                  <div class="pattern-use">Already did</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">khun thaan khâaw rǔu yang khráp / khá?</span><span class="qa-english">Have you eaten?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">thaan lέεw khráp / khâ. khun lâ?</span><span class="qa-english">I already ate. What about you?</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Future plan</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">khun jà bpai / súu / thaan à-rai khráp / khá?</span><span class="qa-english">What will you go / buy / eat?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">phǒm / dì-chán jà ... khráp / khâ.</span><span class="qa-english">I will ...</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Request / permission</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">khɔ̌ɔ ... nɔ̀y dâai máy khráp / khá?</span><span class="qa-english">Can I have / ask for ...?</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">dâai khráp / khâ. / mâi dâai khráp / khâ.</span><span class="qa-english">Yes, you can. / No, you cannot.</span></span></div>
+                  </div>
+                </div>
+                <div class="pattern-item">
+                  <div class="pattern-use">Close politely</div>
+                  <div class="qa-stack">
+                    <div class="qa-line"><span class="qa-label">Ask</span><span class="qa-text"><span class="qa-roman">khɔ̀ɔp-khun mâak khráp / khâ.</span><span class="qa-english">Thank you very much.</span></span></div>
+                    <div class="qa-line"><span class="qa-label">Answer</span><span class="qa-text"><span class="qa-roman">mâi bpen rai khráp / khâ. lέεw jәә gan mài ná.</span><span class="qa-english">No problem. See you again.</span></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="toolkit-group">
+              <h4>Likely oral exam topic bank</h4>
+              <div class="section-body">
+                <div class="topic-grid">
+                  <div class="topic-item"><h5>First meeting on campus</h5><p>Names, nationality, where from, languages, how are you, nice to meet you.</p></div>
+                  <div class="topic-item"><h5>Asking for directions</h5><p>Where is a building, how to go, far or not, walk straight, turn left/right.</p></div>
+                  <div class="topic-item"><h5>Going somewhere by transport</h5><p>Bus line, bus stop, train, taxi, get off, fare, receipt, airport or station.</p></div>
+                  <div class="topic-item"><h5>Restaurant ordering</h5><p>What to order, spicy or not, drink, special request, check bill.</p></div>
+                  <div class="topic-item"><h5>Shopping for clothes or gifts</h5><p>Price, color, size, try on, discount, cheaper / bigger / smaller, buy or sold out.</p></div>
+                  <div class="topic-item"><h5>Food preference</h5><p>Thai, Chinese, Japanese food, like/dislike, eat spicy, coffee or tea.</p></div>
+                  <div class="topic-item"><h5>Weekend plan or errands</h5><p>What will you do, what will you buy, where will you go, already ate / already bought.</p></div>
+                  <div class="topic-item"><h5>Language and study life</h5><p>Can speak/write, study Thai, go to class, need to leave, see you again.</p></div>
+                  <div class="topic-item"><h5>At a hotel, dorm, or university</h5><p>Where is the room/dorm/building, in front of, next to, near/far, how to get there.</p></div>
+                  <div class="topic-item"><h5>Solving a small problem</h5><p>Ask for help, ask permission, request water/menu/receipt, say thanks and no problem.</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section class="section-card" aria-labelledby="vocabularyHeading"><div class="section-header"><h3 id="vocabularyHeading">Vocabulary</h3><span class="count-pill" id="vocabCount"></span></div><div class="section-body"><div class="top-actions"><div class="search-box"><label for="searchInput">Filter current lesson</label><input class="search-input" id="searchInput" type="search" placeholder="Search romanization or English"></div></div><div id="vocabularyContent"></div></div></section>
         <section class="section-card" aria-labelledby="tipsHeading"><div class="section-header"><h3 id="tipsHeading">Language Tips</h3><span class="count-pill" id="tipsCount"></span></div><div class="section-body" id="tipsContent"></div></section>
         <section class="section-card" aria-labelledby="conversationHeading"><div class="section-header"><h3 id="conversationHeading">Conversation</h3><div class="conversation-toolbar"><span class="count-pill" id="conversationCount"></span><select class="audio-variant" id="audioVariant" aria-label="Audio speed"><option value="normal">Normal</option><option value="slow">Slow</option></select><button class="audio-button stop-audio" id="stopAudio" type="button" aria-label="Stop audio" title="Stop audio">■</button></div></div><div class="section-body"><p class="audio-status" id="audioStatus"></p><div id="conversationContent"></div></div></section>
