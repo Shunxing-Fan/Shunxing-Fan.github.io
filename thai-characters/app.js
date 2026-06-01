@@ -1,4 +1,4 @@
-const CACHE_NAME = "thai-characters-v2";
+const CACHE_NAME = "thai-characters-v8-practice-modes";
 
 const state = {
   groups: [],
@@ -10,13 +10,17 @@ const state = {
   currentAudio: null,
   currentAudioResolve: null,
   playToken: 0,
+  practiceMode: "listening",
   selectedChartId: "week-1",
   game: {
     active: false,
+    mode: "listening",
     queue: [],
     index: 0,
     answers: [],
     current: null,
+    choices: [],
+    answerLocked: false,
     lastResult: null
   }
 };
@@ -37,6 +41,24 @@ const els = {
   chartImage: document.querySelector("#chartImage"),
   chartCaption: document.querySelector("#chartCaption")
 };
+
+const THAI_CONSONANT_ORDER = [
+  "ก", "ข", "ฃ", "ค", "ฅ", "ฆ", "ง", "จ", "ฉ", "ช", "ซ", "ฌ", "ญ",
+  "ฎ", "ฏ", "ฐ", "ฑ", "ฒ", "ณ", "ด", "ต", "ถ", "ท", "ธ", "น", "บ",
+  "ป", "ผ", "ฝ", "พ", "ฟ", "ภ", "ม", "ย", "ร", "ล", "ว", "ศ", "ษ",
+  "ส", "ห", "ฬ", "อ", "ฮ"
+];
+const THAI_CONSONANT_ORDER_INDEX = new Map(
+  THAI_CONSONANT_ORDER.map((char, index) => [char, index])
+);
+
+function sortConsonantsByAlphabet(letters) {
+  return [...letters].sort((a, b) => {
+    const aIndex = THAI_CONSONANT_ORDER_INDEX.get(a.char) ?? Number.MAX_SAFE_INTEGER;
+    const bIndex = THAI_CONSONANT_ORDER_INDEX.get(b.char) ?? Number.MAX_SAFE_INTEGER;
+    return aIndex - bIndex || a.char.localeCompare(b.char, "th");
+  });
+}
 
 function escapeHTML(value) {
   return String(value)
@@ -253,7 +275,7 @@ function renderStats(manifest = null) {
   els.stats.innerHTML = `
     <span><strong>${state.groups.length}</strong> 个辅音发音组</span>
     <span><strong>${state.consonants.length}</strong> 个辅音</span>
-    <span><strong>${state.vowelGroups.length}</strong> 组基础元音</span>
+    <span><strong>${state.vowelGroups.length}</strong> 组元音</span>
     <span><strong>${audioText}</strong></span>
   `;
 }
@@ -301,8 +323,8 @@ function renderSoundGrid() {
 
 function getFilteredConsonants() {
   const query = els.searchInput.value.trim().toLowerCase();
-  if (!query) return state.consonants;
-  return state.consonants.filter((letter) => {
+  if (!query) return sortConsonantsByAlphabet(state.consonants);
+  return sortConsonantsByAlphabet(state.consonants.filter((letter) => {
     const haystack = [
       letter.char,
       letter.name,
@@ -312,7 +334,7 @@ function getFilteredConsonants() {
       classLabel(letter.class)
     ].join(" ").toLowerCase();
     return haystack.includes(query);
-  });
+  }));
 }
 
 function renderConsonants() {
@@ -359,7 +381,7 @@ function renderVowels() {
 }
 
 function renderBankList() {
-  const consonants = state.consonants.map((item) => ({
+  const consonants = sortConsonantsByAlphabet(state.consonants).map((item) => ({
     key: `consonant:${item.id}`,
     type: "consonant",
     char: item.char,
@@ -407,6 +429,41 @@ function setBankSelection(mode) {
   });
 }
 
+function makeConsonantGameItem(letter) {
+  return {
+    key: `consonant:${letter.id}`,
+    type: "consonant",
+    promptText: letter.name,
+    promptRoman: letter.roman,
+    display: letter.char,
+    displayName: letter.name,
+    answer: letter.char,
+    accepted: [letter.char],
+    audioId: getConsonantAudioId(letter)
+  };
+}
+
+function makeVowelGameItem(vowel) {
+  return {
+    key: `vowel:${vowel.id}`,
+    type: "vowel",
+    promptText: vowel.name,
+    promptRoman: vowel.roman,
+    display: vowel.form,
+    displayName: vowel.name,
+    answer: vowel.answer,
+    accepted: [vowel.answer, ...(vowel.aliases || [])],
+    audioId: getVowelAudioId(vowel)
+  };
+}
+
+function getAllGameItems() {
+  return [
+    ...sortConsonantsByAlphabet(state.consonants).map(makeConsonantGameItem),
+    ...state.vowelForms.map(makeVowelGameItem)
+  ];
+}
+
 function getSelectedGameItems() {
   const keys = Array.from(els.bankList.querySelectorAll('input[type="checkbox"]:checked'))
     .map((input) => input.value);
@@ -414,26 +471,10 @@ function getSelectedGameItems() {
     const [type, id] = key.split(":");
     if (type === "consonant") {
       const letter = state.consonants.find((item) => item.id === id);
-      return {
-        key,
-        type,
-        promptText: letter.name,
-        promptRoman: letter.roman,
-        answer: letter.char,
-        accepted: [letter.char],
-        audioId: getConsonantAudioId(letter)
-      };
+      return letter ? makeConsonantGameItem(letter) : null;
     }
     const vowel = state.vowelForms.find((item) => item.id === id);
-    return {
-      key,
-      type,
-      promptText: vowel.name,
-      promptRoman: vowel.roman,
-      answer: vowel.answer,
-      accepted: [vowel.answer, ...(vowel.aliases || [])],
-      audioId: getVowelAudioId(vowel)
-    };
+    return vowel ? makeVowelGameItem(vowel) : null;
   }).filter(Boolean);
 }
 
@@ -455,33 +496,83 @@ function startGame() {
 
   state.game = {
     active: true,
+    mode: state.practiceMode,
     queue: shuffle(selected),
     index: 0,
     answers: [],
     current: null,
+    choices: [],
+    answerLocked: false,
     lastResult: null
   };
   setCurrentGameItem();
   renderGame();
-  playCurrentGameItem();
+  if (state.game.mode === "listening") playCurrentGameItem();
 }
 
 function setCurrentGameItem() {
   state.game.current = state.game.queue[state.game.index] || null;
+  state.game.choices = state.game.mode === "choice" && state.game.current
+    ? buildPronunciationChoices(state.game.current, state.game.queue)
+    : [];
+  state.game.answerLocked = false;
+}
+
+function buildPronunciationChoices(current, selectedItems) {
+  const choices = [{ label: current.promptRoman, correct: true }];
+  const seen = new Set([current.promptRoman]);
+  const allItems = getAllGameItems();
+  const candidateGroups = [
+    selectedItems.filter((item) => item.type === current.type),
+    selectedItems,
+    allItems.filter((item) => item.type === current.type),
+    allItems
+  ];
+
+  candidateGroups.forEach((group) => {
+    if (choices.length >= 8) return;
+    shuffle(group).forEach((item) => {
+      if (choices.length >= 8) return;
+      if (item.key === current.key || seen.has(item.promptRoman)) return;
+      seen.add(item.promptRoman);
+      choices.push({ label: item.promptRoman, correct: false });
+    });
+  });
+
+  return shuffle(choices);
+}
+
+function renderGameModeControls() {
+  return `
+    <div class="mode-tabs" role="tablist" aria-label="Practice mode">
+      <button class="mode-tab ${state.practiceMode === "listening" ? "active" : ""}" type="button" data-game-mode="listening">听音输入</button>
+      <button class="mode-tab ${state.practiceMode === "choice" ? "active" : ""}" type="button" data-game-mode="choice">看字选读音</button>
+    </div>
+  `;
 }
 
 function renderGameMessage(message) {
+  const startLabel = state.practiceMode === "choice" ? "开始看字选读音" : "开始听音输入";
   els.gamePanel.innerHTML = `
     <div class="game-empty">
+      ${renderGameModeControls()}
       <p>${escapeHTML(message)}</p>
-      <button class="primary-action" type="button" id="startGame">开始循环一遍题库</button>
+      <button class="primary-action" type="button" id="startGame">${startLabel}</button>
     </div>
   `;
 }
 
 function renderGame() {
   if (!state.game.active) {
-    renderGameMessage("选择题库后开始。每题只听声音，然后输入对应的泰文字母或以 อ 为占位符的元音。");
+    const message = state.practiceMode === "choice"
+      ? "选择题库后开始。每题显示一个辅音或元音，然后从 8 个读音里选择。"
+      : "选择题库后开始。每题只听声音，然后输入对应的泰文字母或以 อ 为占位符的元音。";
+    renderGameMessage(message);
+    return;
+  }
+
+  if (state.game.mode === "choice") {
+    renderChoiceGame();
     return;
   }
 
@@ -510,6 +601,34 @@ function renderGame() {
   }
 }
 
+function renderChoiceGame() {
+  const item = state.game.current;
+  const total = state.game.queue.length;
+  const number = state.game.index + 1;
+  const typeLabel = item.type === "consonant" ? "辅音" : "元音";
+  els.gamePanel.innerHTML = `
+    <div class="game-running">
+      <div class="game-progress">
+        <span>第 ${number} / ${total} 题</span>
+        <span>看字选读音</span>
+      </div>
+      <div class="choice-prompt">
+        <span>${typeLabel}</span>
+        <strong>${escapeHTML(item.display)}</strong>
+        <small>${escapeHTML(item.displayName)}</small>
+      </div>
+      <div class="choice-grid">
+        ${state.game.choices.map((choice, index) => `
+          <button class="choice-option" type="button" data-choice-index="${index}">
+            ${escapeHTML(choice.label)}
+          </button>
+        `).join("")}
+      </div>
+      <div class="feedback" aria-live="polite"></div>
+    </div>
+  `;
+}
+
 function playCurrentGameItem() {
   if (!state.game.current) return;
   playThai(state.game.current.promptText, state.game.current.audioId);
@@ -533,6 +652,44 @@ function submitGameAnswer(event) {
     correct
   });
   state.game.lastResult = correct;
+  advanceGame();
+}
+
+async function choosePronunciationOption(button) {
+  if (!state.game.current || state.game.answerLocked) return;
+  const choice = state.game.choices[Number(button.dataset.choiceIndex)];
+  if (!choice) return;
+
+  state.game.answerLocked = true;
+  const currentKey = state.game.current.key;
+  const correct = choice.correct;
+  document.querySelectorAll("[data-choice-index]").forEach((option) => {
+    option.disabled = true;
+    const optionChoice = state.game.choices[Number(option.dataset.choiceIndex)];
+    option.classList.toggle("correct", optionChoice?.correct);
+  });
+  button.classList.toggle("wrong", !correct);
+
+  state.game.answers.push({
+    ...state.game.current,
+    userAnswer: choice.label,
+    correct
+  });
+  state.game.lastResult = correct;
+
+  const feedback = document.querySelector(".feedback");
+  if (feedback) feedback.textContent = correct ? "正确，正在播放发音。" : "选错了。";
+
+  if (correct) {
+    await playThai(state.game.current.promptText, state.game.current.audioId);
+  } else {
+    await new Promise((resolve) => setTimeout(resolve, 650));
+  }
+  if (!state.game.active || state.game.current?.key !== currentKey) return;
+  advanceGame();
+}
+
+function advanceGame() {
   state.game.index += 1;
 
   if (state.game.index >= state.game.queue.length) {
@@ -542,7 +699,7 @@ function submitGameAnswer(event) {
 
   setCurrentGameItem();
   renderGame();
-  playCurrentGameItem();
+  if (state.game.mode === "listening") playCurrentGameItem();
 }
 
 function finishGame() {
@@ -604,6 +761,21 @@ function bindEvents() {
     const bankButton = event.target.closest("[data-bank-action]");
     if (bankButton) {
       setBankSelection(bankButton.dataset.bankAction);
+      return;
+    }
+
+    const modeButton = event.target.closest("[data-game-mode]");
+    if (modeButton) {
+      state.practiceMode = modeButton.dataset.gameMode;
+      state.game.active = false;
+      stopPlayback("Audio ready");
+      renderGame();
+      return;
+    }
+
+    const choiceButton = event.target.closest("[data-choice-index]");
+    if (choiceButton) {
+      choosePronunciationOption(choiceButton);
       return;
     }
 

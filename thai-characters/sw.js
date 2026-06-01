@@ -1,4 +1,4 @@
-const CACHE_NAME = "thai-characters-v2";
+const CACHE_NAME = "thai-characters-v8-practice-modes";
 const CORE_ASSETS = [
   "./",
   "index.html",

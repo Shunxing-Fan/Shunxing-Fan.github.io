@@ -1,14 +1,14 @@
 {
-  "voice": "th-TH-Chirp3-HD-Achernar",
+  "voice": "Local MP3 pronunciation assets",
   "languageCode": "th-TH",
   "format": "MP3",
   "variants": [
     "normal",
     "slow"
   ],
-  "generatedAt": "2026-05-22T19:52:53.773254+00:00",
-  "itemCount": 92,
-  "fileCount": 168,
+  "generatedAt": "2026-06-01T14:05:36.380Z",
+  "itemCount": 108,
+  "fileCount": 186,
   "audioFiles": [
     "assets/audio/group-01-normal.mp3",
     "assets/audio/group-01-slow.mp3",
@@ -140,10 +140,8 @@
     "assets/audio/letter-fo-fa-slow.mp3",
     "assets/audio/letter-fo-fan-normal.mp3",
     "assets/audio/letter-fo-fan-slow.mp3",
-    "assets/audio/sara-normal.mp3",
     "assets/audio/vowel-a-short-normal.mp3",
     "assets/audio/vowel-a-long-normal.mp3",
-    "assets/audio/sara-slow.mp3",
     "assets/audio/vowel-a-short-slow.mp3",
     "assets/audio/vowel-a-long-slow.mp3",
     "assets/audio/vowel-i-short-normal.mp3",
@@ -177,7 +175,27 @@
     "assets/audio/vowel-oe-short-normal.mp3",
     "assets/audio/vowel-oe-long-normal.mp3",
     "assets/audio/vowel-oe-short-slow.mp3",
-    "assets/audio/vowel-oe-long-slow.mp3"
+    "assets/audio/vowel-oe-long-slow.mp3",
+    "assets/audio/vowel-ia-short-normal.mp3",
+    "assets/audio/vowel-ia-short-slow.mp3",
+    "assets/audio/vowel-ia-long-normal.mp3",
+    "assets/audio/vowel-ia-long-slow.mp3",
+    "assets/audio/vowel-uea-short-normal.mp3",
+    "assets/audio/vowel-uea-short-slow.mp3",
+    "assets/audio/vowel-uea-long-normal.mp3",
+    "assets/audio/vowel-uea-long-slow.mp3",
+    "assets/audio/vowel-ua-short-normal.mp3",
+    "assets/audio/vowel-ua-short-slow.mp3",
+    "assets/audio/vowel-ua-long-normal.mp3",
+    "assets/audio/vowel-ua-long-slow.mp3",
+    "assets/audio/vowel-am-normal.mp3",
+    "assets/audio/vowel-am-slow.mp3",
+    "assets/audio/vowel-ai-mai-muan-normal.mp3",
+    "assets/audio/vowel-ai-mai-muan-slow.mp3",
+    "assets/audio/vowel-ai-mai-malai-normal.mp3",
+    "assets/audio/vowel-ai-mai-malai-slow.mp3",
+    "assets/audio/vowel-ao-normal.mp3",
+    "assets/audio/vowel-ao-slow.mp3"
   ],
   "items": [
     {
@@ -902,15 +920,11 @@
       "text": "สระ อะ. สระ อา",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-a-short-normal.mp3",
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-a-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-a-short-slow.mp3",
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-a-long-slow.mp3"
         ]
       }
@@ -922,15 +936,11 @@
       "text": "สระ อิ. สระ อี",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-i-short-normal.mp3",
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-i-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-i-short-slow.mp3",
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-i-long-slow.mp3"
         ]
       }
@@ -942,15 +952,11 @@
       "text": "สระ อึ. สระ อือ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-ue-short-normal.mp3",
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-ue-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-ue-short-slow.mp3",
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-ue-long-slow.mp3"
         ]
       }
@@ -962,15 +968,11 @@
       "text": "สระ อุ. สระ อู",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-u-short-normal.mp3",
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-u-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-u-short-slow.mp3",
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-u-long-slow.mp3"
         ]
       }
@@ -982,15 +984,11 @@
       "text": "สระ เอะ. สระ เอ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-e-short-normal.mp3",
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-e-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-e-short-slow.mp3",
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-e-long-slow.mp3"
         ]
       }
@@ -1002,15 +1000,11 @@
       "text": "สระ แอะ. สระ แอ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-ae-short-normal.mp3",
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-ae-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-ae-short-slow.mp3",
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-ae-long-slow.mp3"
         ]
       }
@@ -1022,15 +1016,11 @@
       "text": "สระ โอะ. สระ โอ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-o-short-normal.mp3",
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-o-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-o-short-slow.mp3",
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-o-long-slow.mp3"
         ]
       }
@@ -1042,15 +1032,11 @@
       "text": "สระ เอาะ. สระ ออ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-aw-short-normal.mp3",
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-aw-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-aw-short-slow.mp3",
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-aw-long-slow.mp3"
         ]
       }
@@ -1062,15 +1048,11 @@
       "text": "สระ เออะ. สระ เออ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-oe-short-normal.mp3",
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-oe-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-oe-short-slow.mp3",
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-oe-long-slow.mp3"
         ]
       }
@@ -1082,11 +1064,9 @@
       "text": "สระ อะ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-a-short-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-a-short-slow.mp3"
         ]
       }
@@ -1098,11 +1078,9 @@
       "text": "สระ อา",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-a-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-a-long-slow.mp3"
         ]
       }
@@ -1114,11 +1092,9 @@
       "text": "สระ อิ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-i-short-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-i-short-slow.mp3"
         ]
       }
@@ -1130,11 +1106,9 @@
       "text": "สระ อี",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-i-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-i-long-slow.mp3"
         ]
       }
@@ -1146,11 +1120,9 @@
       "text": "สระ อึ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-ue-short-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-ue-short-slow.mp3"
         ]
       }
@@ -1162,11 +1134,9 @@
       "text": "สระ อือ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-ue-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-ue-long-slow.mp3"
         ]
       }
@@ -1178,11 +1148,9 @@
       "text": "สระ อุ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-u-short-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-u-short-slow.mp3"
         ]
       }
@@ -1194,11 +1162,9 @@
       "text": "สระ อู",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-u-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-u-long-slow.mp3"
         ]
       }
@@ -1210,11 +1176,9 @@
       "text": "สระ เอะ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-e-short-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-e-short-slow.mp3"
         ]
       }
@@ -1226,11 +1190,9 @@
       "text": "สระ เอ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-e-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-e-long-slow.mp3"
         ]
       }
@@ -1242,11 +1204,9 @@
       "text": "สระ แอะ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-ae-short-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-ae-short-slow.mp3"
         ]
       }
@@ -1258,11 +1218,9 @@
       "text": "สระ แอ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-ae-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-ae-long-slow.mp3"
         ]
       }
@@ -1274,11 +1232,9 @@
       "text": "สระ โอะ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-o-short-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-o-short-slow.mp3"
         ]
       }
@@ -1290,11 +1246,9 @@
       "text": "สระ โอ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-o-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-o-long-slow.mp3"
         ]
       }
@@ -1306,11 +1260,9 @@
       "text": "สระ เอาะ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-aw-short-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-aw-short-slow.mp3"
         ]
       }
@@ -1322,11 +1274,9 @@
       "text": "สระ ออ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-aw-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-aw-long-slow.mp3"
         ]
       }
@@ -1338,11 +1288,9 @@
       "text": "สระ เออะ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-oe-short-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-oe-short-slow.mp3"
         ]
       }
@@ -1354,12 +1302,242 @@
       "text": "สระ เออ",
       "sequence": {
         "normal": [
-          "assets/audio/sara-normal.mp3",
           "assets/audio/vowel-oe-long-normal.mp3"
         ],
         "slow": [
-          "assets/audio/sara-slow.mp3",
           "assets/audio/vowel-oe-long-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-ia-short",
+      "type": "vowel",
+      "label": "เอียะ",
+      "text": "สระ เอียะ",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-ia-short-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-ia-short-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-ia-long",
+      "type": "vowel",
+      "label": "เอีย",
+      "text": "สระ เอีย",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-ia-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-ia-long-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-group-ia",
+      "type": "vowel-group",
+      "label": "เอียะ / เอีย",
+      "text": "สระ เอียะ. สระ เอีย",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-ia-short-normal.mp3",
+          "assets/audio/vowel-ia-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-ia-short-slow.mp3",
+          "assets/audio/vowel-ia-long-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-uea-short",
+      "type": "vowel",
+      "label": "เอือะ",
+      "text": "สระ เอือะ",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-uea-short-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-uea-short-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-uea-long",
+      "type": "vowel",
+      "label": "เอือ",
+      "text": "สระ เอือ",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-uea-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-uea-long-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-group-uea",
+      "type": "vowel-group",
+      "label": "เอือะ / เอือ",
+      "text": "สระ เอือะ. สระ เอือ",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-uea-short-normal.mp3",
+          "assets/audio/vowel-uea-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-uea-short-slow.mp3",
+          "assets/audio/vowel-uea-long-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-ua-short",
+      "type": "vowel",
+      "label": "อัวะ",
+      "text": "สระ อัวะ",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-ua-short-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-ua-short-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-ua-long",
+      "type": "vowel",
+      "label": "อัว",
+      "text": "สระ อัว",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-ua-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-ua-long-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-group-ua",
+      "type": "vowel-group",
+      "label": "อัวะ / อัว",
+      "text": "สระ อัวะ. สระ อัว",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-ua-short-normal.mp3",
+          "assets/audio/vowel-ua-long-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-ua-short-slow.mp3",
+          "assets/audio/vowel-ua-long-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-am",
+      "type": "vowel",
+      "label": "อำ",
+      "text": "สระ อำ",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-am-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-am-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-group-am",
+      "type": "vowel-group",
+      "label": "อำ",
+      "text": "สระ อำ",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-am-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-am-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-ai-mai-muan",
+      "type": "vowel",
+      "label": "ใอ",
+      "text": "สระ ใอ ไม้ม้วน",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-ai-mai-muan-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-ai-mai-muan-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-ai-mai-malai",
+      "type": "vowel",
+      "label": "ไอ",
+      "text": "สระ ไอ ไม้มลาย",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-ai-mai-malai-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-ai-mai-malai-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-group-ai",
+      "type": "vowel-group",
+      "label": "ใอ / ไอ",
+      "text": "สระ ใอ ไม้ม้วน. สระ ไอ ไม้มลาย",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-ai-mai-muan-normal.mp3",
+          "assets/audio/vowel-ai-mai-malai-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-ai-mai-muan-slow.mp3",
+          "assets/audio/vowel-ai-mai-malai-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-ao",
+      "type": "vowel",
+      "label": "เอา",
+      "text": "สระ เอา",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-ao-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-ao-slow.mp3"
+        ]
+      }
+    },
+    {
+      "id": "vowel-group-ao",
+      "type": "vowel-group",
+      "label": "เอา",
+      "text": "สระ เอา",
+      "sequence": {
+        "normal": [
+          "assets/audio/vowel-ao-normal.mp3"
+        ],
+        "slow": [
+          "assets/audio/vowel-ao-slow.mp3"
         ]
       }
     }

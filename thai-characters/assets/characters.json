@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Thai Characters",
-    "voice": "th-TH-Chirp3-HD-Achernar",
+    "voice": "Local MP3 pronunciation assets",
     "audioFormat": "MP3"
   },
   "alphabetCharts": [
@@ -53,7 +53,7 @@
           "id": "lo-ling",
           "char": "ล",
           "name": "ล ลิง",
-          "roman": "lor ling",
+          "roman": "lɔɔ ling",
           "class": "low",
           "meaningZh": "猴子"
         },
@@ -61,7 +61,7 @@
           "id": "lo-chula",
           "char": "ฬ",
           "name": "ฬ จุฬา",
-          "roman": "lor ju-laa",
+          "roman": "lɔɔ jù-laa",
           "class": "low",
           "meaningZh": "朱拉风筝"
         }
@@ -77,7 +77,7 @@
           "id": "kho-khai",
           "char": "ข",
           "name": "ข ไข่",
-          "roman": "khor khai",
+          "roman": "khɔ̌ɔ khài",
           "class": "high",
           "meaningZh": "鸡蛋"
         },
@@ -85,7 +85,7 @@
           "id": "kho-khuat",
           "char": "ฃ",
           "name": "ฃ ขวด",
-          "roman": "khor khuat",
+          "roman": "khɔ̌ɔ khùat",
           "class": "high",
           "meaningZh": "瓶子"
         },
@@ -93,7 +93,7 @@
           "id": "kho-khwai",
           "char": "ค",
           "name": "ค ควาย",
-          "roman": "khor khwaai",
+          "roman": "khɔɔ khwaai",
           "class": "low",
           "meaningZh": "水牛"
         },
@@ -101,7 +101,7 @@
           "id": "kho-khon",
           "char": "ฅ",
           "name": "ฅ คน",
-          "roman": "khor khon",
+          "roman": "khɔɔ khon",
           "class": "low",
           "meaningZh": "人"
         },
@@ -109,7 +109,7 @@
           "id": "kho-rakhang",
           "char": "ฆ",
           "name": "ฆ ระฆัง",
-          "roman": "kor ra-khang",
+          "roman": "khɔɔ rá-khang",
           "class": "low",
           "meaningZh": "钟"
         }
@@ -125,7 +125,7 @@
           "id": "ko-kai",
           "char": "ก",
           "name": "ก ไก่",
-          "roman": "gor gai",
+          "roman": "gɔɔ gài",
           "class": "mid",
           "meaningZh": "鸡"
         }
@@ -141,7 +141,7 @@
           "id": "o-ang",
           "char": "อ",
           "name": "อ อ่าง",
-          "roman": "or aang",
+          "roman": "ɔɔ àang",
           "class": "mid",
           "meaningZh": "盆"
         }
@@ -157,7 +157,7 @@
           "id": "mo-ma",
           "char": "ม",
           "name": "ม ม้า",
-          "roman": "mor maa",
+          "roman": "mɔɔ máa",
           "class": "low",
           "meaningZh": "马"
         }
@@ -173,7 +173,7 @@
           "id": "so-suea",
           "char": "ส",
           "name": "ส เสือ",
-          "roman": "sor suea",
+          "roman": "sɔ̌ɔ sʉ̌a",
           "class": "high",
           "meaningZh": "老虎"
         },
@@ -181,7 +181,7 @@
           "id": "so-sala",
           "char": "ศ",
           "name": "ศ ศาลา",
-          "roman": "sor saa-laa",
+          "roman": "sɔ̌ɔ sǎa-laa",
           "class": "high",
           "meaningZh": "亭子"
         },
@@ -189,7 +189,7 @@
           "id": "so-ruesi",
           "char": "ษ",
           "name": "ษ ฤๅษี",
-          "roman": "sor rue-si",
+          "roman": "sɔ̌ɔ rʉʉ-sii",
           "class": "high",
           "meaningZh": "隐士"
         },
@@ -197,7 +197,7 @@
           "id": "so-so",
           "char": "ซ",
           "name": "ซ โซ่",
-          "roman": "sor soo",
+          "roman": "sɔɔ sôo",
           "class": "low",
           "meaningZh": "链条"
         }
@@ -213,7 +213,7 @@
           "id": "no-nu",
           "char": "น",
           "name": "น หนู",
-          "roman": "nor nuu",
+          "roman": "nɔɔ nǔu",
           "class": "low",
           "meaningZh": "老鼠"
         },
@@ -221,7 +221,7 @@
           "id": "no-nen",
           "char": "ณ",
           "name": "ณ เณร",
-          "roman": "nor nen",
+          "roman": "nɔɔ neen",
           "class": "low",
           "meaningZh": "小沙弥"
         }
@@ -237,7 +237,7 @@
           "id": "tho-thung",
           "char": "ถ",
           "name": "ถ ถุง",
-          "roman": "thor thung",
+          "roman": "thɔ̌ɔ thǔng",
           "class": "high",
           "meaningZh": "袋子"
         },
@@ -245,7 +245,7 @@
           "id": "tho-thahan",
           "char": "ท",
           "name": "ท ทหาร",
-          "roman": "thor tha-haan",
+          "roman": "thɔɔ thá-hǎan",
           "class": "low",
           "meaningZh": "士兵"
         },
@@ -253,7 +253,7 @@
           "id": "tho-thong",
           "char": "ธ",
           "name": "ธ ธง",
-          "roman": "thor thong",
+          "roman": "thɔɔ thong",
           "class": "low",
           "meaningZh": "旗子"
         },
@@ -261,7 +261,7 @@
           "id": "tho-than",
           "char": "ฐ",
           "name": "ฐ ฐาน",
-          "roman": "thor thaan",
+          "roman": "thɔ̌ɔ thǎan",
           "class": "high",
           "meaningZh": "底座"
         },
@@ -269,7 +269,7 @@
           "id": "tho-montho",
           "char": "ฑ",
           "name": "ฑ มณโฑ",
-          "roman": "thor mon-tho",
+          "roman": "thɔɔ mon-thoo",
           "class": "low",
           "meaningZh": "曼陀"
         },
@@ -277,7 +277,7 @@
           "id": "tho-phuthao",
           "char": "ฒ",
           "name": "ฒ ผู้เฒ่า",
-          "roman": "thor phu-thao",
+          "roman": "thɔɔ phûu-thâo",
           "class": "low",
           "meaningZh": "老人"
         }
@@ -293,7 +293,7 @@
           "id": "po-pla",
           "char": "ป",
           "name": "ป ปลา",
-          "roman": "por plaa",
+          "roman": "bpɔɔ bplaa",
           "class": "mid",
           "meaningZh": "鱼"
         }
@@ -309,7 +309,7 @@
           "id": "do-dek",
           "char": "ด",
           "name": "ด เด็ก",
-          "roman": "dor dek",
+          "roman": "dɔɔ dèk",
           "class": "mid",
           "meaningZh": "孩子"
         },
@@ -317,7 +317,7 @@
           "id": "do-chada",
           "char": "ฎ",
           "name": "ฎ ชฎา",
-          "roman": "dor cha-daa",
+          "roman": "dɔɔ chá-daa",
           "class": "mid",
           "meaningZh": "尖顶冠"
         }
@@ -333,7 +333,7 @@
           "id": "pho-phueng",
           "char": "ผ",
           "name": "ผ ผึ้ง",
-          "roman": "phor phueng",
+          "roman": "phɔ̌ɔ phûeng",
           "class": "high",
           "meaningZh": "蜜蜂"
         },
@@ -341,7 +341,7 @@
           "id": "pho-phan",
           "char": "พ",
           "name": "พ พาน",
-          "roman": "phor phaan",
+          "roman": "phɔɔ phaan",
           "class": "low",
           "meaningZh": "托盘"
         },
@@ -349,7 +349,7 @@
           "id": "pho-samphao",
           "char": "ภ",
           "name": "ภ สำเภา",
-          "roman": "phor sam-phao",
+          "roman": "phɔɔ sǎm-phao",
           "class": "low",
           "meaningZh": "帆船"
         }
@@ -365,7 +365,7 @@
           "id": "cho-chan",
           "char": "จ",
           "name": "จ จาน",
-          "roman": "jor jaan",
+          "roman": "jɔɔ jaan",
           "class": "mid",
           "meaningZh": "盘子"
         }
@@ -381,7 +381,7 @@
           "id": "wo-waen",
           "char": "ว",
           "name": "ว แหวน",
-          "roman": "wor waen",
+          "roman": "wɔɔ wɛ̌ɛn",
           "class": "low",
           "meaningZh": "戒指"
         }
@@ -397,7 +397,7 @@
           "id": "to-tao",
           "char": "ต",
           "name": "ต เต่า",
-          "roman": "tor tao",
+          "roman": "dtɔɔ dtào",
           "class": "mid",
           "meaningZh": "乌龟"
         },
@@ -405,7 +405,7 @@
           "id": "to-patak",
           "char": "ฏ",
           "name": "ฏ ปฏัก",
-          "roman": "tor pa-tak",
+          "roman": "dtɔɔ bpà-dtàk",
           "class": "mid",
           "meaningZh": "赶牛刺棒"
         }
@@ -421,7 +421,7 @@
           "id": "yo-yak",
           "char": "ย",
           "name": "ย ยักษ์",
-          "roman": "yor yak",
+          "roman": "yɔɔ yák",
           "class": "low",
           "meaningZh": "夜叉"
         },
@@ -429,7 +429,7 @@
           "id": "yo-ying",
           "char": "ญ",
           "name": "ญ หญิง",
-          "roman": "yor ying",
+          "roman": "yɔɔ ying",
           "class": "low",
           "meaningZh": "女人"
         }
@@ -445,7 +445,7 @@
           "id": "cho-ching",
           "char": "ฉ",
           "name": "ฉ ฉิ่ง",
-          "roman": "chor ching",
+          "roman": "chɔ̌ɔ chìng",
           "class": "high",
           "meaningZh": "小钹"
         },
@@ -453,7 +453,7 @@
           "id": "cho-chang",
           "char": "ช",
           "name": "ช ช้าง",
-          "roman": "chor chang",
+          "roman": "chɔɔ cháang",
           "class": "low",
           "meaningZh": "大象"
         },
@@ -461,7 +461,7 @@
           "id": "cho-choe",
           "char": "ฌ",
           "name": "ฌ เฌอ",
-          "roman": "chor cher",
+          "roman": "chɔɔ chəə",
           "class": "low",
           "meaningZh": "树"
         }
@@ -477,7 +477,7 @@
           "id": "ho-hip",
           "char": "ห",
           "name": "ห หีบ",
-          "roman": "hor hip",
+          "roman": "hɔ̌ɔ hìip",
           "class": "high",
           "meaningZh": "箱子"
         },
@@ -485,7 +485,7 @@
           "id": "ho-nokhuk",
           "char": "ฮ",
           "name": "ฮ นกฮูก",
-          "roman": "hor nok-hook",
+          "roman": "hɔɔ nók-hûuk",
           "class": "low",
           "meaningZh": "猫头鹰"
         }
@@ -501,7 +501,7 @@
           "id": "bo-baimai",
           "char": "บ",
           "name": "บ ใบไม้",
-          "roman": "bor bai maai",
+          "roman": "bɔɔ bai-máai",
           "class": "mid",
           "meaningZh": "树叶"
         }
@@ -517,7 +517,7 @@
           "id": "ngo-ngu",
           "char": "ง",
           "name": "ง งู",
-          "roman": "ngor ngoo",
+          "roman": "ngɔɔ nguu",
           "class": "low",
           "meaningZh": "蛇"
         }
@@ -533,7 +533,7 @@
           "id": "ro-ruea",
           "char": "ร",
           "name": "ร เรือ",
-          "roman": "ror ruea",
+          "roman": "rɔɔ ruea",
           "class": "low",
           "meaningZh": "船"
         }
@@ -549,7 +549,7 @@
           "id": "fo-fa",
           "char": "ฝ",
           "name": "ฝ ฝา",
-          "roman": "for faa",
+          "roman": "fɔ̌ɔ fǎa",
           "class": "high",
           "meaningZh": "盖子"
         },
@@ -557,7 +557,7 @@
           "id": "fo-fan",
           "char": "ฟ",
           "name": "ฟ ฟัน",
-          "roman": "for fan",
+          "roman": "fɔɔ fan",
           "class": "low",
           "meaningZh": "牙齿"
         }
@@ -620,14 +620,14 @@
     {
       "id": "ue",
       "label": "อึ / อือ",
-      "roman": "sàrà ue / sàrà uue",
-      "note": "short ue / long uue",
+      "roman": "sàrà ʉ / sàrà ʉʉ",
+      "note": "short ʉ / long ʉʉ",
       "forms": [
         {
           "id": "vowel-ue-short",
           "form": "อึ",
           "name": "สระ อึ",
-          "roman": "sàrà ue",
+          "roman": "sàrà ʉ",
           "length": "short",
           "answer": "อึ",
           "aliases": []
@@ -636,7 +636,7 @@
           "id": "vowel-ue-long",
           "form": "อือ",
           "name": "สระ อือ",
-          "roman": "sàrà uue",
+          "roman": "sàrà ʉʉ",
           "length": "long",
           "answer": "อือ",
           "aliases": [
@@ -700,14 +700,14 @@
     {
       "id": "ae",
       "label": "แอะ / แอ",
-      "roman": "sàrà ae / sàrà aae",
-      "note": "short ae / long aae",
+      "roman": "sàrà ɛ̀ / sàrà ɛɛ",
+      "note": "short ɛ / long ɛɛ",
       "forms": [
         {
           "id": "vowel-ae-short",
           "form": "แอะ",
           "name": "สระ แอะ",
-          "roman": "sàrà ae",
+          "roman": "sàrà ɛ̀",
           "length": "short",
           "answer": "แอะ",
           "aliases": []
@@ -716,7 +716,7 @@
           "id": "vowel-ae-long",
           "form": "แอ",
           "name": "สระ แอ",
-          "roman": "sàrà aae",
+          "roman": "sàrà ɛɛ",
           "length": "long",
           "answer": "แอ",
           "aliases": []
@@ -752,14 +752,14 @@
     {
       "id": "aw",
       "label": "เอาะ / ออ",
-      "roman": "sàrà aw / sàrà aaw",
-      "note": "short aw / long aaw",
+      "roman": "sàrà ɔ̀ / sàrà ɔɔ",
+      "note": "short ɔ / long ɔɔ",
       "forms": [
         {
           "id": "vowel-aw-short",
           "form": "เอาะ",
           "name": "สระ เอาะ",
-          "roman": "sàrà aw",
+          "roman": "sàrà ɔ̀",
           "length": "short",
           "answer": "เอาะ",
           "aliases": []
@@ -768,7 +768,7 @@
           "id": "vowel-aw-long",
           "form": "ออ",
           "name": "สระ ออ",
-          "roman": "sàrà aaw",
+          "roman": "sàrà ɔɔ",
           "length": "long",
           "answer": "ออ",
           "aliases": []
@@ -778,14 +778,14 @@
     {
       "id": "oe",
       "label": "เออะ / เออ",
-      "roman": "sàrà oe / sàrà ooer",
-      "note": "short oe / long ooer",
+      "roman": "sàrà ə / sàrà əə",
+      "note": "short ə / long əə",
       "forms": [
         {
           "id": "vowel-oe-short",
           "form": "เออะ",
           "name": "สระ เออะ",
-          "roman": "sàrà oe",
+          "roman": "sàrà ə",
           "length": "short",
           "answer": "เออะ",
           "aliases": []
@@ -794,10 +794,156 @@
           "id": "vowel-oe-long",
           "form": "เออ",
           "name": "สระ เออ",
-          "roman": "sàrà ooer",
+          "roman": "sàrà əə",
           "length": "long",
           "answer": "เออ",
           "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "label": "เอียะ / เอีย",
+      "roman": "sàrà ìa / sàrà ia",
+      "note": "Week 5 compound vowel pair",
+      "forms": [
+        {
+          "id": "vowel-ia-short",
+          "form": "เอียะ",
+          "name": "สระ เอียะ",
+          "roman": "sàrà ìa",
+          "length": "short",
+          "answer": "เอียะ",
+          "aliases": []
+        },
+        {
+          "id": "vowel-ia-long",
+          "form": "เอีย",
+          "name": "สระ เอีย",
+          "roman": "sàrà ia",
+          "length": "long",
+          "answer": "เอีย",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "uea",
+      "label": "เอือะ / เอือ",
+      "roman": "sàrà ʉ̀a / sàrà ʉa",
+      "note": "Week 5 compound vowel pair",
+      "forms": [
+        {
+          "id": "vowel-uea-short",
+          "form": "เอือะ",
+          "name": "สระ เอือะ",
+          "roman": "sàrà ʉ̀a",
+          "length": "short",
+          "answer": "เอือะ",
+          "aliases": []
+        },
+        {
+          "id": "vowel-uea-long",
+          "form": "เอือ",
+          "name": "สระ เอือ",
+          "roman": "sàrà ʉa",
+          "length": "long",
+          "answer": "เอือ",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "ua",
+      "label": "อัวะ / อัว",
+      "roman": "sàrà ùa / sàrà ua",
+      "note": "Week 5 compound vowel pair",
+      "forms": [
+        {
+          "id": "vowel-ua-short",
+          "form": "อัวะ",
+          "name": "สระ อัวะ",
+          "roman": "sàrà ùa",
+          "length": "short",
+          "answer": "อัวะ",
+          "aliases": []
+        },
+        {
+          "id": "vowel-ua-long",
+          "form": "อัว",
+          "name": "สระ อัว",
+          "roman": "sàrà ua",
+          "length": "long",
+          "answer": "อัว",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "am",
+      "label": "อำ",
+      "roman": "am",
+      "note": "Week 6 vowel symbol",
+      "forms": [
+        {
+          "id": "vowel-am",
+          "form": "อำ",
+          "name": "สระ อำ",
+          "roman": "am",
+          "length": "short",
+          "answer": "อำ",
+          "aliases": [
+            "ำ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "label": "ใอ / ไอ",
+      "roman": "ai mái-múan / ai mái má-laai",
+      "note": "Week 6 ai vowel symbols",
+      "forms": [
+        {
+          "id": "vowel-ai-mai-muan",
+          "form": "ใอ",
+          "name": "สระ ใอ ไม้ม้วน",
+          "roman": "ai mái-múan",
+          "length": "short",
+          "answer": "ใอ",
+          "aliases": [
+            "ใ"
+          ]
+        },
+        {
+          "id": "vowel-ai-mai-malai",
+          "form": "ไอ",
+          "name": "สระ ไอ ไม้มลาย",
+          "roman": "ai mái má-laai",
+          "length": "short",
+          "answer": "ไอ",
+          "aliases": [
+            "ไ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ao",
+      "label": "เอา",
+      "roman": "ao",
+      "note": "Week 6 vowel symbol",
+      "forms": [
+        {
+          "id": "vowel-ao",
+          "form": "เอา",
+          "name": "สระ เอา",
+          "roman": "ao",
+          "length": "short",
+          "answer": "เอา",
+          "aliases": [
+            "เา"
+          ]
         }
       ]
     }

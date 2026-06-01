@@ -84,10 +84,6 @@ def add_file_assets(assets: dict[str, dict], files: dict[str, str], text: str) -
         add_asset(assets, path, text, VARIANTS[variant])
 
 
-def sara_path(variant: str) -> str:
-    return f"assets/audio/sara-{variant}.mp3"
-
-
 def vowel_core_path(vowel: dict, variant: str) -> str:
     return f"assets/audio/{vowel_audio_id(vowel)}-{variant}.mp3"
 
@@ -97,11 +93,9 @@ def vowel_sequence(vowels: list[dict], assets: dict[str, dict]) -> dict[str, lis
     for variant, rate in VARIANTS.items():
         paths: list[str] = []
         for vowel in vowels:
-            sara = sara_path(variant)
             core = vowel_core_path(vowel, variant)
-            add_asset(assets, sara, "สระ", rate)
             add_asset(assets, core, vowel["form"], rate)
-            paths.extend([sara, core])
+            paths.append(core)
         sequence[variant] = paths
     return sequence
 
